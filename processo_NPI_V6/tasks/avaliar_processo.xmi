@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-3rkxfpjkciGnwdB2lKEMpQ" name=",_ufeKQBEVEeOe46TMHTd_kQ" guid="-3rkxfpjkciGnwdB2lKEMpQ">
+  <sections xmi:id="_qECB4CH5EeOvJobPE63WLw" name="Comunicar às Equipes Sobre a Auditoria" guid="_qECB4CH5EeOvJobPE63WLw">
+    <sectionDescription>Comunicar à equipe período de avaliação e escopo que será avaliado.&lt;br />&#xD;
+&amp;nbsp;</sectionDescription>
+  </sections>
+  <sections xmi:id="_zTMX8BEVEeOe46TMHTd_kQ" name="Aplicar Checklist de Qualidade do Processo" guid="_zTMX8BEVEeOe46TMHTd_kQ">
+    <sectionDescription>&lt;p>&#xD;
+    Será aplicado o checklist de qualidade do processo em cada projeto ativo no NPI a cada duas semanas, os&amp;nbsp;itens&#xD;
+    auditados&amp;nbsp;serão registrados no checklist utilizando os seguintes critérios de avaliação:&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    - Totalmente implementado&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    - Largamente implementado&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    - Parcialmente Implementado&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    - Não implementado&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    - Não Avaliado&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_XqfpUCH6EeOvJobPE63WLw" name="Identificar Não-Conformidades" guid="_XqfpUCH6EeOvJobPE63WLw">
+    <sectionDescription>Itens auditados avaliados como Largamente Implementado, Parcialmente Implementado, e Não Implementado serão caracterizados&#xD;
+como não conformidades.</sectionDescription>
+  </sections>
+  <sections xmi:id="_xesowB_tEeOJgc_LrCJv1g" name="Reportar Não-Conformidades" guid="_xesowB_tEeOJgc_LrCJv1g">
+    <sectionDescription>As não conformidades registradas durante a aplicação do checklist serão&amp;nbsp;reportadas às equipes através de uma issue no&#xD;
+Redmine&amp;nbsp;para que possam ser corrigidas até a próxima aplicação do checklist.</sectionDescription>
+  </sections>
+</org.eclipse.epf.uma:TaskDescription>

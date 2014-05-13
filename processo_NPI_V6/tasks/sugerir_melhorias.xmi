@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-06GfI5I7REvBUznqQoZakQ" name="sugerir_melhorias,_bmY84B_mEeOJgc_LrCJv1g" guid="-06GfI5I7REvBUznqQoZakQ">
+  <sections xmi:id="_NslB8CHqEeOvJobPE63WLw" name="Sugerir Melhorias" guid="_NslB8CHqEeOvJobPE63WLw">
+    <sectionDescription>Abrir no&amp;nbsp;Redmine uma issue&amp;nbsp;de&amp;nbsp;sugestão de melhorias do processo&amp;nbsp;Equipe de desenvolvimento e supervisor&#xD;
+podem sugerir melhorias nessa issue.</sectionDescription>
+  </sections>
+  <sections xmi:id="_ZRLtkCHqEeOvJobPE63WLw" name="Avaliar Melhorias Sugeridas" guid="_ZRLtkCHqEeOvJobPE63WLw">
+    <sectionDescription>Analista de qualidade deve avaliar as melhorias sugeridas por equipe de desenvolvimento e supervisor.</sectionDescription>
+  </sections>
+  <sections xmi:id="_cCTxYCHqEeOvJobPE63WLw" name="Incluir melhorias no processo" guid="_cCTxYCHqEeOvJobPE63WLw">
+    <sectionDescription>Após avaliar e aprovar as melhorias sugeridas por equipe de&amp;nbsp;desenvolvimento e supervisor, analista de qualidade&#xD;
+as&amp;nbsp;adiciona no processo.</sectionDescription>
+  </sections>
+</org.eclipse.epf.uma:TaskDescription>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-VvqZfnOhwsE-izZZOfT2OA" name=",_p4ALUCHpEeOvJobPE63WLw" guid="-VvqZfnOhwsE-izZZOfT2OA">
+  <sections xmi:id="_zfkSwCH6EeOvJobPE63WLw" name="Corrigir Não-Conformidades" guid="_zfkSwCH6EeOvJobPE63WLw">
+    <sectionDescription>&lt;p>&#xD;
+    A partir do relatório de não conformidades, a equipe de desnvolvimento é responsável por corrigí-las áté a próxima&#xD;
+    auditoria. As correções normalmente serão nos produtos de trabalho esperados como saídas nos itens auditados.&lt;br />&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+</org.eclipse.epf.uma:TaskDescription>
