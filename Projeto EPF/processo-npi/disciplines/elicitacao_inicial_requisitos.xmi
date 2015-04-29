@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-V4-bRX0Os8t4N_7-qNaWNw" name="elicitacao_inicial_requisitos,_NM7aUOKaEeSbpvcRMx_OSQ" guid="-V4-bRX0Os8t4N_7-qNaWNw" changeDate="2015-04-27T09:06:34.689-0300">
+  <mainDescription>&lt;p>&#xD;
+    A finalidade da Disciplina de Análise de RequisitoElicitação Inicial de Requisitos é:&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    - realizar o processo de Levantamento de Requisitos de maneira precisa e eficiente;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    - agrupar os requisitos levantados, de forma que os envolvidos/interessados em tais possam acessá-los.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

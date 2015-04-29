@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-zB3HaOZx5waI6o1-kJ_Q9A" name=",_kp4xkJ4cEeKP--IVqMl63w" guid="-zB3HaOZx5waI6o1-kJ_Q9A">
+  <sections xmi:id="_0eQIAd3hEeSGCJOE1I0hFA" name="1) Realizar Reunião de Kickoff" guid="_0eQIAd3hEeSGCJOE1I0hFA">
+    <sectionDescription>&lt;p>&#xD;
+    A reunião de kickoff tem como intuito apresentar os projetos a todos os envolvidos do NPI e ocorre uma vez a cada&#xD;
+    semestre. O&amp;nbsp;Gerente de Projetos é o responável&amp;nbsp;pela&amp;nbsp;condução&amp;nbsp;desta reunião e o seu respectivo&#xD;
+    conteúdo. Nessa reunião devem ser escolhidos os líderes técnicos e alocados os recursos que irão trabalhar em cada&#xD;
+    projeto e determinado quais suas responsabilidades. Nesta atividade todos os participantes terão que se comprometer com&#xD;
+    o projeto.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Deve ser criada uma ata de reunião documentando tudo o que foi dito durante a Reunião de Kickoff.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+</org.eclipse.epf.uma:TaskDescription>

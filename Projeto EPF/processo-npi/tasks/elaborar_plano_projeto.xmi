@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-BRPEee3bdWKVAHB8VXSXSw" name="elaborar_plano_projeto,_9M89gN3hEeSGCJOE1I0hFA" guid="-BRPEee3bdWKVAHB8VXSXSw">
+  <sections xmi:id="_txwvsONkEeSJhp8Bfao2RA" name="1) Definir a Equipe e a Organização" guid="_txwvsONkEeSJhp8Bfao2RA">
+    <sectionDescription>Neste passo será definido a Equipe que ficará responsável pela execução do projeto; uma vez que a equipe do projeto esteja&#xD;
+definida é&amp;nbsp;determinada a Organização do Projeto através do estabelecimento das funções que irão estar presentes no&#xD;
+projeto. É importante ressaltar que a estrutura Padrão de Trabalho do NPI encontra-se&amp;nbsp;organizada com a Equipe de&#xD;
+Desenvolvimento, Líder Técnico e&amp;nbsp;Gerente de Projetos. Caso haja a necessidade de novas funções em um projeto, tais&#xD;
+podem ser adicionadas ao escopo do Plano de Projeto.</sectionDescription>
+  </sections>
+  <sections xmi:id="_H5b70ONoEeSJhp8Bfao2RA" name="2) Planejar iterações e fases" guid="_H5b70ONoEeSJhp8Bfao2RA">
+    <sectionDescription>&lt;p>&#xD;
+    Neste passo será trabalhado o planejamento de&amp;nbsp;implementação do projeto. Para tanto se faz necessário estipular o&#xD;
+    número e a relaçao de&amp;nbsp;fases a serem realizadas, juntamente com o tempo e o esforço desprendido para a execução.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Para estipular o tempo deverá ser informado a data prevista para o início e término da fase; e&amp;nbsp;em relação ao&#xD;
+    esforço, estimar&amp;nbsp;o número de&amp;nbsp;sprints a serem executadas para completar as atividades de uma fase.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_YmKlkONtEeSJhp8Bfao2RA" name="3) Definir Recursos para uso" guid="_YmKlkONtEeSJhp8Bfao2RA">
+    <sectionDescription>&lt;p>&#xD;
+    Este passo trata de definir quais os recursos necessários para a execução do projeto. Uma vez que um recurso é definido&#xD;
+    é necessário informar a quantidade que será utilizada.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Em alguns projetos pode ocorrer a necessidade por treinamento especial para a equipe; este treinamento deve ser&#xD;
+    adicionado nesta seção como um recurso, e exige-se a informação referente às datas de início e término do mesmo.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+</org.eclipse.epf.uma:TaskDescription>

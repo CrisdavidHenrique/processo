@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma:DeliveryProcessDescription xmi:id="-1VutHz3AmMVr18DQwVm4zw" name="processo_npi,__FdicedREeS8tbAGDCJLTw" guid="-1VutHz3AmMVr18DQwVm4zw">
+    <mainDescription>&lt;p>&#xD;
+    O processo encontra-se dividido em conjunto de 6 (seis) atividades principais, e a partir destas são geradas as demais&#xD;
+    atividades específicas.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    O processo compreende as atividades de Análise de Requisitos, Desenvolvimento, Gerenciamento do Projeto e da Gerência&#xD;
+    de Configuração, Avaliação do Processo; e as atividades necessárias para o Início e Término de um Projeto.&#xD;
+&lt;/p></mainDescription>
+    <purpose>Este processo busca apresentar o conjunto de tarefas e o fluxo em que estas são executadas no Núcleo de Práticas em&#xD;
+Informática (NPI) da UFC - Campus Quixadá.</purpose>
+  </org.eclipse.epf.uma:DeliveryProcessDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-MwDKqBf2IZQ3Zd8YYHI79Q" name="documento_de_especificacao_dos_requisitos,_ozAXkudSEeS8tbAGDCJLTw" guid="-MwDKqBf2IZQ3Zd8YYHI79Q">
+    <refinedDescription>Será utilizado caso o nível de detalhamento do Documento de Visão não seja suficiente para definir o backlog do produto. O&#xD;
+Documento de Visão pode já ser suficiente caso os requisitos descritos possam dar uma boa base para criar o backlog do&#xD;
+produto.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

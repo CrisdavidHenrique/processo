@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-2iuJn-5tcRv_iHQBU0FLfQ" name="encerrar_projeto,_n2IwkJ_cEeKXVfFSQZDMbA" guid="-2iuJn-5tcRv_iHQBU0FLfQ" changeDate="2015-04-14T11:05:19.773-0300">
+  <mainDescription>&lt;p>&#xD;
+    A finalidade da Disciplina Encerrar Projeto é:&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    - entrega do produto final do projeto para o Cliente;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    - levantamento de Lições aprendidas durante a execução do Projeto.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

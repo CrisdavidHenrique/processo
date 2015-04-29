@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-etww_W6SN_4q-YjaXsS7pA" name="implementacao,_KPtzYJ_eEeKXVfFSQZDMbA" guid="-etww_W6SN_4q-YjaXsS7pA" changeDate="2015-04-14T09:24:18.215-0300">
+  <mainDescription>&lt;p>&#xD;
+    A finalidade da Disciplina de Implementação é:&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    - codificação dos Requisitos estabelecidos na Sprint;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    - realização de Testes unitários nas unidades de software implementadas.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

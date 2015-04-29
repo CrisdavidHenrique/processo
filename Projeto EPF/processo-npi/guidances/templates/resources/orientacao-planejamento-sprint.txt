@@ -1,0 +1,59 @@
+*INFORMAÇÕES GERAIS*
+Data: __/__/20__
+Horário: __:__ as __:__h.
+Local: 
+Presentes: 
+
+*EQUIPE E PERÍODO*
+* De __/__ a __/__
+* __ dias úteis (Quantidade de dias)
+* __ pessoas (Quantidade de pessoa)
+
+*OBJETIVOS DA SPRINT*
+
+* (Descreva os objetivos da sprint)
+
+*DEFINIÇÃO DE PRONTO*
+
+Funcionalidades (Requisitos):
+* Caso de Uso especificado 
+* Caso de Teste especificado
+* Desenvolvimento da funcionalidade com testes de unidade
+* Execução do caso de teste
+
+Defeitos (Bugs):
+* Correção feita em código
+* Teste de unidade ou execução do caso de teste especificado
+* Informação da revision (Github) comentada na issue do Redmine
+
+Melhorias de UI:
+* Correção feita em código
+* Revisão por um par (comentada no Redmine)
+*DEFINIÇÃO DE PRONTO*
+
+Funcionalidades (Requisitos):
+* Caso de Uso especificado 
+* Caso de Teste especificado
+* Desenvolvimento da funcionalidade com testes de unidade
+* Execução do caso de teste
+
+Defeitos (Bugs):
+* Correção feita em código
+* Teste de unidade ou execução do caso de teste especificado
+* Informação da revision (Github) comentada na issue do Redmine
+
+Melhorias de UI:
+* Correção feita em código
+* Revisão por um par (comentada no Redmine)
+
+
+Funcionalidades:
+
+* (Funcionalidade ex: UC01 e UC02 - Cadastrar projeto)
+# (atividades ex: realizar cadastro)
+# (atividades)
+
+
+* (Funcionalidade)
+# (atividades)
+# (atividades)

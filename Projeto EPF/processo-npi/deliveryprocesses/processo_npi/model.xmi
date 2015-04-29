@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="__H2IEedREeS8tbAGDCJLTw" guid="__H2IEedREeS8tbAGDCJLTw">
+    <resourceDescriptors xmi:id="__H2IEudREeS8tbAGDCJLTw" id="-1VutHz3AmMVr18DQwVm4zw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_urQkYOdSEeS8tbAGDCJLTw" id="-MwDKqBf2IZQ3Zd8YYHI79Q" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="__FdicOdREeS8tbAGDCJLTw" name="processo_npi" guid="__FdicOdREeS8tbAGDCJLTw">
+    <methodElementProperty xmi:id="__FdicudREeS8tbAGDCJLTw" name="pkg_loadCheck" value="true"/>
+    <methodElementProperty xmi:id="_HKPRMOdSEeS8tbAGDCJLTw" name="me_edited" value="true"/>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_Is4IoOdSEeS8tbAGDCJLTw" name="iniciar_projeto" guid="_Is4IoOdSEeS8tbAGDCJLTw">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_Is4IoedSEeS8tbAGDCJLTw" name="iniciar_projeto" guid="_Is4IoedSEeS8tbAGDCJLTw" presentationName="Iniciar Projeto" superActivities="__FdicedREeS8tbAGDCJLTw" breakdownElements="_LM7DgOdSEeS8tbAGDCJLTw _LNENcOdSEeS8tbAGDCJLTw _LoCSMOdSEeS8tbAGDCJLTw _8br-oedjEeS8tbAGDCJLTw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_LM7DgOdSEeS8tbAGDCJLTw" name="prospectar_projetos" guid="_LM7DgOdSEeS8tbAGDCJLTw" presentationName="Prospectar Projetos" briefDescription="Esta tarefa tem como objetivo prospectar projetos para serem desenvolvidos no NPI." superActivities="_Is4IoedSEeS8tbAGDCJLTw" performedPrimarilyBy="_LNENcOdSEeS8tbAGDCJLTw _8br-oedjEeS8tbAGDCJLTw">
+        <methodElementProperty xmi:id="_LNENdOdSEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <Task href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_B2fEEJ4cEeKP--IVqMl63w"/>
+        <selectedSteps href="uma://-HbuFbOu4ly2YDmVfDzRK4g#_E0PbUJ7wEeKmqv_pnSPEzA"/>
+        <selectedSteps href="uma://-HbuFbOu4ly2YDmVfDzRK4g#_mC6WIOHOEeSCFZZmwbxJwQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_LNENcOdSEeS8tbAGDCJLTw" name="gerente_projeto" guid="_LNENcOdSEeS8tbAGDCJLTw" presentationName="Gerente de Projetos" briefDescription="Gerente de Projetos é o responsável por inspecionar o trabalho desenvolvido pelos integrantes do NPI. O exercício de tal função pode ser executada por um Professos Supervisor ou um Servidor Técnico-Administrativo." isPlanned="false" superActivities="_Is4IoedSEeS8tbAGDCJLTw">
+        <methodElementProperty xmi:id="_LNENcedSEeS8tbAGDCJLTw" name="descriptor_createdByReference" value="true"/>
+        <methodElementProperty xmi:id="_LNENdudSEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <Role href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_RYHWIZ7xEeKmqv_pnSPEzA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_LoCSMOdSEeS8tbAGDCJLTw" name="autorizar_projetos" guid="_LoCSMOdSEeS8tbAGDCJLTw" presentationName="Autorizar Projetos" briefDescription="Esta atividade têm o objetivo de autorizar a ordem para o início da execução de um projeto no NPI." superActivities="_Is4IoedSEeS8tbAGDCJLTw" linkToPredecessor="_02epIOdVEeS8tbAGDCJLTw" performedPrimarilyBy="_LNENcOdSEeS8tbAGDCJLTw">
+        <methodElementProperty xmi:id="_LoMDMOdSEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <Task href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_tL0cMN3hEeSGCJOE1I0hFA"/>
+        <selectedSteps href="uma://-2YHkk4ITrY4gUArixoYDRA#_n_OjwOHMEeSCFZZmwbxJwQ"/>
+        <selectedSteps href="uma://-2YHkk4ITrY4gUArixoYDRA#_LVqs4OHNEeSCFZZmwbxJwQ"/>
+        <selectedSteps href="uma://-2YHkk4ITrY4gUArixoYDRA#_vDn7wOjsEeSR1-zcqptPug"/>
+        <selectedSteps href="uma://-2YHkk4ITrY4gUArixoYDRA#_AQquYOHNEeSCFZZmwbxJwQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_02epIOdVEeS8tbAGDCJLTw" guid="_02epIOdVEeS8tbAGDCJLTw" pred="_LM7DgOdSEeS8tbAGDCJLTw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_8br-oedjEeS8tbAGDCJLTw" name="cliente" guid="_8br-oedjEeS8tbAGDCJLTw" presentationName="Cliente" briefDescription="O cliente é o dono do produto." isPlanned="false" superActivities="_Is4IoedSEeS8tbAGDCJLTw">
+        <methodElementProperty xmi:id="_8br-oudjEeS8tbAGDCJLTw" name="descriptor_createdByReference" value="true"/>
+        <methodElementProperty xmi:id="_8br-o-djEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <Role href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_5jjKMJ7vEeKmqv_pnSPEzA"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_N4bngOdSEeS8tbAGDCJLTw" name="avaliacao_processo" guid="_N4bngOdSEeS8tbAGDCJLTw">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_N4bngedSEeS8tbAGDCJLTw" name="avaliacao_processo" guid="_N4bngedSEeS8tbAGDCJLTw" presentationName="Avaliação do Processo" superActivities="__FdicedREeS8tbAGDCJLTw" breakdownElements="_WP-hQOdSEeS8tbAGDCJLTw _WQISQOdSEeS8tbAGDCJLTw _WQISQudSEeS8tbAGDCJLTw _XTeloOdSEeS8tbAGDCJLTw _XToWoOdSEeS8tbAGDCJLTw _Xq3x8OdSEeS8tbAGDCJLTw _XrBi8OdSEeS8tbAGDCJLTw">
+        <methodElementProperty xmi:id="_PC0Uou5xEeSQzM_psz_6cw" name="wbe_GlobalPresentedAfter" value="_b1fi0edTEeS8tbAGDCJLTw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_WP-hQOdSEeS8tbAGDCJLTw" name="avaliar_processo" guid="_WP-hQOdSEeS8tbAGDCJLTw" presentationName="Avaliar Processo" briefDescription="Periodicamente auditorias serão feitas junto aos líderes de equipe para avaliar como está sendo seguido o processo." superActivities="_N4bngedSEeS8tbAGDCJLTw" mandatoryInput="_WQISQudSEeS8tbAGDCJLTw" output="_WQISQudSEeS8tbAGDCJLTw" performedPrimarilyBy="_WQISQOdSEeS8tbAGDCJLTw">
+        <methodElementProperty xmi:id="_WQRcMOdSEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <Task href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_ufeKQBEVEeOe46TMHTd_kQ"/>
+        <selectedSteps href="uma://-3rkxfpjkciGnwdB2lKEMpQ#_qECB4CH5EeOvJobPE63WLw"/>
+        <selectedSteps href="uma://-3rkxfpjkciGnwdB2lKEMpQ#_zTMX8BEVEeOe46TMHTd_kQ"/>
+        <selectedSteps href="uma://-3rkxfpjkciGnwdB2lKEMpQ#_XqfpUCH6EeOvJobPE63WLw"/>
+        <selectedSteps href="uma://-3rkxfpjkciGnwdB2lKEMpQ#_xesowB_tEeOJgc_LrCJv1g"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_WQISQOdSEeS8tbAGDCJLTw" name="equipe_de_desenvolvimento" guid="_WQISQOdSEeS8tbAGDCJLTw" presentationName="Equipe de desenvolvimento" briefDescription="A equipe de desenvolvimento corresponde a todos os envolvidos no desenvolvimento do produto." isPlanned="false" superActivities="_N4bngedSEeS8tbAGDCJLTw" modifies="_WQISQudSEeS8tbAGDCJLTw">
+        <methodElementProperty xmi:id="_WQISQedSEeS8tbAGDCJLTw" name="descriptor_createdByReference" value="true"/>
+        <methodElementProperty xmi:id="_WQRcMudSEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <Role href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_RYHWIJ7xEeKmqv_pnSPEzA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_WQISQudSEeS8tbAGDCJLTw" name="checklist_qualidade_processo" guid="_WQISQudSEeS8tbAGDCJLTw" presentationName="Checklist de Qualidade do Processo" briefDescription="O checklist contém várias perguntas baseadas na estrutura do processo, tem o intuito de verificar se as saídas previstas em cada atividade do processo estão sendo produzidas como definido." isPlanned="false" superActivities="_N4bngedSEeS8tbAGDCJLTw">
+        <methodElementProperty xmi:id="_WQISQ-dSEeS8tbAGDCJLTw" name="descriptor_createdByReference" value="true"/>
+        <methodElementProperty xmi:id="_WQRcMedSEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <templates href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_dltHYDbeEeOYnYAPzBRUeA"/>
+        <WorkProduct href="uma://_YyU1EJ4ZEeKP--IVqMl63w#__js1YBEXEeOe46TMHTd_kQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_XTeloOdSEeS8tbAGDCJLTw" name="corrigir_nao_conformidades" guid="_XTeloOdSEeS8tbAGDCJLTw" presentationName="Corrigir Não-conformidades" briefDescription="As não conformidades comunicadas à equipe pelo analista de requisitos na fase anterior devem ser corrigidas até a próxima aplicação do checklist de avaliação da qualidade do processo, onde esses itens serão auditados novamente." superActivities="_N4bngedSEeS8tbAGDCJLTw" linkToPredecessor="_NkjscedWEeS8tbAGDCJLTw" performedPrimarilyBy="_XToWoOdSEeS8tbAGDCJLTw">
+        <methodElementProperty xmi:id="_XTyHoOdSEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <Task href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_p4ALUCHpEeOvJobPE63WLw"/>
+        <selectedSteps href="uma://-VvqZfnOhwsE-izZZOfT2OA#_zfkSwCH6EeOvJobPE63WLw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_XToWoOdSEeS8tbAGDCJLTw" name="gerente_projeto" guid="_XToWoOdSEeS8tbAGDCJLTw" presentationName="Gerente de Projetos" briefDescription="Gerente de Projetos é o responsável por inspecionar o trabalho desenvolvido pelos integrantes do NPI. O exercício de tal função pode ser executada por um Professos Supervisor ou um Servidor Técnico-Administrativo." isPlanned="false" superActivities="_N4bngedSEeS8tbAGDCJLTw">
+        <methodElementProperty xmi:id="_XToWoedSEeS8tbAGDCJLTw" name="descriptor_createdByReference" value="true"/>
+        <methodElementProperty xmi:id="_XTyHoedSEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <Role href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_RYHWIZ7xEeKmqv_pnSPEzA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_Xq3x8OdSEeS8tbAGDCJLTw" name="sugerir_melhorias" guid="_Xq3x8OdSEeS8tbAGDCJLTw" presentationName="Sugerir Melhorias" briefDescription="Membros da equipe de desenvolvimento e Gerente de Projetos podem sugerir melhorias para o processo através de Redmine para que sejam avaliadas pelo analista de qualidade e incorporadas ao processo" superActivities="_N4bngedSEeS8tbAGDCJLTw" performedPrimarilyBy="_XrBi8OdSEeS8tbAGDCJLTw _WQISQOdSEeS8tbAGDCJLTw _XToWoOdSEeS8tbAGDCJLTw">
+        <methodElementProperty xmi:id="_XrLT8OdSEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <Task href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_bmY84B_mEeOJgc_LrCJv1g"/>
+        <selectedSteps href="uma://-06GfI5I7REvBUznqQoZakQ#_NslB8CHqEeOvJobPE63WLw"/>
+        <selectedSteps href="uma://-06GfI5I7REvBUznqQoZakQ#_ZRLtkCHqEeOvJobPE63WLw"/>
+        <selectedSteps href="uma://-06GfI5I7REvBUznqQoZakQ#_cCTxYCHqEeOvJobPE63WLw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_XrBi8OdSEeS8tbAGDCJLTw" name="lider_tecnico" guid="_XrBi8OdSEeS8tbAGDCJLTw" presentationName="Líder Técnico" briefDescription="O líder técnico é o responsável por gerenciar a equipe de desenvolvimento." isPlanned="false" superActivities="_N4bngedSEeS8tbAGDCJLTw">
+        <methodElementProperty xmi:id="_XrBi8edSEeS8tbAGDCJLTw" name="descriptor_createdByReference" value="true"/>
+        <methodElementProperty xmi:id="_XrLT8edSEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <Role href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_SAFVEJ7xEeKmqv_pnSPEzA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_NkjscedWEeS8tbAGDCJLTw" guid="_NkjscedWEeS8tbAGDCJLTw" pred="_WP-hQOdSEeS8tbAGDCJLTw"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_ZJDAIOdSEeS8tbAGDCJLTw" name="desenvolvimento" guid="_ZJDAIOdSEeS8tbAGDCJLTw">
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_fV3uwOdSEeS8tbAGDCJLTw" name="elicitacao_inicial_requisitos" guid="_fV3uwOdSEeS8tbAGDCJLTw">
+        <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_fV3uwedSEeS8tbAGDCJLTw" name="elicitacao_inicial_requisitos" guid="_fV3uwedSEeS8tbAGDCJLTw" presentationName="Elicitação Inicial de Requisitos" superActivities="_ZJDAIedSEeS8tbAGDCJLTw" breakdownElements="_oytcoOdSEeS8tbAGDCJLTw _oy2mkOdSEeS8tbAGDCJLTw _oy2mkudSEeS8tbAGDCJLTw _oy2mlOdSEeS8tbAGDCJLTw _ozAXkOdSEeS8tbAGDCJLTw _ozAXkudSEeS8tbAGDCJLTw _pMoYgOdSEeS8tbAGDCJLTw _pj4a4OdSEeS8tbAGDCJLTw _pkLV0OdSEeS8tbAGDCJLTw"/>
+        <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_oytcoOdSEeS8tbAGDCJLTw" name="elicitar_requisitos" guid="_oytcoOdSEeS8tbAGDCJLTw" presentationName="Elicitar Requisitos" briefDescription="Esta tarefa consiste na identificação e especificação de maneira formal dos requisitos do software a ser construído." superActivities="_fV3uwedSEeS8tbAGDCJLTw" additionallyPerformedBy="_oy2mlOdSEeS8tbAGDCJLTw" output="_ozAXkOdSEeS8tbAGDCJLTw _ozAXkudSEeS8tbAGDCJLTw" performedPrimarilyBy="_oy2mkOdSEeS8tbAGDCJLTw _oy2mkudSEeS8tbAGDCJLTw">
+          <methodElementProperty xmi:id="_ozAXlOdSEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <Task href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_uhAicJ7yEeKmqv_pnSPEzA"/>
+          <selectedSteps href="uma://-Iza5dd4nGySPg7oZCxDkNg#_iaFskJ71EeKmqv_pnSPEzA"/>
+          <selectedSteps href="uma://-Iza5dd4nGySPg7oZCxDkNg#_kYbokJ71EeKmqv_pnSPEzA"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_oy2mkOdSEeS8tbAGDCJLTw" name="equipe_de_desenvolvimento" guid="_oy2mkOdSEeS8tbAGDCJLTw" presentationName="Equipe de desenvolvimento" briefDescription="A equipe de desenvolvimento corresponde a todos os envolvidos no desenvolvimento do produto." isPlanned="false" superActivities="_fV3uwedSEeS8tbAGDCJLTw" modifies="_ozAXkudSEeS8tbAGDCJLTw _ozAXkOdSEeS8tbAGDCJLTw _pkLV0OdSEeS8tbAGDCJLTw">
+          <methodElementProperty xmi:id="_oy2mkedSEeS8tbAGDCJLTw" name="descriptor_createdByReference" value="true"/>
+          <methodElementProperty xmi:id="_ozAXledSEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <Role href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_RYHWIJ7xEeKmqv_pnSPEzA"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_oy2mkudSEeS8tbAGDCJLTw" name="lider_tecnico" guid="_oy2mkudSEeS8tbAGDCJLTw" presentationName="Líder Técnico" briefDescription="O líder técnico é o responsável por gerenciar a equipe de desenvolvimento." isPlanned="false" superActivities="_fV3uwedSEeS8tbAGDCJLTw" modifies="_ozAXkudSEeS8tbAGDCJLTw _ozAXkOdSEeS8tbAGDCJLTw _pkLV0OdSEeS8tbAGDCJLTw">
+          <methodElementProperty xmi:id="_oy2mk-dSEeS8tbAGDCJLTw" name="descriptor_createdByReference" value="true"/>
+          <methodElementProperty xmi:id="_ozAXmedSEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <Role href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_SAFVEJ7xEeKmqv_pnSPEzA"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_oy2mlOdSEeS8tbAGDCJLTw" name="gerente_projeto" guid="_oy2mlOdSEeS8tbAGDCJLTw" presentationName="Gerente de Projetos" briefDescription="Gerente de Projetos é o responsável por inspecionar o trabalho desenvolvido pelos integrantes do NPI. O exercício de tal função pode ser executada por um Professos Supervisor ou um Servidor Técnico-Administrativo." isPlanned="false" superActivities="_fV3uwedSEeS8tbAGDCJLTw">
+          <methodElementProperty xmi:id="_oy2mledSEeS8tbAGDCJLTw" name="descriptor_createdByReference" value="true"/>
+          <methodElementProperty xmi:id="_ozAXludSEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <Role href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_RYHWIZ7xEeKmqv_pnSPEzA"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_ozAXkOdSEeS8tbAGDCJLTw" name="documento_de_visao" guid="_ozAXkOdSEeS8tbAGDCJLTw" presentationName="Documento de Visão" briefDescription="Este artefato tem como objetivo coletar, analisar e definir as necessidades e funcionalidades gerais do projeto." isPlanned="false" superActivities="_fV3uwedSEeS8tbAGDCJLTw">
+          <methodElementProperty xmi:id="_ozAXkedSEeS8tbAGDCJLTw" name="descriptor_createdByReference" value="true"/>
+          <methodElementProperty xmi:id="_ozAXmOdSEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <templates href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_JkfxQJ4fEeKP--IVqMl63w"/>
+          <WorkProduct href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_qK5GkJ4dEeKP--IVqMl63w"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_ozAXkudSEeS8tbAGDCJLTw" name="documento_de_especificacao_dos_requisitos" guid="_ozAXkudSEeS8tbAGDCJLTw" presentationName="Documento de Especificação dos Requisitos" briefDescription="Neste artefato devem estar contidos todos os requisitos identificados durante o projeto." isPlanned="false" superActivities="_fV3uwedSEeS8tbAGDCJLTw">
+          <methodElementProperty xmi:id="_ozAXk-dSEeS8tbAGDCJLTw" name="descriptor_createdByReference" value="true"/>
+          <methodElementProperty xmi:id="_ozAXl-dSEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <presentation xmi:id="-MwDKqBf2IZQ3Zd8YYHI79Q" href="uma://-1VutHz3AmMVr18DQwVm4zw#-MwDKqBf2IZQ3Zd8YYHI79Q"/>
+          <templates href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_6YLQsKMDEeKxb_kPDqZn7A"/>
+          <WorkProduct href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_7mOFMJ7yEeKmqv_pnSPEzA"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_pMoYgOdSEeS8tbAGDCJLTw" name="validar_requisitos" guid="_pMoYgOdSEeS8tbAGDCJLTw" presentationName="Validar Requisitos" briefDescription="Esta tarefa consite na validação dos requisitos pelo cliente." superActivities="_fV3uwedSEeS8tbAGDCJLTw" linkToPredecessor="__648UedWEeS8tbAGDCJLTw" mandatoryInput="_ozAXkOdSEeS8tbAGDCJLTw" output="_ozAXkudSEeS8tbAGDCJLTw _ozAXkOdSEeS8tbAGDCJLTw" performedPrimarilyBy="_oy2mkOdSEeS8tbAGDCJLTw _oy2mkudSEeS8tbAGDCJLTw">
+          <methodElementProperty xmi:id="_pNFEcOdSEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <Task href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_RHS5oJ72EeKmqv_pnSPEzA"/>
+          <selectedSteps href="uma://-0w8gi_S6vggkobQW1uGjDQ#_XtM2oJ72EeKmqv_pnSPEzA"/>
+          <selectedSteps href="uma://-0w8gi_S6vggkobQW1uGjDQ#_qoIPkJ72EeKmqv_pnSPEzA"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_pj4a4OdSEeS8tbAGDCJLTw" name="criar_backlog_do_produto" guid="_pj4a4OdSEeS8tbAGDCJLTw" presentationName="Criar Backlog do Produto" briefDescription="Esta tarefa consiste na construção do Backlog do Produto, que é um arquivo onde devem estar contidos todos os requisitos revisados pela equipe." superActivities="_fV3uwedSEeS8tbAGDCJLTw" linkToPredecessor="_AgvbYedXEeS8tbAGDCJLTw" mandatoryInput="_ozAXkOdSEeS8tbAGDCJLTw" optionalInput="_ozAXkudSEeS8tbAGDCJLTw" output="_pkLV0OdSEeS8tbAGDCJLTw" performedPrimarilyBy="_oy2mkOdSEeS8tbAGDCJLTw _oy2mkudSEeS8tbAGDCJLTw">
+          <methodElementProperty xmi:id="_pkVG0OdSEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <Task href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_EhmH8J73EeKmqv_pnSPEzA"/>
+          <selectedSteps href="uma://-tp_bunOn1kl1HC0mjuIfGg#_PBxiIJ73EeKmqv_pnSPEzA"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_pkLV0OdSEeS8tbAGDCJLTw" name="backlog_do_produto" guid="_pkLV0OdSEeS8tbAGDCJLTw" presentationName="Backlog do Produto" briefDescription="Neste artefato devem estar contidos todos os requisitos, uma breve descrição de cada um deles, os requisitos selecionados para cada Sprint e os impedimentos." isPlanned="false" superActivities="_fV3uwedSEeS8tbAGDCJLTw">
+          <methodElementProperty xmi:id="_pkLV0edSEeS8tbAGDCJLTw" name="descriptor_createdByReference" value="true"/>
+          <methodElementProperty xmi:id="_pkVG0edSEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+          <templates href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_RRqd8J7zEeKmqv_pnSPEzA"/>
+          <WorkProduct href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_DSUOMJ7zEeKmqv_pnSPEzA"/>
+        </processElements>
+        <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="__648UedWEeS8tbAGDCJLTw" guid="__648UedWEeS8tbAGDCJLTw" pred="_oytcoOdSEeS8tbAGDCJLTw"/>
+        <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_AgvbYedXEeS8tbAGDCJLTw" guid="_AgvbYedXEeS8tbAGDCJLTw" pred="_pMoYgOdSEeS8tbAGDCJLTw"/>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_kDxBQOdSEeS8tbAGDCJLTw" name="sprint" guid="_kDxBQOdSEeS8tbAGDCJLTw">
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_r5MFYOdSEeS8tbAGDCJLTw" name="planejar_sprint" guid="_r5MFYOdSEeS8tbAGDCJLTw">
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_r5MFYedSEeS8tbAGDCJLTw" name="planejar_sprint" guid="_r5MFYedSEeS8tbAGDCJLTw" presentationName="Planejar Sprint" superActivities="_kDxBQedSEeS8tbAGDCJLTw" breakdownElements="_CTRs0OdTEeS8tbAGDCJLTw _CTbd0OdTEeS8tbAGDCJLTw _CTbd0udTEeS8tbAGDCJLTw _CTbd1OdTEeS8tbAGDCJLTw _CTknwOdTEeS8tbAGDCJLTw _Csmy0OdTEeS8tbAGDCJLTw"/>
+          <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_CTRs0OdTEeS8tbAGDCJLTw" name="cultivo_backlog" guid="_CTRs0OdTEeS8tbAGDCJLTw" presentationName="Cultivo de Backlog" briefDescription="Esta tarefa tem como objetivo atualizar as informações referentes aos itens presentes no Backlog do Produto. O Backlog do Produto é formado por um conjunto de itens, como requisitos, casos de uso." superActivities="_r5MFYedSEeS8tbAGDCJLTw" mandatoryInput="_CTknwOdTEeS8tbAGDCJLTw" output="_CTknwOdTEeS8tbAGDCJLTw" performedPrimarilyBy="_CTbd0OdTEeS8tbAGDCJLTw _CTbd0udTEeS8tbAGDCJLTw _CTbd1OdTEeS8tbAGDCJLTw">
+            <methodElementProperty xmi:id="_CTknwudTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+            <Task href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_LMfrUOHkEeSCzJdwA71j-A"/>
+            <selectedSteps href="uma://-JSReRrIQxztIeiULNe0kyw#_Dt9nwOHlEeSCzJdwA71j-A"/>
+            <selectedSteps href="uma://-JSReRrIQxztIeiULNe0kyw#_KAKloOHlEeSCzJdwA71j-A"/>
+            <selectedSteps href="uma://-JSReRrIQxztIeiULNe0kyw#_rr5L0OzaEeS-tszzIU7YEQ"/>
+          </processElements>
+          <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_CTbd0OdTEeS8tbAGDCJLTw" name="equipe_de_desenvolvimento" guid="_CTbd0OdTEeS8tbAGDCJLTw" presentationName="Equipe de desenvolvimento" briefDescription="A equipe de desenvolvimento corresponde a todos os envolvidos no desenvolvimento do produto." isPlanned="false" superActivities="_r5MFYedSEeS8tbAGDCJLTw" modifies="_CTknwOdTEeS8tbAGDCJLTw">
+            <methodElementProperty xmi:id="_CTbd0edTEeS8tbAGDCJLTw" name="descriptor_createdByReference" value="true"/>
+            <methodElementProperty xmi:id="_CTknxOdTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+            <Role href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_RYHWIJ7xEeKmqv_pnSPEzA"/>
+          </processElements>
+          <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_CTbd0udTEeS8tbAGDCJLTw" name="lider_tecnico" guid="_CTbd0udTEeS8tbAGDCJLTw" presentationName="Líder Técnico" briefDescription="O líder técnico é o responsável por gerenciar a equipe de desenvolvimento." isPlanned="false" superActivities="_r5MFYedSEeS8tbAGDCJLTw" modifies="_CTknwOdTEeS8tbAGDCJLTw">
+            <methodElementProperty xmi:id="_CTbd0-dTEeS8tbAGDCJLTw" name="descriptor_createdByReference" value="true"/>
+            <methodElementProperty xmi:id="_CTknw-dTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+            <Role href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_SAFVEJ7xEeKmqv_pnSPEzA"/>
+          </processElements>
+          <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_CTbd1OdTEeS8tbAGDCJLTw" name="gerente_projeto" guid="_CTbd1OdTEeS8tbAGDCJLTw" presentationName="Gerente de Projetos" briefDescription="Gerente de Projetos é o responsável por inspecionar o trabalho desenvolvido pelos integrantes do NPI. O exercício de tal função pode ser executada por um Professos Supervisor ou um Servidor Técnico-Administrativo." isPlanned="false" superActivities="_r5MFYedSEeS8tbAGDCJLTw" modifies="_CTknwOdTEeS8tbAGDCJLTw">
+            <methodElementProperty xmi:id="_CTbd1edTEeS8tbAGDCJLTw" name="descriptor_createdByReference" value="true"/>
+            <methodElementProperty xmi:id="_CTknxudTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+            <Role href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_RYHWIZ7xEeKmqv_pnSPEzA"/>
+          </processElements>
+          <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_CTknwOdTEeS8tbAGDCJLTw" name="backlog_do_produto" guid="_CTknwOdTEeS8tbAGDCJLTw" presentationName="Backlog do Produto" briefDescription="Neste artefato devem estar contidos todos os requisitos, uma breve descrição de cada um deles, os requisitos selecionados para cada Sprint e os impedimentos." isPlanned="false" superActivities="_r5MFYedSEeS8tbAGDCJLTw">
+            <methodElementProperty xmi:id="_CTknwedTEeS8tbAGDCJLTw" name="descriptor_createdByReference" value="true"/>
+            <methodElementProperty xmi:id="_CTknxedTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+            <templates href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_RRqd8J7zEeKmqv_pnSPEzA"/>
+            <WorkProduct href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_DSUOMJ7zEeKmqv_pnSPEzA"/>
+          </processElements>
+          <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_Csmy0OdTEeS8tbAGDCJLTw" name="realizar_reuniao_de_planejamento_da_sprint" guid="_Csmy0OdTEeS8tbAGDCJLTw" presentationName="Realizar Reunião de Planejamento da Sprint" briefDescription="Esta tarefa tem como objetivo realizar a Reunião de Planejamento da Sprint, onde deve ser decidido tudo o que será desenvolvido na Sprint atual." superActivities="_r5MFYedSEeS8tbAGDCJLTw" linkToPredecessor="_gsjbkedXEeS8tbAGDCJLTw" mandatoryInput="_CTknwOdTEeS8tbAGDCJLTw" output="_CTknwOdTEeS8tbAGDCJLTw" performedPrimarilyBy="_CTbd0OdTEeS8tbAGDCJLTw _CTbd0udTEeS8tbAGDCJLTw">
+            <methodElementProperty xmi:id="_CtDewOdTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+            <Task href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_4R0bkJ76EeKmqv_pnSPEzA"/>
+            <selectedSteps href="uma://-QKJ_9uL0M4Nh9OiGmpwu0g#_NfQCoJ77EeKmqv_pnSPEzA"/>
+            <selectedSteps href="uma://-QKJ_9uL0M4Nh9OiGmpwu0g#_SddpEJ77EeKmqv_pnSPEzA"/>
+          </processElements>
+          <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_gsjbkedXEeS8tbAGDCJLTw" guid="_gsjbkedXEeS8tbAGDCJLTw" pred="_CTRs0OdTEeS8tbAGDCJLTw"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_wnPI4OdSEeS8tbAGDCJLTw" name="especificar_caso_de_uso" guid="_wnPI4OdSEeS8tbAGDCJLTw">
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_wnPI4edSEeS8tbAGDCJLTw" name="especificar_caso_de_uso" guid="_wnPI4edSEeS8tbAGDCJLTw" presentationName="Especificar Casos de Uso" superActivities="_kDxBQedSEeS8tbAGDCJLTw" linkToPredecessor="_WHdFIedXEeS8tbAGDCJLTw" breakdownElements="_D4dh8OdTEeS8tbAGDCJLTw _D4wc4OdTEeS8tbAGDCJLTw _D4wc4udTEeS8tbAGDCJLTw _D4wc5OdTEeS8tbAGDCJLTw _D4wc5udTEeS8tbAGDCJLTw _D4wc6OdTEeS8tbAGDCJLTw _D4wc7udTEeS8tbAGDCJLTw _LWk-Ue5vEeSQzM_psz_6cw"/>
+          <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_D4dh8OdTEeS8tbAGDCJLTw" name="especificar_caso_de_uso" guid="_D4dh8OdTEeS8tbAGDCJLTw" presentationName="Especificar Caso de Uso" briefDescription="Esta tarefa consiste na especificação dos casos de uso baseado nos requisitos selecionados pela atividade Planejar sprint." superActivities="_wnPI4edSEeS8tbAGDCJLTw" additionallyPerformedBy="_D4wc4udTEeS8tbAGDCJLTw" mandatoryInput="_D4wc5OdTEeS8tbAGDCJLTw _D4wc5udTEeS8tbAGDCJLTw _D4wc6OdTEeS8tbAGDCJLTw" output="_D4wc7udTEeS8tbAGDCJLTw _LWk-Ue5vEeSQzM_psz_6cw" performedPrimarilyBy="_D4wc4OdTEeS8tbAGDCJLTw">
+            <methodElementProperty xmi:id="_D45m0OdTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+            <Task href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_bFKkEJ8OEeKHC_1kKuVVig"/>
+            <selectedSteps href="uma://-iPJqnme42aRf6TfaxhdOkg#_lq9eEJ8OEeKHC_1kKuVVig"/>
+            <selectedSteps href="uma://-iPJqnme42aRf6TfaxhdOkg#_sBkMEJ8UEeKHC_1kKuVVig"/>
+            <selectedSteps href="uma://-iPJqnme42aRf6TfaxhdOkg#_DvsOQJ8VEeKHC_1kKuVVig"/>
+            <selectedSteps href="uma://-iPJqnme42aRf6TfaxhdOkg#_KzUCAJ8VEeKHC_1kKuVVig"/>
+            <selectedSteps href="uma://-iPJqnme42aRf6TfaxhdOkg#_PFSNgJ8VEeKHC_1kKuVVig"/>
+            <selectedSteps href="uma://-iPJqnme42aRf6TfaxhdOkg#_TdgyAJ8VEeKHC_1kKuVVig"/>
+            <selectedSteps href="uma://-iPJqnme42aRf6TfaxhdOkg#_WrH9gJ8VEeKHC_1kKuVVig"/>
+            <selectedSteps href="uma://-iPJqnme42aRf6TfaxhdOkg#_cvc3cJ8VEeKHC_1kKuVVig"/>
+            <selectedSteps href="uma://-iPJqnme42aRf6TfaxhdOkg#_fPhAcJ8VEeKHC_1kKuVVig"/>
+          </processElements>
+          <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_D4wc4OdTEeS8tbAGDCJLTw" name="equipe_de_desenvolvimento" guid="_D4wc4OdTEeS8tbAGDCJLTw" presentationName="Equipe de desenvolvimento" briefDescription="A equipe de desenvolvimento corresponde a todos os envolvidos no desenvolvimento do produto." isPlanned="false" superActivities="_wnPI4edSEeS8tbAGDCJLTw" modifies="_D4wc7udTEeS8tbAGDCJLTw _LWk-Ue5vEeSQzM_psz_6cw">
+            <methodElementProperty xmi:id="_D4wc4edTEeS8tbAGDCJLTw" name="descriptor_createdByReference" value="true"/>
+            <methodElementProperty xmi:id="_D45m1udTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+            <Role href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_RYHWIJ7xEeKmqv_pnSPEzA"/>
+          </processElements>
+          <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_D4wc4udTEeS8tbAGDCJLTw" name="lider_tecnico" guid="_D4wc4udTEeS8tbAGDCJLTw" presentationName="Líder Técnico" briefDescription="O líder técnico é o responsável por gerenciar a equipe de desenvolvimento." isPlanned="false" superActivities="_wnPI4edSEeS8tbAGDCJLTw">
+            <methodElementProperty xmi:id="_D4wc4-dTEeS8tbAGDCJLTw" name="descriptor_createdByReference" value="true"/>
+            <methodElementProperty xmi:id="_D45m2OdTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+            <Role href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_SAFVEJ7xEeKmqv_pnSPEzA"/>
+          </processElements>
+          <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_D4wc5OdTEeS8tbAGDCJLTw" name="backlog_do_produto" guid="_D4wc5OdTEeS8tbAGDCJLTw" presentationName="Backlog do Produto" briefDescription="Neste artefato devem estar contidos todos os requisitos, uma breve descrição de cada um deles, os requisitos selecionados para cada Sprint e os impedimentos." isPlanned="false" superActivities="_wnPI4edSEeS8tbAGDCJLTw">
+            <methodElementProperty xmi:id="_D4wc5edTEeS8tbAGDCJLTw" name="descriptor_createdByReference" value="true"/>
+            <methodElementProperty xmi:id="_D45m1-dTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+            <templates href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_RRqd8J7zEeKmqv_pnSPEzA"/>
+            <WorkProduct href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_DSUOMJ7zEeKmqv_pnSPEzA"/>
+          </processElements>
+          <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_D4wc5udTEeS8tbAGDCJLTw" name="caso_de_uso_crud_especifico" guid="_D4wc5udTEeS8tbAGDCJLTw" presentationName="Caso de Uso CRUD Específico" briefDescription="Este artefato tem como objetivo servir como base para a construção de casos de uso do tipo CRUD (criar, pesquisar, atualizar e excluir) específico." isPlanned="false" superActivities="_wnPI4edSEeS8tbAGDCJLTw">
+            <methodElementProperty xmi:id="_D4wc5-dTEeS8tbAGDCJLTw" name="descriptor_createdByReference" value="true"/>
+            <methodElementProperty xmi:id="_D45m0-dTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+            <templates href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_eUYEUJ8JEeKHC_1kKuVVig"/>
+            <WorkProduct href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_80qs8J8AEeKmqv_pnSPEzA"/>
+          </processElements>
+          <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_D4wc6OdTEeS8tbAGDCJLTw" name="caso_de_uso_crud_generico" guid="_D4wc6OdTEeS8tbAGDCJLTw" presentationName="Caso de Uso CRUD Genérico" briefDescription="Este artefato tem como objetivo servir como base para a construção de casos de uso do tipo CRUD (criar, pesquisar, atualizar e excluir)." isPlanned="false" superActivities="_wnPI4edSEeS8tbAGDCJLTw">
+            <methodElementProperty xmi:id="_D4wc6edTEeS8tbAGDCJLTw" name="descriptor_createdByReference" value="true"/>
+            <methodElementProperty xmi:id="_D45m1edTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+            <templates href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_9cwRkJ8JEeKHC_1kKuVVig"/>
+            <WorkProduct href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_2UmZkJ79EeKmqv_pnSPEzA"/>
+          </processElements>
+          <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_D4wc7udTEeS8tbAGDCJLTw" name="documento_de_especificacao_de_caso_de_uso" guid="_D4wc7udTEeS8tbAGDCJLTw" presentationName="Documento de Especificação de Caso de Uso" briefDescription="Cada caso de uso especificados na Sprint, devidamente documentados no formato dos templates de Caso de Uso CRUD ou Relatório Específico, deve gerar um documento de caso de uso específico. O nome documento de especificação de caso de uso é simbólico. Na verdade, o conjunto de todos os casos de uso específicos forma a especificação de casos de uso. Porém, não irá existir um documento q reunirá todos os casos de uso e sim, cada caso de uso deve gerar um documento." isPlanned="false" superActivities="_wnPI4edSEeS8tbAGDCJLTw">
+            <methodElementProperty xmi:id="_D4wc7-dTEeS8tbAGDCJLTw" name="descriptor_createdByReference" value="true"/>
+            <methodElementProperty xmi:id="_D45m1OdTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+            <WorkProduct href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_8dSpkJ8SEeKHC_1kKuVVig"/>
+          </processElements>
+          <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_WHdFIedXEeS8tbAGDCJLTw" guid="_WHdFIedXEeS8tbAGDCJLTw" pred="_r5MFYedSEeS8tbAGDCJLTw"/>
+          <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_LWk-Ue5vEeSQzM_psz_6cw" name="caso_de_uso_complementar" guid="_LWk-Ue5vEeSQzM_psz_6cw" presentationName="Modelo de Caso de Uso Complementar" briefDescription="Este artefato tem por objetivo servir como meio para o detalhamento de informações de um caso de uso genérico." isPlanned="false" superActivities="_wnPI4edSEeS8tbAGDCJLTw">
+            <methodElementProperty xmi:id="_LWk-Uu5vEeSQzM_psz_6cw" name="descriptor_createdByReference" value="true"/>
+            <methodElementProperty xmi:id="_LWk-U-5vEeSQzM_psz_6cw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+            <templates href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_aq-kUOzhEeS-tszzIU7YEQ"/>
+            <WorkProduct href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_7w6f4OzgEeS-tszzIU7YEQ"/>
+          </processElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_0RLrEOdSEeS8tbAGDCJLTw" name="implementacao" guid="_0RLrEOdSEeS8tbAGDCJLTw">
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_0RLrEedSEeS8tbAGDCJLTw" name="implementacao" guid="_0RLrEedSEeS8tbAGDCJLTw" presentationName="Implementação" superActivities="_kDxBQedSEeS8tbAGDCJLTw" linkToPredecessor="_Wy-HUedXEeS8tbAGDCJLTw" breakdownElements="_GJ5ZEOdTEeS8tbAGDCJLTw _GKMUAOdTEeS8tbAGDCJLTw _GKMUAudTEeS8tbAGDCJLTw _GKVd8OdTEeS8tbAGDCJLTw _GKVd8udTEeS8tbAGDCJLTw _GgZNgOdTEeS8tbAGDCJLTw _GgsIcOdTEeS8tbAGDCJLTw _GgsIcudTEeS8tbAGDCJLTw _G2TMEOdTEeS8tbAGDCJLTw _G2v4AOdTEeS8tbAGDCJLTw"/>
+          <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_GJ5ZEOdTEeS8tbAGDCJLTw" name="preparar_ambiente" guid="_GJ5ZEOdTEeS8tbAGDCJLTw" presentationName="Preparar Ambiente" briefDescription="Esta tarefa consiste na preparação do ambiente de desenvolvimento." superActivities="_0RLrEedSEeS8tbAGDCJLTw" mandatoryInput="_GKVd8OdTEeS8tbAGDCJLTw" optionalInput="_GKVd8udTEeS8tbAGDCJLTw" performedPrimarilyBy="_GKMUAOdTEeS8tbAGDCJLTw _GKMUAudTEeS8tbAGDCJLTw">
+            <methodElementProperty xmi:id="_GKfO8OdTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+            <Task href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_m3pUAJ9YEeKlCuxxakZHpg"/>
+            <selectedSteps href="uma://-C63XuqLCn4itD8ypplKbXw#_umq1MJ9YEeKlCuxxakZHpg"/>
+          </processElements>
+          <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_GKMUAOdTEeS8tbAGDCJLTw" name="lider_tecnico" guid="_GKMUAOdTEeS8tbAGDCJLTw" presentationName="Líder Técnico" briefDescription="O líder técnico é o responsável por gerenciar a equipe de desenvolvimento." isPlanned="false" superActivities="_0RLrEedSEeS8tbAGDCJLTw">
+            <methodElementProperty xmi:id="_GKMUAedTEeS8tbAGDCJLTw" name="descriptor_createdByReference" value="true"/>
+            <methodElementProperty xmi:id="_GKfO9OdTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+            <Role href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_SAFVEJ7xEeKmqv_pnSPEzA"/>
+          </processElements>
+          <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_GKMUAudTEeS8tbAGDCJLTw" name="equipe_de_desenvolvimento" guid="_GKMUAudTEeS8tbAGDCJLTw" presentationName="Equipe de desenvolvimento" briefDescription="A equipe de desenvolvimento corresponde a todos os envolvidos no desenvolvimento do produto." isPlanned="false" superActivities="_0RLrEedSEeS8tbAGDCJLTw" modifies="_GgsIcudTEeS8tbAGDCJLTw _G2v4AOdTEeS8tbAGDCJLTw">
+            <methodElementProperty xmi:id="_GKMUA-dTEeS8tbAGDCJLTw" name="descriptor_createdByReference" value="true"/>
+            <methodElementProperty xmi:id="_GKfO8edTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+            <Role href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_RYHWIJ7xEeKmqv_pnSPEzA"/>
+          </processElements>
+          <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_GKVd8OdTEeS8tbAGDCJLTw" name="documento_de_preparacao_do_ambiente" guid="_GKVd8OdTEeS8tbAGDCJLTw" presentationName="Documento de Preparação do Ambiente" briefDescription="Este artefato tem como objetivo instruir os integrantes do projeto sobre todo software que será utilizado durante o processo de desenvolvimeto do produto, bem como suas versões, etc." isPlanned="false" superActivities="_0RLrEedSEeS8tbAGDCJLTw">
+            <methodElementProperty xmi:id="_GKVd8edTEeS8tbAGDCJLTw" name="descriptor_createdByReference" value="true"/>
+            <methodElementProperty xmi:id="_GKfO8-dTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+            <templates href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_A9YfkKMDEeKxb_kPDqZn7A"/>
+            <WorkProduct href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_cz1NEJ9VEeKlCuxxakZHpg"/>
+          </processElements>
+          <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_GKVd8udTEeS8tbAGDCJLTw" name="tutorial_de_instalacao_do_entities" guid="_GKVd8udTEeS8tbAGDCJLTw" presentationName="Tutorial de Instalação do Entities" briefDescription="Este artefato tem como objetivo guiar a equipe de desenvolvimento na instalação do framework Entities." isPlanned="false" superActivities="_0RLrEedSEeS8tbAGDCJLTw">
+            <methodElementProperty xmi:id="_GKVd8-dTEeS8tbAGDCJLTw" name="descriptor_createdByReference" value="true"/>
+            <methodElementProperty xmi:id="_GKfO8udTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+            <templates href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_dhW6EJ9YEeKlCuxxakZHpg"/>
+            <WorkProduct href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_dyoiMJ9WEeKlCuxxakZHpg"/>
+          </processElements>
+          <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_GgZNgOdTEeS8tbAGDCJLTw" name="implementar_caso_de_uso" guid="_GgZNgOdTEeS8tbAGDCJLTw" presentationName="Implementar Caso de Uso" briefDescription="Esta tarefa consiste na implementação dos casos de uso selecionados para a Sprint." superActivities="_0RLrEedSEeS8tbAGDCJLTw" linkToPredecessor="_yUGhEedXEeS8tbAGDCJLTw" mandatoryInput="_GgsIcOdTEeS8tbAGDCJLTw" output="_GgsIcudTEeS8tbAGDCJLTw" performedPrimarilyBy="_GKMUAudTEeS8tbAGDCJLTw">
+            <methodElementProperty xmi:id="_Gg_DYOdTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+            <Task href="uma://_YyU1EJ4ZEeKP--IVqMl63w#__xm3MJ9YEeKlCuxxakZHpg"/>
+            <selectedSteps href="uma://-C5ltr_OXr5C1OQdjVGyhVg#_IZer8J9ZEeKlCuxxakZHpg"/>
+          </processElements>
+          <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_GgsIcOdTEeS8tbAGDCJLTw" name="documento_de_especificacao_de_caso_de_uso" guid="_GgsIcOdTEeS8tbAGDCJLTw" presentationName="Documento de Especificação de Caso de Uso" briefDescription="Cada caso de uso especificados na Sprint, devidamente documentados no formato dos templates de Caso de Uso CRUD ou Relatório Específico, deve gerar um documento de caso de uso específico. O nome documento de especificação de caso de uso é simbólico. Na verdade, o conjunto de todos os casos de uso específicos forma a especificação de casos de uso. Porém, não irá existir um documento q reunirá todos os casos de uso e sim, cada caso de uso deve gerar um documento." isPlanned="false" superActivities="_0RLrEedSEeS8tbAGDCJLTw">
+            <methodElementProperty xmi:id="_GgsIcedTEeS8tbAGDCJLTw" name="descriptor_createdByReference" value="true"/>
+            <methodElementProperty xmi:id="_Gg_DYedTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+            <WorkProduct href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_8dSpkJ8SEeKHC_1kKuVVig"/>
+          </processElements>
+          <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_GgsIcudTEeS8tbAGDCJLTw" name="caso_de_uso_implementado" guid="_GgsIcudTEeS8tbAGDCJLTw" presentationName="Caso de Uso Implementado" briefDescription="Este artefato consiste no caso de uso implementado." isPlanned="false" superActivities="_0RLrEedSEeS8tbAGDCJLTw">
+            <methodElementProperty xmi:id="_GgsIc-dTEeS8tbAGDCJLTw" name="descriptor_createdByReference" value="true"/>
+            <methodElementProperty xmi:id="_Gg_DYudTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+            <WorkProduct href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_hy9uoJ9XEeKlCuxxakZHpg"/>
+          </processElements>
+          <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_G2TMEOdTEeS8tbAGDCJLTw" name="gerar_release" guid="_G2TMEOdTEeS8tbAGDCJLTw" presentationName="Gerar Release" briefDescription="Esta tarefa consiste na geração de uma release entregável do produto." superActivities="_0RLrEedSEeS8tbAGDCJLTw" linkToPredecessor="_y1Vl4edXEeS8tbAGDCJLTw" mandatoryInput="_GgsIcudTEeS8tbAGDCJLTw" output="_G2v4AOdTEeS8tbAGDCJLTw" performedPrimarilyBy="_GKMUAudTEeS8tbAGDCJLTw">
+            <methodElementProperty xmi:id="_G25B8OdTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+            <Task href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_VWZ1YJ9ZEeKlCuxxakZHpg"/>
+            <selectedSteps href="uma://-NGAl0ecJIs7prtRYE9D-gA#_gsarYJ9ZEeKlCuxxakZHpg"/>
+          </processElements>
+          <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_G2v4AOdTEeS8tbAGDCJLTw" name="release_do_produto" guid="_G2v4AOdTEeS8tbAGDCJLTw" presentationName="Release do Produto" briefDescription="Este artefato tem como objetivo juntar todos os casos de uso implementados durante a Sprint e gerar uma release do produto." isPlanned="false" superActivities="_0RLrEedSEeS8tbAGDCJLTw">
+            <methodElementProperty xmi:id="_G2v4AedTEeS8tbAGDCJLTw" name="descriptor_createdByReference" value="true"/>
+            <methodElementProperty xmi:id="_G25B8edTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+            <WorkProduct href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_5TuDMJ9XEeKlCuxxakZHpg"/>
+          </processElements>
+          <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_Wy-HUedXEeS8tbAGDCJLTw" guid="_Wy-HUedXEeS8tbAGDCJLTw" pred="_wnPI4edSEeS8tbAGDCJLTw"/>
+          <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_yUGhEedXEeS8tbAGDCJLTw" guid="_yUGhEedXEeS8tbAGDCJLTw" pred="_GJ5ZEOdTEeS8tbAGDCJLTw"/>
+          <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_y1Vl4edXEeS8tbAGDCJLTw" guid="_y1Vl4edXEeS8tbAGDCJLTw" pred="_GgZNgOdTEeS8tbAGDCJLTw"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_2xhg4OdSEeS8tbAGDCJLTw" name="testes" guid="_2xhg4OdSEeS8tbAGDCJLTw">
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_2xhg4edSEeS8tbAGDCJLTw" name="testes" guid="_2xhg4edSEeS8tbAGDCJLTw" presentationName="Testes" superActivities="_kDxBQedSEeS8tbAGDCJLTw" linkToPredecessor="_XYmj8edXEeS8tbAGDCJLTw" breakdownElements="_I70HEOdTEeS8tbAGDCJLTw _I70HEedTEeS8tbAGDCJLTw _I70HE-dTEeS8tbAGDCJLTw _I70HFedTEeS8tbAGDCJLTw _I70HF-dTEeS8tbAGDCJLTw _I70HGedTEeS8tbAGDCJLTw _JUZmMOdTEeS8tbAGDCJLTw _JUshIOdTEeS8tbAGDCJLTw _Js_FUOdTEeS8tbAGDCJLTw"/>
+          <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_I70HEOdTEeS8tbAGDCJLTw" name="especificar_caso_de_teste" guid="_I70HEOdTEeS8tbAGDCJLTw" presentationName="Especificar Caso de Teste" briefDescription="Essa tarefa consiste na criação dos casos de teste." superActivities="_2xhg4edSEeS8tbAGDCJLTw" additionallyPerformedBy="_I70HE-dTEeS8tbAGDCJLTw" mandatoryInput="_I70HFedTEeS8tbAGDCJLTw _I70HF-dTEeS8tbAGDCJLTw" output="_I70HGedTEeS8tbAGDCJLTw" performedPrimarilyBy="_I70HEedTEeS8tbAGDCJLTw">
+            <methodElementProperty xmi:id="_I70HG-dTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+            <Task href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_-VvOwJ9bEeKlCuxxakZHpg"/>
+            <selectedSteps href="uma://-SNu4ezjs4wK66gPa3EVIuA#_MfJZcJ9cEeKlCuxxakZHpg"/>
+          </processElements>
+          <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_I70HEedTEeS8tbAGDCJLTw" name="equipe_de_desenvolvimento" guid="_I70HEedTEeS8tbAGDCJLTw" presentationName="Equipe de desenvolvimento" briefDescription="A equipe de desenvolvimento corresponde a todos os envolvidos no desenvolvimento do produto." isPlanned="false" superActivities="_2xhg4edSEeS8tbAGDCJLTw" modifies="_I70HGedTEeS8tbAGDCJLTw">
+            <methodElementProperty xmi:id="_I70HEudTEeS8tbAGDCJLTw" name="descriptor_createdByReference" value="true"/>
+            <methodElementProperty xmi:id="_I70HHedTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+            <Role href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_RYHWIJ7xEeKmqv_pnSPEzA"/>
+          </processElements>
+          <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_I70HE-dTEeS8tbAGDCJLTw" name="lider_tecnico" guid="_I70HE-dTEeS8tbAGDCJLTw" presentationName="Líder Técnico" briefDescription="O líder técnico é o responsável por gerenciar a equipe de desenvolvimento." isPlanned="false" superActivities="_2xhg4edSEeS8tbAGDCJLTw" modifies="_I70HGedTEeS8tbAGDCJLTw">
+            <methodElementProperty xmi:id="_I70HFOdTEeS8tbAGDCJLTw" name="descriptor_createdByReference" value="true"/>
+            <methodElementProperty xmi:id="_I70HHOdTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+            <Role href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_SAFVEJ7xEeKmqv_pnSPEzA"/>
+          </processElements>
+          <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_I70HFedTEeS8tbAGDCJLTw" name="documento_de_especificacao_de_caso_de_uso" guid="_I70HFedTEeS8tbAGDCJLTw" presentationName="Documento de Especificação de Caso de Uso" briefDescription="Cada caso de uso especificados na Sprint, devidamente documentados no formato dos templates de Caso de Uso CRUD ou Relatório Específico, deve gerar um documento de caso de uso específico. O nome documento de especificação de caso de uso é simbólico. Na verdade, o conjunto de todos os casos de uso específicos forma a especificação de casos de uso. Porém, não irá existir um documento q reunirá todos os casos de uso e sim, cada caso de uso deve gerar um documento." isPlanned="false" superActivities="_2xhg4edSEeS8tbAGDCJLTw">
+            <methodElementProperty xmi:id="_I70HFudTEeS8tbAGDCJLTw" name="descriptor_createdByReference" value="true"/>
+            <methodElementProperty xmi:id="_I70HHudTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+            <WorkProduct href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_8dSpkJ8SEeKHC_1kKuVVig"/>
+          </processElements>
+          <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_I70HF-dTEeS8tbAGDCJLTw" name="backlog_do_produto" guid="_I70HF-dTEeS8tbAGDCJLTw" presentationName="Backlog do Produto" briefDescription="Neste artefato devem estar contidos todos os requisitos, uma breve descrição de cada um deles, os requisitos selecionados para cada Sprint e os impedimentos." isPlanned="false" superActivities="_2xhg4edSEeS8tbAGDCJLTw">
+            <methodElementProperty xmi:id="_I70HGOdTEeS8tbAGDCJLTw" name="descriptor_createdByReference" value="true"/>
+            <methodElementProperty xmi:id="_I70HH-dTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+            <templates href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_RRqd8J7zEeKmqv_pnSPEzA"/>
+            <WorkProduct href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_DSUOMJ7zEeKmqv_pnSPEzA"/>
+          </processElements>
+          <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_I70HGedTEeS8tbAGDCJLTw" name="planilha_de_teste" guid="_I70HGedTEeS8tbAGDCJLTw" presentationName="Planilha de Teste" isPlanned="false" superActivities="_2xhg4edSEeS8tbAGDCJLTw">
+            <methodElementProperty xmi:id="_I70HGudTEeS8tbAGDCJLTw" name="descriptor_createdByReference" value="true"/>
+            <methodElementProperty xmi:id="_I70HIOdTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+            <templates href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_1Wfb0J9bEeKlCuxxakZHpg"/>
+            <WorkProduct href="uma://_YyU1EJ4ZEeKP--IVqMl63w#__9g6UJ9aEeKlCuxxakZHpg"/>
+          </processElements>
+          <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_JUZmMOdTEeS8tbAGDCJLTw" name="executar_teste" guid="_JUZmMOdTEeS8tbAGDCJLTw" presentationName="Executar Teste" briefDescription="Esta tarefa consiste na execução dos testes no produto." superActivities="_2xhg4edSEeS8tbAGDCJLTw" linkToPredecessor="_DklG8ezVEeS-tszzIU7YEQ _UnrbkezVEeS-tszzIU7YEQ" mandatoryInput="_I70HFedTEeS8tbAGDCJLTw _JUshIOdTEeS8tbAGDCJLTw _I70HGedTEeS8tbAGDCJLTw" output="_I70HGedTEeS8tbAGDCJLTw" performedPrimarilyBy="_I70HEedTEeS8tbAGDCJLTw">
+            <methodElementProperty xmi:id="_JU_cEOdTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+            <Task href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_CrkxIJ9dEeKlCuxxakZHpg"/>
+            <selectedSteps href="uma://-8MCp-EbAc4vfxRZSNerKrw#_hFHicJ9dEeKlCuxxakZHpg"/>
+          </processElements>
+          <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_JUshIOdTEeS8tbAGDCJLTw" name="release_do_produto" guid="_JUshIOdTEeS8tbAGDCJLTw" presentationName="Release do Produto" briefDescription="Este artefato tem como objetivo juntar todos os casos de uso implementados durante a Sprint e gerar uma release do produto." isPlanned="false" superActivities="_2xhg4edSEeS8tbAGDCJLTw">
+            <methodElementProperty xmi:id="_JUshIedTEeS8tbAGDCJLTw" name="descriptor_createdByReference" value="true"/>
+            <methodElementProperty xmi:id="_JU_cEedTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+            <WorkProduct href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_5TuDMJ9XEeKlCuxxakZHpg"/>
+          </processElements>
+          <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_Js_FUOdTEeS8tbAGDCJLTw" name="reportar_defeitos" guid="_Js_FUOdTEeS8tbAGDCJLTw" presentationName="Reportar Defeitos" superActivities="_2xhg4edSEeS8tbAGDCJLTw" mandatoryInput="_I70HGedTEeS8tbAGDCJLTw" output="_I70HGedTEeS8tbAGDCJLTw" performedPrimarilyBy="_I70HE-dTEeS8tbAGDCJLTw _I70HEedTEeS8tbAGDCJLTw">
+            <methodElementProperty xmi:id="_JtbxQOdTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+            <Task href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_og-3EJ9dEeKlCuxxakZHpg"/>
+            <selectedSteps href="uma://-HJdj--Q3lvNGPvZIo3-5FQ#_2nYKAJ9dEeKlCuxxakZHpg"/>
+            <selectedSteps href="uma://-HJdj--Q3lvNGPvZIo3-5FQ#_GaHqAJ9eEeKlCuxxakZHpg"/>
+          </processElements>
+          <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_XYmj8edXEeS8tbAGDCJLTw" guid="_XYmj8edXEeS8tbAGDCJLTw" pred="_0RLrEedSEeS8tbAGDCJLTw"/>
+          <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_DklG8ezVEeS-tszzIU7YEQ" guid="_DklG8ezVEeS-tszzIU7YEQ" pred="_I70HEOdTEeS8tbAGDCJLTw"/>
+          <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_UnrbkezVEeS-tszzIU7YEQ" guid="_UnrbkezVEeS-tszzIU7YEQ" pred="_Js_FUOdTEeS8tbAGDCJLTw"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_7oNjAOdSEeS8tbAGDCJLTw" name="encerrar_sprint" guid="_7oNjAOdSEeS8tbAGDCJLTw">
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_7oNjAedSEeS8tbAGDCJLTw" name="encerrar_sprint" guid="_7oNjAedSEeS8tbAGDCJLTw" presentationName="Encerrar Sprint" superActivities="_kDxBQedSEeS8tbAGDCJLTw" linkToPredecessor="_X7eAcedXEeS8tbAGDCJLTw" breakdownElements="_LXFPoOdTEeS8tbAGDCJLTw _LXYKkOdTEeS8tbAGDCJLTw _LXYKkudTEeS8tbAGDCJLTw _LXYKlOdTEeS8tbAGDCJLTw _LXYKludTEeS8tbAGDCJLTw _vsgo8OzXEeS-tszzIU7YEQ _z9IwoezXEeS-tszzIU7YEQ"/>
+          <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_LXFPoOdTEeS8tbAGDCJLTw" name="realizar_reuniao_de_revisao_da_sprint" guid="_LXFPoOdTEeS8tbAGDCJLTw" presentationName="Realizar Reunião de Revisão da Sprint" briefDescription="Esta tarefa tem como objetivo realizar a reunião de revisão da Sprint com o intuito de inspecionar o incremento e adaptar o Backlog do Produto se necessário." superActivities="_7oNjAedSEeS8tbAGDCJLTw" mandatoryInput="_LXYKlOdTEeS8tbAGDCJLTw _LXYKludTEeS8tbAGDCJLTw" output="_LXYKludTEeS8tbAGDCJLTw" performedPrimarilyBy="_LXYKkOdTEeS8tbAGDCJLTw _LXYKkudTEeS8tbAGDCJLTw">
+            <methodElementProperty xmi:id="_LXh7kOdTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+            <Task href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_fxdswJ9eEeKlCuxxakZHpg"/>
+            <selectedSteps href="uma://-QLVpOKK9Uz8GKle63x6kCA#_oajCcJ9eEeKlCuxxakZHpg"/>
+          </processElements>
+          <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_LXYKkOdTEeS8tbAGDCJLTw" name="equipe_de_desenvolvimento" guid="_LXYKkOdTEeS8tbAGDCJLTw" presentationName="Equipe de desenvolvimento" briefDescription="A equipe de desenvolvimento corresponde a todos os envolvidos no desenvolvimento do produto." isPlanned="false" superActivities="_7oNjAedSEeS8tbAGDCJLTw" modifies="_LXYKludTEeS8tbAGDCJLTw">
+            <methodElementProperty xmi:id="_LXYKkedTEeS8tbAGDCJLTw" name="descriptor_createdByReference" value="true"/>
+            <methodElementProperty xmi:id="_LXh7lOdTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+            <Role href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_RYHWIJ7xEeKmqv_pnSPEzA"/>
+          </processElements>
+          <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_LXYKkudTEeS8tbAGDCJLTw" name="lider_tecnico" guid="_LXYKkudTEeS8tbAGDCJLTw" presentationName="Líder Técnico" briefDescription="O líder técnico é o responsável por gerenciar a equipe de desenvolvimento." isPlanned="false" superActivities="_7oNjAedSEeS8tbAGDCJLTw" modifies="_LXYKludTEeS8tbAGDCJLTw">
+            <methodElementProperty xmi:id="_LXYKk-dTEeS8tbAGDCJLTw" name="descriptor_createdByReference" value="true"/>
+            <methodElementProperty xmi:id="_LXh7kudTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+            <Role href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_SAFVEJ7xEeKmqv_pnSPEzA"/>
+          </processElements>
+          <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_LXYKlOdTEeS8tbAGDCJLTw" name="release_do_produto" guid="_LXYKlOdTEeS8tbAGDCJLTw" presentationName="Release do Produto" briefDescription="Este artefato tem como objetivo juntar todos os casos de uso implementados durante a Sprint e gerar uma release do produto." isPlanned="false" superActivities="_7oNjAedSEeS8tbAGDCJLTw">
+            <methodElementProperty xmi:id="_LXYKledTEeS8tbAGDCJLTw" name="descriptor_createdByReference" value="true"/>
+            <methodElementProperty xmi:id="_LXh7kedTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+            <WorkProduct href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_5TuDMJ9XEeKlCuxxakZHpg"/>
+          </processElements>
+          <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_LXYKludTEeS8tbAGDCJLTw" name="backlog_do_produto" guid="_LXYKludTEeS8tbAGDCJLTw" presentationName="Backlog do Produto" briefDescription="Neste artefato devem estar contidos todos os requisitos, uma breve descrição de cada um deles, os requisitos selecionados para cada Sprint e os impedimentos." isPlanned="false" superActivities="_7oNjAedSEeS8tbAGDCJLTw">
+            <methodElementProperty xmi:id="_LXYKl-dTEeS8tbAGDCJLTw" name="descriptor_createdByReference" value="true"/>
+            <methodElementProperty xmi:id="_LXh7k-dTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+            <templates href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_RRqd8J7zEeKmqv_pnSPEzA"/>
+            <WorkProduct href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_DSUOMJ7zEeKmqv_pnSPEzA"/>
+          </processElements>
+          <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_X7eAcedXEeS8tbAGDCJLTw" guid="_X7eAcedXEeS8tbAGDCJLTw" pred="_2xhg4edSEeS8tbAGDCJLTw"/>
+          <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_vsgo8OzXEeS-tszzIU7YEQ" name="realizar_reuniao_retrospectiva" guid="_vsgo8OzXEeS-tszzIU7YEQ" presentationName="Realizar Reunião de Retrospectiva" briefDescription="Esta tarefa tem o objetivo de realizar uma retrospectiva sobre os trabalhos realizados em uma sprint, com o intuito de identificar lições aprendidas que podem ser utilizadas em outras futuras sprints." superActivities="_7oNjAedSEeS8tbAGDCJLTw" linkToPredecessor="_dZujMezZEeS-tszzIU7YEQ" isSynchronizedWithSource="false" performedPrimarilyBy="_LXYKkOdTEeS8tbAGDCJLTw _z9IwoezXEeS-tszzIU7YEQ _LXYKkudTEeS8tbAGDCJLTw">
+            <methodElementProperty xmi:id="_z9Iwo-zXEeS-tszzIU7YEQ" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+            <Task href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_Rru88OzXEeS-tszzIU7YEQ"/>
+            <selectedSteps href="uma://-4E8ID2-LXib3w25A5w20xg#_6s3_EOzXEeS-tszzIU7YEQ"/>
+          </processElements>
+          <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_z9IwoezXEeS-tszzIU7YEQ" name="gerente_projeto" guid="_z9IwoezXEeS-tszzIU7YEQ" presentationName="Gerente de Projetos" briefDescription="Gerente de Projetos é o responsável por inspecionar o trabalho desenvolvido pelos integrantes do NPI. O exercício de tal função pode ser executada por um Professos Supervisor ou um Servidor Técnico-Administrativo." isPlanned="false" superActivities="_7oNjAedSEeS8tbAGDCJLTw">
+            <methodElementProperty xmi:id="_z9IwouzXEeS-tszzIU7YEQ" name="descriptor_createdByReference" value="true"/>
+            <methodElementProperty xmi:id="_z9IwpOzXEeS-tszzIU7YEQ" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+            <Role href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_RYHWIZ7xEeKmqv_pnSPEzA"/>
+          </processElements>
+          <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_dZujMezZEeS-tszzIU7YEQ" guid="_dZujMezZEeS-tszzIU7YEQ" pred="_LXFPoOdTEeS8tbAGDCJLTw"/>
+        </childPackages>
+        <processElements xsi:type="org.eclipse.epf.uma:Iteration" xmi:id="_kDxBQedSEeS8tbAGDCJLTw" name="sprint" guid="_kDxBQedSEeS8tbAGDCJLTw" presentationName="Sprint" superActivities="_ZJDAIedSEeS8tbAGDCJLTw" isRepeatable="true" linkToPredecessor="_k3a2EezUEeS-tszzIU7YEQ" breakdownElements="_r5MFYedSEeS8tbAGDCJLTw _wnPI4edSEeS8tbAGDCJLTw _0RLrEedSEeS8tbAGDCJLTw _2xhg4edSEeS8tbAGDCJLTw _7oNjAedSEeS8tbAGDCJLTw"/>
+        <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_k3a2EezUEeS-tszzIU7YEQ" guid="_k3a2EezUEeS-tszzIU7YEQ" pred="_fV3uwedSEeS8tbAGDCJLTw"/>
+      </childPackages>
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_ZJDAIedSEeS8tbAGDCJLTw" name="desenvolvimento" guid="_ZJDAIedSEeS8tbAGDCJLTw" presentationName="Desenvolvimento" superActivities="__FdicedREeS8tbAGDCJLTw" linkToPredecessor="_GASCcezXEeS-tszzIU7YEQ" breakdownElements="_fV3uwedSEeS8tbAGDCJLTw _kDxBQedSEeS8tbAGDCJLTw">
+        <methodElementProperty xmi:id="_PC0UoO5xEeSQzM_psz_6cw" name="wbe_GlobalPresentedAfter" value="_Is4IoedSEeS8tbAGDCJLTw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_GASCcezXEeS-tszzIU7YEQ" guid="_GASCcezXEeS-tszzIU7YEQ" pred="_Is4IoedSEeS8tbAGDCJLTw"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_NN188OdTEeS8tbAGDCJLTw" name="gerenciamento_do_projeto" guid="_NN188OdTEeS8tbAGDCJLTw">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_NN188edTEeS8tbAGDCJLTw" name="gerenciamento_do_projeto" guid="_NN188edTEeS8tbAGDCJLTw" presentationName="Gerenciamento do Projeto" superActivities="__FdicedREeS8tbAGDCJLTw" linkToPredecessor="_GASCcOzXEeS-tszzIU7YEQ" breakdownElements="_STSMwOdTEeS8tbAGDCJLTw _STb9wOdTEeS8tbAGDCJLTw _STlHsOdTEeS8tbAGDCJLTw _SlUX8OdTEeS8tbAGDCJLTw _SlnS4OdTEeS8tbAGDCJLTw _SlnS4udTEeS8tbAGDCJLTw _S3yoAOdTEeS8tbAGDCJLTw _S4GKAOdTEeS8tbAGDCJLTw _TOl-cOdTEeS8tbAGDCJLTw _TO45YOdTEeS8tbAGDCJLTw">
+        <methodElementProperty xmi:id="_PC0Uoe5xEeSQzM_psz_6cw" name="wbe_GlobalPresentedAfter" value="_ZJDAIedSEeS8tbAGDCJLTw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_STSMwOdTEeS8tbAGDCJLTw" name="elaborar_plano_projeto" guid="_STSMwOdTEeS8tbAGDCJLTw" presentationName="Elaborar Plano de Projeto" briefDescription="Esta atividade é responsável pela elaboração do Plano de Projeto a ser utilizado durante a execução do projeto." superActivities="_NN188edTEeS8tbAGDCJLTw" output="_STlHsOdTEeS8tbAGDCJLTw" performedPrimarilyBy="_STb9wOdTEeS8tbAGDCJLTw">
+        <methodElementProperty xmi:id="_STu4sOdTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <Task href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_9M89gN3hEeSGCJOE1I0hFA"/>
+        <selectedSteps href="uma://-BRPEee3bdWKVAHB8VXSXSw#_txwvsONkEeSJhp8Bfao2RA"/>
+        <selectedSteps href="uma://-BRPEee3bdWKVAHB8VXSXSw#_H5b70ONoEeSJhp8Bfao2RA"/>
+        <selectedSteps href="uma://-BRPEee3bdWKVAHB8VXSXSw#_YmKlkONtEeSJhp8Bfao2RA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_STb9wOdTEeS8tbAGDCJLTw" name="gerente_projeto" guid="_STb9wOdTEeS8tbAGDCJLTw" presentationName="Gerente de Projetos" briefDescription="Gerente de Projetos é o responsável por inspecionar o trabalho desenvolvido pelos integrantes do NPI. O exercício de tal função pode ser executada por um Professos Supervisor ou um Servidor Técnico-Administrativo." isPlanned="false" superActivities="_NN188edTEeS8tbAGDCJLTw" modifies="_SlnS4udTEeS8tbAGDCJLTw _STlHsOdTEeS8tbAGDCJLTw">
+        <methodElementProperty xmi:id="_STb9wedTEeS8tbAGDCJLTw" name="descriptor_createdByReference" value="true"/>
+        <methodElementProperty xmi:id="_STu4sudTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <Role href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_RYHWIZ7xEeKmqv_pnSPEzA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_STlHsOdTEeS8tbAGDCJLTw" name="plano_projeto" guid="_STlHsOdTEeS8tbAGDCJLTw" presentationName="Plano de Projeto" isPlanned="false" superActivities="_NN188edTEeS8tbAGDCJLTw">
+        <methodElementProperty xmi:id="_STlHsedTEeS8tbAGDCJLTw" name="descriptor_createdByReference" value="true"/>
+        <methodElementProperty xmi:id="_STu4sedTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <templates href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_JY98gN3kEeSGCJOE1I0hFA"/>
+        <WorkProduct href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_GkH2UN3kEeSGCJOE1I0hFA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_SlUX8OdTEeS8tbAGDCJLTw" name="realizar_reuniao_de_kickoff" guid="_SlUX8OdTEeS8tbAGDCJLTw" presentationName="Realizar Reunião de Kickoff" briefDescription="Esta tarefa tem como objetivo realizar uma reunião de kickoff com o intuito de apresentar os projetos aos integrantes do NPI, bem como alocar os recursos necessários para cada projeto e escolher os líderes técnicos." superActivities="_NN188edTEeS8tbAGDCJLTw" linkToPredecessor="_pUkk0edYEeS8tbAGDCJLTw" output="_SlnS4udTEeS8tbAGDCJLTw" performedPrimarilyBy="_SlnS4OdTEeS8tbAGDCJLTw _STb9wOdTEeS8tbAGDCJLTw">
+        <methodElementProperty xmi:id="_SlxD4OdTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <Task href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_0eQIAN3hEeSGCJOE1I0hFA"/>
+        <selectedSteps href="uma://-zB3HaOZx5waI6o1-kJ_Q9A#_0eQIAd3hEeSGCJOE1I0hFA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_SlnS4OdTEeS8tbAGDCJLTw" name="equipe_de_desenvolvimento" guid="_SlnS4OdTEeS8tbAGDCJLTw" presentationName="Equipe de desenvolvimento" briefDescription="A equipe de desenvolvimento corresponde a todos os envolvidos no desenvolvimento do produto." isPlanned="false" superActivities="_NN188edTEeS8tbAGDCJLTw" modifies="_TO45YOdTEeS8tbAGDCJLTw _SlnS4udTEeS8tbAGDCJLTw">
+        <methodElementProperty xmi:id="_SlnS4edTEeS8tbAGDCJLTw" name="descriptor_createdByReference" value="true"/>
+        <methodElementProperty xmi:id="_SlxD4edTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <Role href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_RYHWIJ7xEeKmqv_pnSPEzA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_SlnS4udTEeS8tbAGDCJLTw" name="ata_de_reuniao" guid="_SlnS4udTEeS8tbAGDCJLTw" presentationName="Ata de Reunião" briefDescription="Documento onde deve constar tudo o que foi dito durante a reunião e todos os participantes." isPlanned="false" superActivities="_NN188edTEeS8tbAGDCJLTw">
+        <methodElementProperty xmi:id="_SlnS4-dTEeS8tbAGDCJLTw" name="descriptor_createdByReference" value="true"/>
+        <methodElementProperty xmi:id="_SlxD4udTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <templates href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_sEjaEKMDEeKxb_kPDqZn7A"/>
+        <WorkProduct href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_T0tHsJ4dEeKP--IVqMl63w"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_S3yoAOdTEeS8tbAGDCJLTw" name="realizar_reuniao_de_status_do_npi" guid="_S3yoAOdTEeS8tbAGDCJLTw" presentationName="Realizar Reunião de Status do NPI" briefDescription="A reunião de status do NPI é uma reunião semanal com todos os integrantes dos projetos, que tem como intuito compartilhar as dificuldades e os conhecimentos individuais entre os participantes." superActivities="_NN188edTEeS8tbAGDCJLTw" linkToPredecessor="_sZtw0edYEeS8tbAGDCJLTw" performedPrimarilyBy="_S4GKAOdTEeS8tbAGDCJLTw _SlnS4OdTEeS8tbAGDCJLTw _STb9wOdTEeS8tbAGDCJLTw">
+        <methodElementProperty xmi:id="_S4PT8OdTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <Task href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_y0TSoJ-tEeKL2OX-ZFDXHA"/>
+        <selectedSteps href="uma://-aPKuhv09SSMpHL3tyry5cg#_WXCLUJ-uEeKL2OX-ZFDXHA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_S4GKAOdTEeS8tbAGDCJLTw" name="lider_tecnico" guid="_S4GKAOdTEeS8tbAGDCJLTw" presentationName="Líder Técnico" briefDescription="O líder técnico é o responsável por gerenciar a equipe de desenvolvimento." isPlanned="false" superActivities="_NN188edTEeS8tbAGDCJLTw" modifies="_TO45YOdTEeS8tbAGDCJLTw">
+        <methodElementProperty xmi:id="_S4GKAedTEeS8tbAGDCJLTw" name="descriptor_createdByReference" value="true"/>
+        <methodElementProperty xmi:id="_S4PT8edTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <Role href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_SAFVEJ7xEeKmqv_pnSPEzA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_TOl-cOdTEeS8tbAGDCJLTw" name="realizar_reuniao_diaria" guid="_TOl-cOdTEeS8tbAGDCJLTw" presentationName="Realizar Reunião Diária" briefDescription="Devem ser realizadas reuniões diárias com o intuito de que a equipe discuta sobre as atividades que estão sendo desenvolvidas e os seus impedimentos. A reunião deve durar no máximo 15 minutos." superActivities="_NN188edTEeS8tbAGDCJLTw" linkToPredecessor="_s6MnsedYEeS8tbAGDCJLTw" optionalInput="_TO45YOdTEeS8tbAGDCJLTw" output="_TO45YOdTEeS8tbAGDCJLTw" performedPrimarilyBy="_SlnS4OdTEeS8tbAGDCJLTw _S4GKAOdTEeS8tbAGDCJLTw">
+        <methodElementProperty xmi:id="_TPCqYOdTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <Task href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_8kC48J-uEeKL2OX-ZFDXHA"/>
+        <selectedSteps href="uma://-cbv73Mn_8_NFJZh8dpfmzw#_J5SbwJ-vEeKL2OX-ZFDXHA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_TO45YOdTEeS8tbAGDCJLTw" name="backlog_do_produto" guid="_TO45YOdTEeS8tbAGDCJLTw" presentationName="Backlog do Produto" briefDescription="Neste artefato devem estar contidos todos os requisitos, uma breve descrição de cada um deles, os requisitos selecionados para cada Sprint e os impedimentos." isPlanned="false" superActivities="_NN188edTEeS8tbAGDCJLTw">
+        <methodElementProperty xmi:id="_TO45YedTEeS8tbAGDCJLTw" name="descriptor_createdByReference" value="true"/>
+        <methodElementProperty xmi:id="_TPL0UOdTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <templates href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_RRqd8J7zEeKmqv_pnSPEzA"/>
+        <WorkProduct href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_DSUOMJ7zEeKmqv_pnSPEzA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_pUkk0edYEeS8tbAGDCJLTw" guid="_pUkk0edYEeS8tbAGDCJLTw" pred="_STSMwOdTEeS8tbAGDCJLTw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_sZtw0edYEeS8tbAGDCJLTw" guid="_sZtw0edYEeS8tbAGDCJLTw" pred="_SlUX8OdTEeS8tbAGDCJLTw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_s6MnsedYEeS8tbAGDCJLTw" guid="_s6MnsedYEeS8tbAGDCJLTw" pred="_SlUX8OdTEeS8tbAGDCJLTw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_GASCcOzXEeS-tszzIU7YEQ" guid="_GASCcOzXEeS-tszzIU7YEQ" pred="_Is4IoedSEeS8tbAGDCJLTw"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_U_15oOdTEeS8tbAGDCJLTw" name="gerenciamento_de_configuracao" guid="_U_15oOdTEeS8tbAGDCJLTw">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_U_15oedTEeS8tbAGDCJLTw" name="gerenciamento_de_configuracao" guid="_U_15oedTEeS8tbAGDCJLTw" presentationName="Gerenciamento de Configuração" superActivities="__FdicedREeS8tbAGDCJLTw" linkToPredecessor="_GAIRcezXEeS-tszzIU7YEQ" breakdownElements="_ZBoUEOdTEeS8tbAGDCJLTw _ZB7PAOdTEeS8tbAGDCJLTw _ZB7PAudTEeS8tbAGDCJLTw _ZB7PBOdTEeS8tbAGDCJLTw _ZB7PBudTEeS8tbAGDCJLTw _ZZ64QOdTEeS8tbAGDCJLTw">
+        <methodElementProperty xmi:id="_PcmtoO5xEeSQzM_psz_6cw" name="wbe_GlobalPresentedAfter" value="_NN188edTEeS8tbAGDCJLTw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_ZBoUEOdTEeS8tbAGDCJLTw" name="criar_plano_de_gerenciamento_de_configuracao" guid="_ZBoUEOdTEeS8tbAGDCJLTw" presentationName="Criar Plano de Gerenciamento de Configuração" briefDescription="O Plano de Gerenciamento de Configuração descreve todas as atividades relacionadas ao Gerenciamento de Configuração a serem realizadas no decorrer do ciclo de vida do produto/projeto." superActivities="_U_15oedTEeS8tbAGDCJLTw" additionallyPerformedBy="_ZB7PAudTEeS8tbAGDCJLTw" mandatoryInput="_ZB7PBOdTEeS8tbAGDCJLTw" output="_ZB7PBudTEeS8tbAGDCJLTw" performedPrimarilyBy="_ZB7PAOdTEeS8tbAGDCJLTw">
+        <methodElementProperty xmi:id="_ZCFAAOdTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <Task href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_oFP8sJ-yEeKL2OX-ZFDXHA"/>
+        <selectedSteps href="uma://-Esu8vpe5n34EPHnrgYxH1A#__jGHMJ-yEeKL2OX-ZFDXHA"/>
+        <selectedSteps href="uma://-Esu8vpe5n34EPHnrgYxH1A#_SMo1MJ-zEeKL2OX-ZFDXHA"/>
+        <selectedSteps href="uma://-Esu8vpe5n34EPHnrgYxH1A#_tDBBwJ-zEeKL2OX-ZFDXHA"/>
+        <selectedSteps href="uma://-Esu8vpe5n34EPHnrgYxH1A#_piBKwJ-0EeKL2OX-ZFDXHA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_ZB7PAOdTEeS8tbAGDCJLTw" name="lider_tecnico" guid="_ZB7PAOdTEeS8tbAGDCJLTw" presentationName="Líder Técnico" briefDescription="O líder técnico é o responsável por gerenciar a equipe de desenvolvimento." isPlanned="false" superActivities="_U_15oedTEeS8tbAGDCJLTw" modifies="_ZB7PBudTEeS8tbAGDCJLTw">
+        <methodElementProperty xmi:id="_ZB7PAedTEeS8tbAGDCJLTw" name="descriptor_createdByReference" value="true"/>
+        <methodElementProperty xmi:id="_ZCFAA-dTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <Role href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_SAFVEJ7xEeKmqv_pnSPEzA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_ZB7PAudTEeS8tbAGDCJLTw" name="equipe_de_desenvolvimento" guid="_ZB7PAudTEeS8tbAGDCJLTw" presentationName="Equipe de desenvolvimento" briefDescription="A equipe de desenvolvimento corresponde a todos os envolvidos no desenvolvimento do produto." isPlanned="false" superActivities="_U_15oedTEeS8tbAGDCJLTw">
+        <methodElementProperty xmi:id="_ZB7PA-dTEeS8tbAGDCJLTw" name="descriptor_createdByReference" value="true"/>
+        <methodElementProperty xmi:id="_ZCFAAedTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <Role href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_RYHWIJ7xEeKmqv_pnSPEzA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_ZB7PBOdTEeS8tbAGDCJLTw" name="plano_gerenciamento_configuracao_modelo" guid="_ZB7PBOdTEeS8tbAGDCJLTw" presentationName="Modelo de Plano de Gerenciamento de Configuração" briefDescription="Exemplo de um Plano de Gerenciamento de Configuração utilizado em um projeto.&#x9;" isPlanned="false" superActivities="_U_15oedTEeS8tbAGDCJLTw">
+        <methodElementProperty xmi:id="_ZB7PBedTEeS8tbAGDCJLTw" name="descriptor_createdByReference" value="true"/>
+        <methodElementProperty xmi:id="_ZCFABOdTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <examples href="uma://_YyU1EJ4ZEeKP--IVqMl63w#__2qwkOKpEeSbpvcRMx_OSQ"/>
+        <WorkProduct href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_pDn2kOKpEeSbpvcRMx_OSQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_ZB7PBudTEeS8tbAGDCJLTw" name="plano_de_gerenciamento_de_configuracao" guid="_ZB7PBudTEeS8tbAGDCJLTw" presentationName="Plano de Gerenciamento de Configuração" briefDescription="O Plano de Gerenciamento de Configuração descreve todas as atividades relacionadas ao Gerenciamento de Configuração a serem realizadas no decorrer do ciclo de vida do produto/projeto." isPlanned="false" superActivities="_U_15oedTEeS8tbAGDCJLTw">
+        <methodElementProperty xmi:id="_ZB7PB-dTEeS8tbAGDCJLTw" name="descriptor_createdByReference" value="true"/>
+        <methodElementProperty xmi:id="_ZCFAAudTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <templates href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_TgtCIJ_UEeKL2OX-ZFDXHA"/>
+        <WorkProduct href="uma://_YyU1EJ4ZEeKP--IVqMl63w#__U0iAJ-vEeKL2OX-ZFDXHA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_ZZ64QOdTEeS8tbAGDCJLTw" name="estabelecer_um_sistema_de_gestao_de_configuracao" guid="_ZZ64QOdTEeS8tbAGDCJLTw" presentationName="Estabelecer um Sistema de Gestão de Configuração" superActivities="_U_15oedTEeS8tbAGDCJLTw" linkToPredecessor="_6Tm40edYEeS8tbAGDCJLTw" additionallyPerformedBy="_ZB7PAudTEeS8tbAGDCJLTw" mandatoryInput="_ZB7PBudTEeS8tbAGDCJLTw" performedPrimarilyBy="_ZB7PAOdTEeS8tbAGDCJLTw">
+        <methodElementProperty xmi:id="_ZaXkMOdTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <Task href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_FP2jwJ-1EeKL2OX-ZFDXHA"/>
+        <selectedSteps href="uma://-PgJCaSvPrJP-PMadcStXgQ#_A8t3oJ_WEeKL2OX-ZFDXHA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_6Tm40edYEeS8tbAGDCJLTw" guid="_6Tm40edYEeS8tbAGDCJLTw" pred="_ZBoUEOdTEeS8tbAGDCJLTw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_GAIRcezXEeS-tszzIU7YEQ" guid="_GAIRcezXEeS-tszzIU7YEQ" pred="_Is4IoedSEeS8tbAGDCJLTw"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_b1fi0OdTEeS8tbAGDCJLTw" name="encerrar_projeto" guid="_b1fi0OdTEeS8tbAGDCJLTw">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_b1fi0edTEeS8tbAGDCJLTw" name="encerrar_projeto" guid="_b1fi0edTEeS8tbAGDCJLTw" presentationName="Encerrar Projeto" superActivities="__FdicedREeS8tbAGDCJLTw" linkToPredecessor="_I0nLQezXEeS-tszzIU7YEQ _I0nLQuzXEeS-tszzIU7YEQ _I0nLQ-zXEeS-tszzIU7YEQ _I0nLROzXEeS-tszzIU7YEQ" breakdownElements="_fk83IOdTEeS8tbAGDCJLTw _f2_CUOdTEeS8tbAGDCJLTw _f3R9QOdTEeS8tbAGDCJLTw _f3R9QudTEeS8tbAGDCJLTw _f3R9ROdTEeS8tbAGDCJLTw _f3R9SOdTEeS8tbAGDCJLTw">
+        <methodElementProperty xmi:id="_PxTyUO5xEeSQzM_psz_6cw" name="wbe_GlobalPresentedAfter" value="_U_15oedTEeS8tbAGDCJLTw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_fk83IOdTEeS8tbAGDCJLTw" name="equipe_de_desenvolvimento" guid="_fk83IOdTEeS8tbAGDCJLTw" presentationName="Equipe de desenvolvimento" briefDescription="A equipe de desenvolvimento corresponde a todos os envolvidos no desenvolvimento do produto." isPlanned="false" superActivities="_b1fi0edTEeS8tbAGDCJLTw">
+        <methodElementProperty xmi:id="_fk83IedTEeS8tbAGDCJLTw" name="descriptor_createdByReference" value="true"/>
+        <methodElementProperty xmi:id="_flGoIudTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <Role href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_RYHWIJ7xEeKmqv_pnSPEzA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_f2_CUOdTEeS8tbAGDCJLTw" name="realizar_reuniao_de_encerramento_do_projeto" guid="_f2_CUOdTEeS8tbAGDCJLTw" presentationName="Realizar Reunião de Encerramento do Projeto" briefDescription="Esta tarefa tem como objetivo encerrar todas as atividades do projeto." superActivities="_b1fi0edTEeS8tbAGDCJLTw" linkToPredecessor="_EIc3AedZEeS8tbAGDCJLTw" mandatoryInput="_f3R9SOdTEeS8tbAGDCJLTw" performedPrimarilyBy="_f3R9QOdTEeS8tbAGDCJLTw _f3R9QudTEeS8tbAGDCJLTw _f3R9ROdTEeS8tbAGDCJLTw _fk83IOdTEeS8tbAGDCJLTw">
+        <methodElementProperty xmi:id="_f3k4MOdTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <Task href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_BpUvsJ-6EeKL2OX-ZFDXHA"/>
+        <selectedSteps href="uma://-psM-XJxaH10pBuWYK97vmA#_J49DkJ-6EeKL2OX-ZFDXHA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_f3R9QOdTEeS8tbAGDCJLTw" name="lider_tecnico" guid="_f3R9QOdTEeS8tbAGDCJLTw" presentationName="Líder Técnico" briefDescription="O líder técnico é o responsável por gerenciar a equipe de desenvolvimento." isPlanned="false" superActivities="_b1fi0edTEeS8tbAGDCJLTw">
+        <methodElementProperty xmi:id="_f3R9QedTEeS8tbAGDCJLTw" name="descriptor_createdByReference" value="true"/>
+        <methodElementProperty xmi:id="_f3k4M-dTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <Role href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_SAFVEJ7xEeKmqv_pnSPEzA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_f3R9QudTEeS8tbAGDCJLTw" name="gerente_projeto" guid="_f3R9QudTEeS8tbAGDCJLTw" presentationName="Gerente de Projetos" briefDescription="Gerente de Projetos é o responsável por inspecionar o trabalho desenvolvido pelos integrantes do NPI. O exercício de tal função pode ser executada por um Professos Supervisor ou um Servidor Técnico-Administrativo." isPlanned="false" superActivities="_b1fi0edTEeS8tbAGDCJLTw">
+        <methodElementProperty xmi:id="_f3R9Q-dTEeS8tbAGDCJLTw" name="descriptor_createdByReference" value="true"/>
+        <methodElementProperty xmi:id="_f3k4NOdTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <Role href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_RYHWIZ7xEeKmqv_pnSPEzA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_f3R9ROdTEeS8tbAGDCJLTw" name="cliente" guid="_f3R9ROdTEeS8tbAGDCJLTw" presentationName="Cliente" briefDescription="O cliente é o dono do produto." isPlanned="false" superActivities="_b1fi0edTEeS8tbAGDCJLTw">
+        <methodElementProperty xmi:id="_f3R9RedTEeS8tbAGDCJLTw" name="descriptor_createdByReference" value="true"/>
+        <methodElementProperty xmi:id="_f3k4MudTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <Role href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_5jjKMJ7vEeKmqv_pnSPEzA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_f3R9SOdTEeS8tbAGDCJLTw" name="backlog_do_produto" guid="_f3R9SOdTEeS8tbAGDCJLTw" presentationName="Backlog do Produto" briefDescription="Neste artefato devem estar contidos todos os requisitos, uma breve descrição de cada um deles, os requisitos selecionados para cada Sprint e os impedimentos." isPlanned="false" superActivities="_b1fi0edTEeS8tbAGDCJLTw">
+        <methodElementProperty xmi:id="_f3R9SedTEeS8tbAGDCJLTw" name="descriptor_createdByReference" value="true"/>
+        <methodElementProperty xmi:id="_f3k4MedTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <templates href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_RRqd8J7zEeKmqv_pnSPEzA"/>
+        <WorkProduct href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_DSUOMJ7zEeKmqv_pnSPEzA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_EIc3AedZEeS8tbAGDCJLTw" guid="_EIc3AedZEeS8tbAGDCJLTw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_I0nLQezXEeS-tszzIU7YEQ" guid="_I0nLQezXEeS-tszzIU7YEQ" pred="_N4bngedSEeS8tbAGDCJLTw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_I0nLQuzXEeS-tszzIU7YEQ" guid="_I0nLQuzXEeS-tszzIU7YEQ" pred="_U_15oedTEeS8tbAGDCJLTw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_I0nLQ-zXEeS-tszzIU7YEQ" guid="_I0nLQ-zXEeS-tszzIU7YEQ" pred="_NN188edTEeS8tbAGDCJLTw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_I0nLROzXEeS-tszzIU7YEQ" guid="_I0nLROzXEeS-tszzIU7YEQ" pred="_ZJDAIedSEeS8tbAGDCJLTw"/>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:DeliveryProcess" xmi:id="__FdicedREeS8tbAGDCJLTw" name="processo_npi" guid="__FdicedREeS8tbAGDCJLTw" presentationName="Processo NPI" briefDescription="Processo de Desenvolvimento - Núcleo de Práticas em Informática (NPI)&#xD;&#xA;UFC Campus Quixadá" breakdownElements="_Is4IoedSEeS8tbAGDCJLTw _ZJDAIedSEeS8tbAGDCJLTw _NN188edTEeS8tbAGDCJLTw _U_15oedTEeS8tbAGDCJLTw _b1fi0edTEeS8tbAGDCJLTw _N4bngedSEeS8tbAGDCJLTw">
+      <presentation xmi:id="-1VutHz3AmMVr18DQwVm4zw" href="uma://-1VutHz3AmMVr18DQwVm4zw#-1VutHz3AmMVr18DQwVm4zw"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

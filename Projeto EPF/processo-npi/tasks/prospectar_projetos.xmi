@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-HbuFbOu4ly2YDmVfDzRK4g" name="prospectar_projetos,_B2fEEJ4cEeKP--IVqMl63w" guid="-HbuFbOu4ly2YDmVfDzRK4g">
+  <sections xmi:id="_E0PbUJ7wEeKmqv_pnSPEzA" name="1) Prospecção de Projetos" guid="_E0PbUJ7wEeKmqv_pnSPEzA">
+    <sectionDescription>&lt;p>&#xD;
+    O&amp;nbsp;Gerente de Projetos&amp;nbsp;é o responsável pelo Núcleo de Práticas de Informática (NPI) e este deverá prospectar&#xD;
+    projetos. O mesmo terá encontros com possíveis fornecedores de projetos e será responsável por captar projetos. O&#xD;
+    ambiente para acompanhamento do andamento deste processo será feito via à atribuição de Tarefas no Redmine.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_mC6WIOHOEeSCFZZmwbxJwQ" name="2) Atualização das Informações dos Projetos Prospectados" guid="_mC6WIOHOEeSCFZZmwbxJwQ">
+    <sectionDescription>&lt;p>&#xD;
+    Neste passo, o&amp;nbsp;Gerente de Projetos&amp;nbsp;é responsável pela criação da tarefa referente à Reunião de Prospecção de&#xD;
+    Projetos realizada. Para uma melhor identificação deste processo, o Tipo da Tarefa deve ser do tipo PROPOSTA, e deve&#xD;
+    ser informado as seguintes informações no conteúdo da Tarefa: Nome do Projeto Candidato à Execução, Descrição do&#xD;
+    Projeto, Fornecedor e as&amp;nbsp;Pessoas presentes na Reunião realizada.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+</org.eclipse.epf.uma:TaskDescription>
