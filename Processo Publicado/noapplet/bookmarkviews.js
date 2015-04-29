@@ -14,7 +14,7 @@
 
 // messages to be externized
 // here defines all the I18N specific messages used in the javascripts
-var bookmarkviews_js_MESSAGE1 = "This page could not be found in the navigation tree view.";
+var bookmarkviews_js_MESSAGE1 = "Esta página não pôde ser localizada na visualização da árvore de navegação.";
 
 function displayTree(tab)
 {
@@ -181,3 +181,4 @@ var viewTabs = new Array();;
 var loadingTabIndex = 0;
 var topicToDisplay = null;
 var isViewsVisible = true;
+

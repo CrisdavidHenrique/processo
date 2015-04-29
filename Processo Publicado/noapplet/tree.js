@@ -26,7 +26,7 @@ var tocId = "";
 function onloadHandler()
 {
 	return;
-	tocTitle = 'Workbench\u0020User\u0020Guide';
+	tocTitle = 'Guia do\u0020Usuário\u0020do Ambiente de Trabalho';
 	var tocTopic = "about:blank";
 
 	// set title on the content toolbar
@@ -101,3 +101,4 @@ function onunloadHandler() {
 	document.body.innerHTML = "";
 
 }
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-euG54iEYKYLMQ2BbfwNTsQ" name="processo_NPI,_CjaZkZ_fEeKXVfFSQZDMbA" guid="-euG54iEYKYLMQ2BbfwNTsQ"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-jGhb_X2RXfTV3NJUErzYCw" name="documento_de_especificacao_dos_requisitos,_BzUuhJ_hEeKXVfFSQZDMbA" guid="-jGhb_X2RXfTV3NJUErzYCw">
+    <refinedDescription>Será utilizado caso o nível de detalhamento do Documento de Visão não seja suficiente para definir o backlog do produto. O&#xD;
+Documento de Visão pode já ser suficiente caso os requisitos descritos possam dar uma boa base para criar o backlog do&#xD;
+produto.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

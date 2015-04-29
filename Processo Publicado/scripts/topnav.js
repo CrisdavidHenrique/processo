@@ -12,14 +12,14 @@
 // messages to be externized
 // here defines all the I18N specific messages used in the javascripts
 
-var topnav_js_MESSAGE1 = "The TreeBrowse is not yet loaded!\nPlease wait!";
-var topnav_js_MESSAGE2 = "There is no '{0}' page for this page.\nTry one of the other navigation buttons.";
-var topnav_js_MESSAGE3 = "There is no {0} page!";
-var topnav_js_MESSAGE_prev = "previous";
-var topnav_js_MESSAGE_next = "next";
-var topnav_js_MESSAGE_up = "up";
-var topnav_js_MESSAGE4 = "The current file is not in the tree browser.";
-var topnav_js_MESSAGE5 = "The published site is already displayed using frames";
+var topnav_js_MESSAGE1 = "O TreeBrowse não foi carregado ainda!\nAguarde!";
+var topnav_js_MESSAGE2 = "Não há página '{0}' para esta página.\nTente um dos outros botões de navegação.";
+var topnav_js_MESSAGE3 = "Não há página {0}!";
+var topnav_js_MESSAGE_prev = "anterior ";
+var topnav_js_MESSAGE_next = "próximo ";
+var topnav_js_MESSAGE_up = "para cima";
+var topnav_js_MESSAGE4 = "O arquivo atual não está na árvore de navegação.";
+var topnav_js_MESSAGE5 = "O site publicado já está sendo exibido utilizando quadros";
 
 function formatString(message, replace0)
 {
@@ -807,3 +807,4 @@ function buildTreePathLocation()
 	return theLoc;
 
 }
+

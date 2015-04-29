@@ -10,8 +10,8 @@
 //------------------------------------------------------------------------------
 
 // Here defines all the I18N specific messages used in the javascripts
-var treebrowser_js_MESSAGE1 = "The configuration is already displayed using views";
-var treebrowser_js_MESSAGE2 = "Display views";
+var treebrowser_js_MESSAGE1 = "A configuração já é exibida utilizando visualizações";
+var treebrowser_js_MESSAGE2 = "Exibir visualizações";
 var treebrowser_js_MESSAGE3 = "Home";
 
 function loadTop()
@@ -93,3 +93,4 @@ if (ory_toc_exist == "undefined") {
 else {
 	document.write("&nbsp;");
 }
+
