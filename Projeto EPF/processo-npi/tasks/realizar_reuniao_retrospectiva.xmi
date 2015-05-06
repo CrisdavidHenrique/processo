@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-4E8ID2-LXib3w25A5w20xg" name=",_Rru88OzXEeS-tszzIU7YEQ" guid="-4E8ID2-LXib3w25A5w20xg">
   <sections xmi:id="_6s3_EOzXEeS-tszzIU7YEQ" name="1) Apresentação de Lições Aprendidas" guid="_6s3_EOzXEeS-tszzIU7YEQ">
-    <sectionDescription>Neste passo, os participantes da reunião expõem com os demais presentes as Lições aprendidas que cada um identificou&#xD;
-durante a execução da Sprint. Para cada lição aprendida deve ser apresentado o contexto em que ela foi ~identificada, o&#xD;
-problema que ela relaciona-se e as atividades que foram realizadas para resolver o problema.</sectionDescription>
+    <sectionDescription>Neste passo, os participantes da reunião expõem seus comentários, juntamente com os demais presentes na reunião, a respeito&#xD;
+das Lições aprendidas que cada um identificou durante a execução da Sprint. Para cada lição aprendida deve ser apresentado&#xD;
+o contexto em que ela&amp;nbsp;foi identificada, o problema que ela relaciona-se e as atividades que foram realizadas para&#xD;
+resolver o problema.</sectionDescription>
   </sections>
 </org.eclipse.epf.uma:TaskDescription>

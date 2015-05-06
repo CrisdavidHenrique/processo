@@ -3,27 +3,28 @@
   <sections xmi:id="_lq9eEJ8OEeKHC_1kKuVVig" name="1) Informações gerais sobre a especificação dos casos de uso  " guid="_lq9eEJ8OEeKHC_1kKuVVig">
     <sectionDescription>&lt;p&#xD;
 style=&quot;TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; LETTER-SPACING: normal; COLOR: rgb(0,0,0); WORD-SPACING: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px&quot;>&#xD;
-    A equipe de desenvolvimento irá especificar os casos de uso baseado nos requisitos selecionados para a sprint e estes&#xD;
-    estão contidos no product backlog.&#xD;
+    A equipe de desenvolvimento irá especificar os casos de uso com base nos requisitos selecionados para a sprint,&#xD;
+    requisitos que estão&amp;nbsp;contidos no Backlog do Produto.&#xD;
 &lt;/p>&#xD;
 &lt;p&#xD;
 style=&quot;TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; LETTER-SPACING: normal; COLOR: rgb(0,0,0); WORD-SPACING: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px&quot;>&#xD;
-    Os casos de uso devem ser construídos baseados no template de casos de uso do tipo&amp;nbsp;CRUD, Relatório, que podem&#xD;
-    ser&amp;nbsp;Genérico&amp;nbsp;ou Específico, e Modelo de Casos de Uso Complementar&amp;nbsp;&#xD;
+    &lt;br />&#xD;
+    Os casos de uso devem ser construídos baseados nos templates de casos de uso do tipo CRUD, e Modelo de Casos de Uso&#xD;
+    Complementar.&#xD;
 &lt;/p>&#xD;
 &lt;p&#xD;
 style=&quot;TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; LETTER-SPACING: normal; COLOR: rgb(0,0,0); WORD-SPACING: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px&quot;>&#xD;
-    O caso de uso CRUD Genérico tem como objetivo simplificar e apresentar um caso base de&amp;nbsp;um CRUD simples e&amp;nbsp;o&#xD;
-    caso de uso Relatório Genérico tem como objetivo simplificar e apresentar um caso base de um Relatório gerado na&#xD;
-    plataforma Entities. E o Modelo de Casos de Uso Complementar como o meio pelo qual ocorre o detalhamento das&#xD;
-    informações de uma caso de uso genérico.&#xD;
+    &lt;br />&#xD;
+    O caso de uso CRUD Genérico tem como objetivo simplificar e apresentar um caso base de um CRUD simples e o Modelo de&#xD;
+    Casos de Uso Complementar como o meio pelo qual ocorre o detalhamento das informações de um caso de uso genérico.&#xD;
 &lt;/p>&#xD;
 &lt;p&#xD;
 style=&quot;TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; LETTER-SPACING: normal; COLOR: rgb(0,0,0); WORD-SPACING: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px&quot;>&#xD;
-    Para construir o caso de uso, deve estar atento se ele é do tipo CRUD, Relatório ou outro. Se ele for do tipo CRUD ou&#xD;
-    Relatório, deve-se utilizar os templates contidos neste processo, caso contrário deve ser construído um caso de uso&#xD;
-    novo.&amp;nbsp;No documento de caso de uso CRUD&amp;nbsp;ou Relatório específico, deve constar as&amp;nbsp;informações específicas&#xD;
-    do caso de uso, como os dados a serem inseridos, qual o dado a ser utilizado&amp;nbsp;na busca, entre outras.&#xD;
+    &lt;br />&#xD;
+    Para construir o caso de uso, deve-se estar atento se ele é do tipo CRUD ou outro. Se ele for do tipo CRUD, deve-se&#xD;
+    utilizar os templates contidos neste processo, caso contrário deve ser construído um caso de uso novo. No documento de&#xD;
+    Caso de uso CRUD Complementar, deve constar as informações específicas do caso de uso, como os dados a serem inseridos,&#xD;
+    qual o dado a ser utilizado na busca, entre outras.&#xD;
 &lt;/p></sectionDescription>
   </sections>
   <sections xmi:id="_sBkMEJ8UEeKHC_1kKuVVig" name="2) Criar uma descrição breve do caso de uso  " guid="_sBkMEJ8UEeKHC_1kKuVVig">
@@ -57,8 +58,7 @@ Deve-se identificar se o caso de uso possui relacionamento com outros casos de u
 Deve-se construir um diagrama do caso de uso.&lt;/span></sectionDescription>
   </sections>
   <sections xmi:id="_fPhAcJ8VEeKHC_1kKuVVig" name="9) Construção do documento de especificação de caso de uso  " guid="_fPhAcJ8VEeKHC_1kKuVVig">
-    <sectionDescription>&lt;span style=&quot;TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(0,0,0); WORD-SPACING: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px&quot;>&#xD;
-A partir das informações coletadas nos passos anteriores e dos modelos de caso de uso CRUD e Relatório&amp;nbsp;genérico e&#xD;
-específico, deve ser construído um documento&amp;nbsp;de especificação para cada&amp;nbsp;caso de uso&lt;/span></sectionDescription>
+    <sectionDescription>A partir das informações coletadas nos passos anteriores e dos modelos de caso de uso CRUD e caso de uso CRUD Complementar,&#xD;
+deve ser construído um documento de especificação para cada caso de uso.</sectionDescription>
   </sections>
 </org.eclipse.epf.uma:TaskDescription>

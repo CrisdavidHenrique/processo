@@ -23,13 +23,9 @@
     ser adicionada/atualizada no documento de Backlog do Produto.&#xD;
 &lt;/p></sectionDescription>
   </sections>
-  <sections xmi:id="_rr5L0OzaEeS-tszzIU7YEQ" name="3) Rever de Prioridades dos Itens" guid="_rr5L0OzaEeS-tszzIU7YEQ">
-    <sectionDescription>&lt;p>&#xD;
-    Neste passo é feito uma&amp;nbsp;análise sobre as prioridades atribuídas aos itens do Backlog. Assim é&#xD;
-    possivel&amp;nbsp;assegurar que as&amp;nbsp;necessidades do cliente estão sempre sendo tratadas com a atenção necessária.&#xD;
-&lt;/p>&#xD;
-&lt;p>&#xD;
-    Logo o conjunto de prioridades dos itens podem ser atualizadas para garantir tal característica.&#xD;
-&lt;/p></sectionDescription>
+  <sections xmi:id="_rr5L0OzaEeS-tszzIU7YEQ" name="3) Rever Prioridades dos itens" guid="_rr5L0OzaEeS-tszzIU7YEQ">
+    <sectionDescription>Rever prioridades dos itens: Neste passo é feito uma análise sobre as prioridades atribuídas aos itens do Backlog. Assim&#xD;
+é&amp;nbsp;possivel assegurar que as necessidades do cliente estão sempre sendo tratadas com a atenção necessária, e garantir&#xD;
+que as prioridades dos itens podem ser atualizadas.&lt;br /></sectionDescription>
   </sections>
 </org.eclipse.epf.uma:TaskDescription>
