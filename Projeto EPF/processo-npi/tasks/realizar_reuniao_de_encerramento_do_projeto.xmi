@@ -9,6 +9,6 @@ recursos devem ser desalocados.&lt;/span></sectionDescription>
   <sections xmi:id="_B-DsUPPsEeSa6-Cy3Dcsaw" name="2) Atualização das Informações do Projeto" guid="_B-DsUPPsEeSa6-Cy3Dcsaw">
     <sectionDescription>Uma vez que um projeto foi executado, e o produto final foi entregue ao cliente, as informações da tarefa associada ao&#xD;
 projeto finalizado deve ser atualizadas. Para tanto, o gerente de projetos é o responsável por alterar o tipo da atividade&#xD;
-de EM ANDAMENTO para FINALIZADO.&lt;br /></sectionDescription>
+de EM ANDAMENTO para 100%&amp;nbsp;Terminado.&lt;br /></sectionDescription>
   </sections>
 </org.eclipse.epf.uma:TaskDescription>
