@@ -12,7 +12,6 @@
     <resourceDescriptors xmi:id="_4nZsMJ8JEeKHC_1kKuVVig" id="-tOzZZkqVJTYW02cRujCmgg" uri="guidances/templates/caso_de_uso_crud_especifico.xmi"/>
     <resourceDescriptors xmi:id="_ImqlQJ8KEeKHC_1kKuVVig" id="-syCC7ROxDaZe_ecGQSOMgQ" uri="guidances/templates/caso_de_uso_crud_generico.xmi"/>
     <resourceDescriptors xmi:id="_6t8IoJ8OEeKHC_1kKuVVig" id="-iPJqnme42aRf6TfaxhdOkg" uri="tasks/especificar_caso_de_uso.xmi"/>
-    <resourceDescriptors xmi:id="_kJK7kJ9YEeKlCuxxakZHpg" id="-ldhIORNz2JkRzwQAiHj9Rw" uri="guidances/templates/tutorial_de_instalacao_do_entities.xmi"/>
     <resourceDescriptors xmi:id="_yFN_sJ9YEeKlCuxxakZHpg" id="-C63XuqLCn4itD8ypplKbXw" uri="tasks/preparar_ambiente.xmi"/>
     <resourceDescriptors xmi:id="_LYPjIJ9ZEeKlCuxxakZHpg" id="-C5ltr_OXr5C1OQdjVGyhVg" uri="tasks/implementar_caso_de_uso.xmi"/>
     <resourceDescriptors xmi:id="_iHJukJ9aEeKlCuxxakZHpg" id="-NGAl0ecJIs7prtRYE9D-gA" uri="tasks/gerar_release.xmi"/>
@@ -122,7 +121,7 @@
           </contentElements>
         </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_YyVcIp4ZEeKP--IVqMl63w" name="WP Types" guid="_YyVcIp4ZEeKP--IVqMl63w">
-          <contentElements xsi:type="org.eclipse.epf.uma:WorkProductType" xmi:id="_YM5psOKsEeSbpvcRMx_OSQ" name="produtos_de_trabalho_npi" guid="_YM5psOKsEeSbpvcRMx_OSQ" presentationName="Produtos de Trabalho - NPI" workProducts="__js1YBEXEeOe46TMHTd_kQ _DSUOMJ7zEeKmqv_pnSPEzA _7mOFMJ7yEeKmqv_pnSPEzA _7w6f4OzgEeS-tszzIU7YEQ _80qs8J8AEeKmqv_pnSPEzA _2UmZkJ79EeKmqv_pnSPEzA _8dSpkJ8SEeKHC_1kKuVVig __U0iAJ-vEeKL2OX-ZFDXHA _pDn2kOKpEeSbpvcRMx_OSQ _GkH2UN3kEeSGCJOE1I0hFA _cz1NEJ9VEeKlCuxxakZHpg _dyoiMJ9WEeKlCuxxakZHpg _T0tHsJ4dEeKP--IVqMl63w _qK5GkJ4dEeKP--IVqMl63w __9g6UJ9aEeKlCuxxakZHpg _DysOwO5yEeSQzM_psz_6cw">
+          <contentElements xsi:type="org.eclipse.epf.uma:WorkProductType" xmi:id="_YM5psOKsEeSbpvcRMx_OSQ" name="produtos_de_trabalho_npi" guid="_YM5psOKsEeSbpvcRMx_OSQ" presentationName="Produtos de Trabalho - NPI" workProducts="__js1YBEXEeOe46TMHTd_kQ _DSUOMJ7zEeKmqv_pnSPEzA _7mOFMJ7yEeKmqv_pnSPEzA _7w6f4OzgEeS-tszzIU7YEQ _80qs8J8AEeKmqv_pnSPEzA _2UmZkJ79EeKmqv_pnSPEzA _8dSpkJ8SEeKHC_1kKuVVig __U0iAJ-vEeKL2OX-ZFDXHA _pDn2kOKpEeSbpvcRMx_OSQ _GkH2UN3kEeSGCJOE1I0hFA _cz1NEJ9VEeKlCuxxakZHpg _T0tHsJ4dEeKP--IVqMl63w _qK5GkJ4dEeKP--IVqMl63w __9g6UJ9aEeKlCuxxakZHpg _DysOwO5yEeSQzM_psz_6cw _5TuDMJ9XEeKlCuxxakZHpg _utgAACH8EeOvJobPE63WLw _hy9uoJ9XEeKlCuxxakZHpg">
             <methodElementProperty xmi:id="_hxPtwOKsEeSbpvcRMx_OSQ" name="me_edited" value="true"/>
           </contentElements>
         </childPackages>
@@ -273,20 +272,13 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_cz1NEJ9VEeKlCuxxakZHpg" name="documento_de_preparacao_do_ambiente" guid="_cz1NEJ9VEeKlCuxxakZHpg" presentationName="Documento de Preparação do Ambiente" briefDescription="Este artefato tem como objetivo instruir os integrantes do projeto sobre todo software que será utilizado durante o processo de desenvolvimeto do produto, bem como suas versões, etc." templates="_A9YfkKMDEeKxb_kPDqZn7A">
             <methodElementProperty xmi:id="_6zbNUJ9VEeKlCuxxakZHpg" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_dyoiMJ9WEeKlCuxxakZHpg" name="tutorial_de_instalacao_do_entities" guid="_dyoiMJ9WEeKlCuxxakZHpg" presentationName="Tutorial de Instalação do Entities" briefDescription="Este artefato tem como objetivo guiar a equipe de desenvolvimento na instalação do framework Entities." templates="_dhW6EJ9YEeKlCuxxakZHpg">
-            <methodElementProperty xmi:id="_NsYa4J9XEeKlCuxxakZHpg" name="me_edited" value="true"/>
-          </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_hy9uoJ9XEeKlCuxxakZHpg" name="caso_de_uso_implementado" guid="_hy9uoJ9XEeKlCuxxakZHpg" presentationName="Caso de Uso Implementado" briefDescription="Este artefato consiste no caso de uso implementado.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_hy9uoJ9XEeKlCuxxakZHpg" name="codigo_do_sistema" guid="_hy9uoJ9XEeKlCuxxakZHpg" presentationName="Documento de Código do Sistema" briefDescription="Este artefato representa o código fonte desenvolvido do sistema, que foi implementado e integrado ao repositório central. Este artefato é importante quando for feita a atividade de Gerar Release, dado que ele possui as informações dos itens que foram trabalhados até o momento de execução do projeto.">
             <methodElementProperty xmi:id="_zI7U4J9XEeKlCuxxakZHpg" name="me_edited" value="true"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_5TuDMJ9XEeKlCuxxakZHpg" name="release_do_produto" guid="_5TuDMJ9XEeKlCuxxakZHpg" presentationName="Release do Produto" briefDescription="Este artefato tem como objetivo juntar todos os casos de uso implementados durante a Sprint e gerar uma release do produto.">
             <methodElementProperty xmi:id="_aRqq8J9YEeKlCuxxakZHpg" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Template" xmi:id="_dhW6EJ9YEeKlCuxxakZHpg" name="tutorial_de_instalacao_do_entities" guid="_dhW6EJ9YEeKlCuxxakZHpg" presentationName="Tutorial de Instalação do Entities" briefDescription="Tutorial para auxiliar na instalação do framework Entities">
-            <methodElementProperty xmi:id="_g59NkJ9YEeKlCuxxakZHpg" name="me_edited" value="true"/>
-            <presentation xmi:id="-ldhIORNz2JkRzwQAiHj9Rw" href="uma://-ldhIORNz2JkRzwQAiHj9Rw#-ldhIORNz2JkRzwQAiHj9Rw"/>
-          </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_m3pUAJ9YEeKlCuxxakZHpg" name="preparar_ambiente" guid="_m3pUAJ9YEeKlCuxxakZHpg" presentationName="Preparar Ambiente" briefDescription="Esta tarefa consiste na preparação do ambiente de desenvolvimento." performedBy="_SAFVEJ7xEeKmqv_pnSPEzA _RYHWIJ7xEeKmqv_pnSPEzA" mandatoryInput="_cz1NEJ9VEeKlCuxxakZHpg" optionalInput="_dyoiMJ9WEeKlCuxxakZHpg">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_m3pUAJ9YEeKlCuxxakZHpg" name="preparar_ambiente" guid="_m3pUAJ9YEeKlCuxxakZHpg" presentationName="Preparar Ambiente" briefDescription="Esta tarefa consiste na preparação do ambiente de desenvolvimento." performedBy="_SAFVEJ7xEeKmqv_pnSPEzA _RYHWIJ7xEeKmqv_pnSPEzA" mandatoryInput="_cz1NEJ9VEeKlCuxxakZHpg">
             <methodElementProperty xmi:id="_yFKVUJ9YEeKlCuxxakZHpg" name="me_edited" value="true"/>
             <presentation xmi:id="-C63XuqLCn4itD8ypplKbXw" href="uma://-C63XuqLCn4itD8ypplKbXw#-C63XuqLCn4itD8ypplKbXw"/>
           </contentElements>

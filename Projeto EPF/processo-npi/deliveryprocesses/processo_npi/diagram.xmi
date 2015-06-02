@@ -4821,7 +4821,7 @@
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HJ3EcudXEeS8tbAGDCJLTw" key="uri" value="uma://__FdicOdREeS8tbAGDCJLTw#_kDxBQedSEeS8tbAGDCJLTw"/>
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HJ3Ec-dXEeS8tbAGDCJLTw" key="type" value="Iteration"/>
     </eAnnotations>
-    <node xmi:type="uml:StructuredActivityNode" xmi:id="_HKA1cOdXEeS8tbAGDCJLTw" name="Planejar Sprint" outgoing="_WHdFIOdXEeS8tbAGDCJLTw" incoming="_VoTrAOdXEeS8tbAGDCJLTw">
+    <node xmi:type="uml:StructuredActivityNode" xmi:id="_HKA1cOdXEeS8tbAGDCJLTw" name="Planejar de Sprint" outgoing="_WHdFIOdXEeS8tbAGDCJLTw" incoming="_VoTrAOdXEeS8tbAGDCJLTw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HKA1cedXEeS8tbAGDCJLTw" source="uma_element">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HKA1cudXEeS8tbAGDCJLTw" key="uri" value="uma://__FdicOdREeS8tbAGDCJLTw#_r5MFYedSEeS8tbAGDCJLTw"/>
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HKA1c-dXEeS8tbAGDCJLTw" key="type" value="Activity"/>
@@ -4833,19 +4833,19 @@
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HKA1d-dXEeS8tbAGDCJLTw" key="type" value="Activity"/>
       </eAnnotations>
     </node>
-    <node xmi:type="uml:StructuredActivityNode" xmi:id="_HKA1eOdXEeS8tbAGDCJLTw" name="Implementação" outgoing="_XYmj8OdXEeS8tbAGDCJLTw" incoming="_Wy-HUOdXEeS8tbAGDCJLTw">
+    <node xmi:type="uml:StructuredActivityNode" xmi:id="_HKA1eOdXEeS8tbAGDCJLTw" name="Realizar Implementação" outgoing="_XYmj8OdXEeS8tbAGDCJLTw" incoming="_Wy-HUOdXEeS8tbAGDCJLTw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HKA1eedXEeS8tbAGDCJLTw" source="uma_element">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HKA1eudXEeS8tbAGDCJLTw" key="uri" value="uma://__FdicOdREeS8tbAGDCJLTw#_0RLrEedSEeS8tbAGDCJLTw"/>
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HKA1e-dXEeS8tbAGDCJLTw" key="type" value="Activity"/>
       </eAnnotations>
     </node>
-    <node xmi:type="uml:StructuredActivityNode" xmi:id="_HKA1fOdXEeS8tbAGDCJLTw" name="Testes" outgoing="_X7eAcOdXEeS8tbAGDCJLTw" incoming="_XYmj8OdXEeS8tbAGDCJLTw">
+    <node xmi:type="uml:StructuredActivityNode" xmi:id="_HKA1fOdXEeS8tbAGDCJLTw" name="Realizar Testes" outgoing="_X7eAcOdXEeS8tbAGDCJLTw" incoming="_XYmj8OdXEeS8tbAGDCJLTw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HKA1fedXEeS8tbAGDCJLTw" source="uma_element">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HKA1fudXEeS8tbAGDCJLTw" key="uri" value="uma://__FdicOdREeS8tbAGDCJLTw#_2xhg4edSEeS8tbAGDCJLTw"/>
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HKA1f-dXEeS8tbAGDCJLTw" key="type" value="Activity"/>
       </eAnnotations>
     </node>
-    <node xmi:type="uml:StructuredActivityNode" xmi:id="_HKA1gOdXEeS8tbAGDCJLTw" name="Revisão da Sprint" outgoing="_YdvnEOdXEeS8tbAGDCJLTw" incoming="_X7eAcOdXEeS8tbAGDCJLTw">
+    <node xmi:type="uml:StructuredActivityNode" xmi:id="_HKA1gOdXEeS8tbAGDCJLTw" name="Encerrar de Sprint" outgoing="_YdvnEOdXEeS8tbAGDCJLTw" incoming="_X7eAcOdXEeS8tbAGDCJLTw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HKA1gedXEeS8tbAGDCJLTw" source="uma_element">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HKA1gudXEeS8tbAGDCJLTw" key="uri" value="uma://__FdicOdREeS8tbAGDCJLTw#_7oNjAedSEeS8tbAGDCJLTw"/>
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HKA1g-dXEeS8tbAGDCJLTw" key="type" value="Activity"/>
