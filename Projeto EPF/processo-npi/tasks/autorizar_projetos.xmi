@@ -6,22 +6,24 @@ PROPOSTA), algum projeto que apresente características viáveis à sua execuç�
   </sections>
   <sections xmi:id="_LVqs4OHNEeSCFZZmwbxJwQ" name="2) Avaliação do Projeto Candidato" guid="_LVqs4OHNEeSCFZZmwbxJwQ">
     <sectionDescription>Após a seleção de um Projeto Candidato à execução, deve ser realizado a&amp;nbsp;avaliação deste, com o propósito&#xD;
-de&amp;nbsp;verificar se o mesmo atende a um conjunto de requisitos obrigatórios. Estes requisitos são definidos pelo próprio&#xD;
-Executor desta tarefa.</sectionDescription>
+de&amp;nbsp;verificar se o mesmo atende a um conjunto de requisitos obrigatórios. Estes requisitos foram definidos na Política&#xD;
+de Gestão de Projetos; seu conteúdo pode ser visualiazado no ambiente Redmine na Issue 2097 (&lt;a&#xD;
+href=&quot;https://adm.quixada.ufc.br/issues/2097&quot;>https://adm.quixada.ufc.br/issues/2097&lt;/a>).</sectionDescription>
   </sections>
   <sections xmi:id="_vDn7wOjsEeSR1-zcqptPug" name="3) Liberação de Aval pelo Comitê de Projetos do NPI" guid="_vDn7wOjsEeSR1-zcqptPug">
     <sectionDescription>&lt;p>&#xD;
     O Comitê de Projetos do NPI é responsável pela Gestão do NPI;&amp;nbsp;o mesmo pode ser formado por representantes dos&#xD;
-    Departamentos de&amp;nbsp;Direções, Coordenações, Supervisores e Técnicos do Campus.&#xD;
+    Departamentos das&amp;nbsp;Direções, Coordenações, Supervisores e Técnicos do Campus. A formação deste comitê é definida&#xD;
+    pela Política de Gestão de Projetos e pelo regimento do NPI.&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
-    Neste passo o comitê deve liberar o aval para execução do projeto candidato, quando o projeto candidato apresentar as&#xD;
-    características necessárias julgadas pelo próprio comitê.&#xD;
+    Neste passo, o comitê deve liberar o aval para execução do projeto candidato, quando o projeto candidato apresentar as&#xD;
+    características necessárias a sua execução, julgadas pelo próprio comitê.&#xD;
 &lt;/p></sectionDescription>
   </sections>
   <sections xmi:id="_AQquYOHNEeSCFZZmwbxJwQ" name="4) Autorização de Execução de Projeto" guid="_AQquYOHNEeSCFZZmwbxJwQ">
     <sectionDescription>Uma vez que um projeto candidato foi avaliado e atende aos requisitos definidos e foi liberado pelo Comitê do NPI,&#xD;
-o&amp;nbsp;Gerente de Projetos&amp;nbsp;poderá liberar a Ordem para execução do projeto. É somente necessário que a Situação da&#xD;
-Tarefa referente ao Projeto Prospectado seja atualizada para EM ANDAMENTO.</sectionDescription>
+o&amp;nbsp;Gerente de Projetos&amp;nbsp;poderá liberar a Ordem para execução do projeto. É necessário somente que a Situação da&#xD;
+Tarefa referente ao Projeto Prospectado no REDMINE seja atualizada para EM ANDAMENTO.</sectionDescription>
   </sections>
 </org.eclipse.epf.uma:TaskDescription>

@@ -24,37 +24,37 @@ style=&quot;TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,25
     Para construir o caso de uso, deve-se estar atento se ele é do tipo CRUD ou outro. Se ele for do tipo CRUD, deve-se&#xD;
     utilizar os templates contidos neste processo, caso contrário deve ser construído um caso de uso novo. No documento de&#xD;
     Caso de uso CRUD Complementar, deve constar as informações específicas do caso de uso, como os dados a serem inseridos,&#xD;
-    qual o dado a ser utilizado na busca, entre outras.&#xD;
+    quais os dados a serem utilizados nas buscas, dentre outras.&#xD;
 &lt;/p></sectionDescription>
   </sections>
   <sections xmi:id="_sBkMEJ8UEeKHC_1kKuVVig" name="2) Criar uma descrição breve do caso de uso  " guid="_sBkMEJ8UEeKHC_1kKuVVig">
-    <sectionDescription>&lt;span style=&quot;TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(0,0,0); WORD-SPACING: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    <sectionDescription>&lt;span style=&quot;TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; LETTER-SPACING: normal; COLOR: rgb(0,0,0); WORD-SPACING: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px&quot;>&#xD;
 No início de cada caso de uso deve constar uma breve descrição explicando&amp;nbsp;o seu objetivo.&lt;/span></sectionDescription>
   </sections>
   <sections xmi:id="_DvsOQJ8VEeKHC_1kKuVVig" name="3) Identificar Atores " guid="_DvsOQJ8VEeKHC_1kKuVVig">
-    <sectionDescription>&lt;span style=&quot;TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(0,0,0); WORD-SPACING: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    <sectionDescription>&lt;span style=&quot;TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; LETTER-SPACING: normal; COLOR: rgb(0,0,0); WORD-SPACING: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px&quot;>&#xD;
 Todos os atores envolvidos com o caso de uso devem ser identificados.&lt;/span></sectionDescription>
   </sections>
   <sections xmi:id="_KzUCAJ8VEeKHC_1kKuVVig" name="4) Identificar fluxo básico do caso de uso  " guid="_KzUCAJ8VEeKHC_1kKuVVig">
-    <sectionDescription>&lt;span style=&quot;TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(0,0,0); WORD-SPACING: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    <sectionDescription>&lt;span style=&quot;TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; LETTER-SPACING: normal; COLOR: rgb(0,0,0); WORD-SPACING: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px&quot;>&#xD;
 Deve ser identificado o cenário perfeito do caso de uso chamado de 'Happy Day' ou fluxo básico. Neste cenário o caso de uso&#xD;
 funciona normalmente sem nenhum erro.&lt;/span></sectionDescription>
   </sections>
   <sections xmi:id="_PFSNgJ8VEeKHC_1kKuVVig" name="5) Identificar fluxos alternativos do caso de uso  " guid="_PFSNgJ8VEeKHC_1kKuVVig">
-    <sectionDescription>&lt;span style=&quot;TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(0,0,0); WORD-SPACING: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    <sectionDescription>&lt;span style=&quot;TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; LETTER-SPACING: normal; COLOR: rgb(0,0,0); WORD-SPACING: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px&quot;>&#xD;
 Devem ser identificados fluxos que se desviam do fluxo básico, criando assim fluxos alternativos a ele.&lt;/span></sectionDescription>
   </sections>
   <sections xmi:id="_TdgyAJ8VEeKHC_1kKuVVig" name="6) Identificar pré-condições e pós-condições  " guid="_TdgyAJ8VEeKHC_1kKuVVig">
-    <sectionDescription>&lt;span style=&quot;TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(0,0,0); WORD-SPACING: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    <sectionDescription>&lt;span style=&quot;TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; LETTER-SPACING: normal; COLOR: rgb(0,0,0); WORD-SPACING: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px&quot;>&#xD;
 Devem ser identificados pré-condições, que são condições que devem ser atendidas antes do início do caso de uso&amp;nbsp;e&#xD;
 pós-condições, que são condições que devem ser atendidas ao&amp;nbsp;término do caso de uso.&lt;/span></sectionDescription>
   </sections>
   <sections xmi:id="_WrH9gJ8VEeKHC_1kKuVVig" name="7) Identificar relacionamentos com outros casos de uso  " guid="_WrH9gJ8VEeKHC_1kKuVVig">
-    <sectionDescription>&lt;span style=&quot;TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(0,0,0); WORD-SPACING: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    <sectionDescription>&lt;span style=&quot;TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; LETTER-SPACING: normal; COLOR: rgb(0,0,0); WORD-SPACING: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px&quot;>&#xD;
 Deve-se identificar se o caso de uso possui relacionamento com outros casos de uso.&lt;/span></sectionDescription>
   </sections>
   <sections xmi:id="_cvc3cJ8VEeKHC_1kKuVVig" name="8) Construir diagrama do caso de uso" guid="_cvc3cJ8VEeKHC_1kKuVVig">
-    <sectionDescription>&lt;span style=&quot;TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(0,0,0); WORD-SPACING: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    <sectionDescription>&lt;span style=&quot;TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; DISPLAY: inline !important; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; FLOAT: none; LETTER-SPACING: normal; COLOR: rgb(0,0,0); WORD-SPACING: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px&quot;>&#xD;
 Deve-se construir um diagrama do caso de uso.&lt;/span></sectionDescription>
   </sections>
   <sections xmi:id="_fPhAcJ8VEeKHC_1kKuVVig" name="9) Construção do documento de especificação de caso de uso  " guid="_fPhAcJ8VEeKHC_1kKuVVig">

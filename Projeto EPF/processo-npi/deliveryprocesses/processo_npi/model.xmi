@@ -35,8 +35,8 @@
         <Role href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_5jjKMJ7vEeKmqv_pnSPEzA"/>
       </processElements>
     </childPackages>
-    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_N4bngOdSEeS8tbAGDCJLTw" name="avaliacao_processo" guid="_N4bngOdSEeS8tbAGDCJLTw">
-      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_N4bngedSEeS8tbAGDCJLTw" name="avaliacao_processo" guid="_N4bngedSEeS8tbAGDCJLTw" presentationName="Avaliação do Processo" superActivities="__FdicedREeS8tbAGDCJLTw" breakdownElements="_WP-hQOdSEeS8tbAGDCJLTw _WQISQOdSEeS8tbAGDCJLTw _WQISQudSEeS8tbAGDCJLTw _XTeloOdSEeS8tbAGDCJLTw _XToWoOdSEeS8tbAGDCJLTw _Xq3x8OdSEeS8tbAGDCJLTw _XrBi8OdSEeS8tbAGDCJLTw">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_N4bngOdSEeS8tbAGDCJLTw" name="avaliar_processo" guid="_N4bngOdSEeS8tbAGDCJLTw">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_N4bngedSEeS8tbAGDCJLTw" name="avaliar_processo" guid="_N4bngedSEeS8tbAGDCJLTw" presentationName="Avaliar Processo" superActivities="__FdicedREeS8tbAGDCJLTw" isRepeatable="true" breakdownElements="_WP-hQOdSEeS8tbAGDCJLTw _WQISQOdSEeS8tbAGDCJLTw _WQISQudSEeS8tbAGDCJLTw _XTeloOdSEeS8tbAGDCJLTw _XToWoOdSEeS8tbAGDCJLTw _Xq3x8OdSEeS8tbAGDCJLTw _XrBi8OdSEeS8tbAGDCJLTw">
         <methodElementProperty xmi:id="_PC0Uou5xEeSQzM_psz_6cw" name="wbe_GlobalPresentedAfter" value="_b1fi0edTEeS8tbAGDCJLTw"/>
       </processElements>
       <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_WP-hQOdSEeS8tbAGDCJLTw" name="avaliar_processo" guid="_WP-hQOdSEeS8tbAGDCJLTw" presentationName="Avaliar Processo" briefDescription="Periodicamente auditorias serão feitas junto aos líderes de equipe para avaliar como está sendo seguido o processo." superActivities="_N4bngedSEeS8tbAGDCJLTw" mandatoryInput="_WQISQudSEeS8tbAGDCJLTw" output="_WQISQudSEeS8tbAGDCJLTw" performedPrimarilyBy="_WQISQOdSEeS8tbAGDCJLTw">
@@ -141,7 +141,7 @@
       </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_kDxBQOdSEeS8tbAGDCJLTw" name="sprint" guid="_kDxBQOdSEeS8tbAGDCJLTw">
         <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_r5MFYOdSEeS8tbAGDCJLTw" name="planejar_sprint" guid="_r5MFYOdSEeS8tbAGDCJLTw">
-          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_r5MFYedSEeS8tbAGDCJLTw" name="planejar_sprint" guid="_r5MFYedSEeS8tbAGDCJLTw" presentationName="Planejar Sprint" superActivities="_kDxBQedSEeS8tbAGDCJLTw" breakdownElements="_CTRs0OdTEeS8tbAGDCJLTw _CTbd0OdTEeS8tbAGDCJLTw _CTbd0udTEeS8tbAGDCJLTw _CTbd1OdTEeS8tbAGDCJLTw _CTknwOdTEeS8tbAGDCJLTw _Csmy0OdTEeS8tbAGDCJLTw"/>
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_r5MFYedSEeS8tbAGDCJLTw" name="planejar_sprint" guid="_r5MFYedSEeS8tbAGDCJLTw" presentationName="Planejar de Sprint" superActivities="_kDxBQedSEeS8tbAGDCJLTw" breakdownElements="_CTRs0OdTEeS8tbAGDCJLTw _CTbd0OdTEeS8tbAGDCJLTw _CTbd0udTEeS8tbAGDCJLTw _CTbd1OdTEeS8tbAGDCJLTw _CTknwOdTEeS8tbAGDCJLTw _Csmy0OdTEeS8tbAGDCJLTw _aEI8kQkWEeWlid2DzvBgbw"/>
           <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_CTRs0OdTEeS8tbAGDCJLTw" name="cultivo_backlog" guid="_CTRs0OdTEeS8tbAGDCJLTw" presentationName="Cultivo de Backlog" briefDescription="Esta tarefa tem como objetivo atualizar as informações referentes aos itens presentes no Backlog do Produto. O Backlog do Produto é formado por um conjunto de itens, como requisitos, casos de uso." superActivities="_r5MFYedSEeS8tbAGDCJLTw" mandatoryInput="_CTknwOdTEeS8tbAGDCJLTw" output="_CTknwOdTEeS8tbAGDCJLTw" performedPrimarilyBy="_CTbd0OdTEeS8tbAGDCJLTw _CTbd0udTEeS8tbAGDCJLTw _CTbd1OdTEeS8tbAGDCJLTw">
             <methodElementProperty xmi:id="_CTknwudTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
             <Task href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_LMfrUOHkEeSCzJdwA71j-A"/>
@@ -170,13 +170,18 @@
             <templates href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_RRqd8J7zEeKmqv_pnSPEzA"/>
             <WorkProduct href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_DSUOMJ7zEeKmqv_pnSPEzA"/>
           </processElements>
-          <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_Csmy0OdTEeS8tbAGDCJLTw" name="realizar_reuniao_de_planejamento_da_sprint" guid="_Csmy0OdTEeS8tbAGDCJLTw" presentationName="Realizar Reunião de Planejamento da Sprint" briefDescription="Esta tarefa tem como objetivo realizar a Reunião de Planejamento da Sprint, onde deve ser decidido tudo o que será desenvolvido na Sprint atual." superActivities="_r5MFYedSEeS8tbAGDCJLTw" linkToPredecessor="_gsjbkedXEeS8tbAGDCJLTw" mandatoryInput="_CTknwOdTEeS8tbAGDCJLTw" output="_CTknwOdTEeS8tbAGDCJLTw" performedPrimarilyBy="_CTbd0OdTEeS8tbAGDCJLTw _CTbd0udTEeS8tbAGDCJLTw">
+          <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_Csmy0OdTEeS8tbAGDCJLTw" name="realizar_reuniao_de_planejamento_da_sprint" guid="_Csmy0OdTEeS8tbAGDCJLTw" presentationName="Realizar Reunião de Planejamento da Sprint" briefDescription="Esta tarefa tem como objetivo realizar a Reunião de Planejamento da Sprint, onde deve ser decidido tudo o que será desenvolvido na Sprint atual." superActivities="_r5MFYedSEeS8tbAGDCJLTw" linkToPredecessor="_gsjbkedXEeS8tbAGDCJLTw" mandatoryInput="_CTknwOdTEeS8tbAGDCJLTw _aEI8kQkWEeWlid2DzvBgbw" output="_CTknwOdTEeS8tbAGDCJLTw" performedPrimarilyBy="_CTbd0OdTEeS8tbAGDCJLTw _CTbd0udTEeS8tbAGDCJLTw">
             <methodElementProperty xmi:id="_CtDewOdTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
             <Task href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_4R0bkJ76EeKmqv_pnSPEzA"/>
             <selectedSteps href="uma://-QKJ_9uL0M4Nh9OiGmpwu0g#_NfQCoJ77EeKmqv_pnSPEzA"/>
             <selectedSteps href="uma://-QKJ_9uL0M4Nh9OiGmpwu0g#_SddpEJ77EeKmqv_pnSPEzA"/>
           </processElements>
           <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_gsjbkedXEeS8tbAGDCJLTw" guid="_gsjbkedXEeS8tbAGDCJLTw" pred="_CTRs0OdTEeS8tbAGDCJLTw"/>
+          <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_aEI8kQkWEeWlid2DzvBgbw" name="orientacao_planejamento_sprint" guid="_aEI8kQkWEeWlid2DzvBgbw" presentationName="Orientação de Planejamento da Sprint" isPlanned="false" superActivities="_r5MFYedSEeS8tbAGDCJLTw">
+            <methodElementProperty xmi:id="_aEI8kgkWEeWlid2DzvBgbw" name="descriptor_createdByReference" value="true"/>
+            <methodElementProperty xmi:id="_aESGgAkWEeWlid2DzvBgbw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+            <WorkProduct href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_DysOwO5yEeSQzM_psz_6cw"/>
+          </processElements>
         </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_wnPI4OdSEeS8tbAGDCJLTw" name="especificar_caso_de_uso" guid="_wnPI4OdSEeS8tbAGDCJLTw">
           <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_wnPI4edSEeS8tbAGDCJLTw" name="especificar_caso_de_uso" guid="_wnPI4edSEeS8tbAGDCJLTw" presentationName="Especificar Casos de Uso" superActivities="_kDxBQedSEeS8tbAGDCJLTw" linkToPredecessor="_WHdFIedXEeS8tbAGDCJLTw" breakdownElements="_D4dh8OdTEeS8tbAGDCJLTw _D4wc4OdTEeS8tbAGDCJLTw _D4wc4udTEeS8tbAGDCJLTw _D4wc5OdTEeS8tbAGDCJLTw _D4wc5udTEeS8tbAGDCJLTw _D4wc6OdTEeS8tbAGDCJLTw _D4wc7udTEeS8tbAGDCJLTw _LWk-Ue5vEeSQzM_psz_6cw"/>
@@ -234,8 +239,8 @@
             <WorkProduct href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_7w6f4OzgEeS-tszzIU7YEQ"/>
           </processElements>
         </childPackages>
-        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_0RLrEOdSEeS8tbAGDCJLTw" name="implementacao" guid="_0RLrEOdSEeS8tbAGDCJLTw">
-          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_0RLrEedSEeS8tbAGDCJLTw" name="implementacao" guid="_0RLrEedSEeS8tbAGDCJLTw" presentationName="Implementação" superActivities="_kDxBQedSEeS8tbAGDCJLTw" linkToPredecessor="_Wy-HUedXEeS8tbAGDCJLTw" breakdownElements="_GJ5ZEOdTEeS8tbAGDCJLTw _GKMUAOdTEeS8tbAGDCJLTw _GKMUAudTEeS8tbAGDCJLTw _GKVd8OdTEeS8tbAGDCJLTw _GKVd8udTEeS8tbAGDCJLTw _GgZNgOdTEeS8tbAGDCJLTw _GgsIcOdTEeS8tbAGDCJLTw _GgsIcudTEeS8tbAGDCJLTw _G2TMEOdTEeS8tbAGDCJLTw _G2v4AOdTEeS8tbAGDCJLTw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_0RLrEOdSEeS8tbAGDCJLTw" name="realizar_implementacao" guid="_0RLrEOdSEeS8tbAGDCJLTw">
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_0RLrEedSEeS8tbAGDCJLTw" name="realizar_implementacao" guid="_0RLrEedSEeS8tbAGDCJLTw" presentationName="Realizar Implementação" superActivities="_kDxBQedSEeS8tbAGDCJLTw" linkToPredecessor="_Wy-HUedXEeS8tbAGDCJLTw" breakdownElements="_GJ5ZEOdTEeS8tbAGDCJLTw _GKMUAOdTEeS8tbAGDCJLTw _GKMUAudTEeS8tbAGDCJLTw _GKVd8OdTEeS8tbAGDCJLTw _GKVd8udTEeS8tbAGDCJLTw _GgZNgOdTEeS8tbAGDCJLTw _GgsIcOdTEeS8tbAGDCJLTw _GgsIcudTEeS8tbAGDCJLTw _G2TMEOdTEeS8tbAGDCJLTw _G2v4AOdTEeS8tbAGDCJLTw"/>
           <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_GJ5ZEOdTEeS8tbAGDCJLTw" name="preparar_ambiente" guid="_GJ5ZEOdTEeS8tbAGDCJLTw" presentationName="Preparar Ambiente" briefDescription="Esta tarefa consiste na preparação do ambiente de desenvolvimento." superActivities="_0RLrEedSEeS8tbAGDCJLTw" mandatoryInput="_GKVd8OdTEeS8tbAGDCJLTw" optionalInput="_GKVd8udTEeS8tbAGDCJLTw" performedPrimarilyBy="_GKMUAOdTEeS8tbAGDCJLTw _GKMUAudTEeS8tbAGDCJLTw">
             <methodElementProperty xmi:id="_GKfO8OdTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
             <Task href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_m3pUAJ9YEeKlCuxxakZHpg"/>
@@ -292,8 +297,8 @@
           <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_yUGhEedXEeS8tbAGDCJLTw" guid="_yUGhEedXEeS8tbAGDCJLTw" pred="_GJ5ZEOdTEeS8tbAGDCJLTw"/>
           <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_y1Vl4edXEeS8tbAGDCJLTw" guid="_y1Vl4edXEeS8tbAGDCJLTw" pred="_GgZNgOdTEeS8tbAGDCJLTw"/>
         </childPackages>
-        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_2xhg4OdSEeS8tbAGDCJLTw" name="testes" guid="_2xhg4OdSEeS8tbAGDCJLTw">
-          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_2xhg4edSEeS8tbAGDCJLTw" name="testes" guid="_2xhg4edSEeS8tbAGDCJLTw" presentationName="Testes" superActivities="_kDxBQedSEeS8tbAGDCJLTw" linkToPredecessor="_XYmj8edXEeS8tbAGDCJLTw" breakdownElements="_I70HEOdTEeS8tbAGDCJLTw _I70HEedTEeS8tbAGDCJLTw _I70HE-dTEeS8tbAGDCJLTw _I70HFedTEeS8tbAGDCJLTw _I70HF-dTEeS8tbAGDCJLTw _I70HGedTEeS8tbAGDCJLTw _JUZmMOdTEeS8tbAGDCJLTw _JUshIOdTEeS8tbAGDCJLTw _Js_FUOdTEeS8tbAGDCJLTw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_2xhg4OdSEeS8tbAGDCJLTw" name="realizar_testes" guid="_2xhg4OdSEeS8tbAGDCJLTw">
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_2xhg4edSEeS8tbAGDCJLTw" name="realizar_testes" guid="_2xhg4edSEeS8tbAGDCJLTw" presentationName="Realizar Testes" superActivities="_kDxBQedSEeS8tbAGDCJLTw" linkToPredecessor="_XYmj8edXEeS8tbAGDCJLTw" breakdownElements="_I70HEOdTEeS8tbAGDCJLTw _I70HEedTEeS8tbAGDCJLTw _I70HE-dTEeS8tbAGDCJLTw _I70HFedTEeS8tbAGDCJLTw _I70HF-dTEeS8tbAGDCJLTw _I70HGedTEeS8tbAGDCJLTw _JUZmMOdTEeS8tbAGDCJLTw _JUshIOdTEeS8tbAGDCJLTw _Js_FUOdTEeS8tbAGDCJLTw"/>
           <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_I70HEOdTEeS8tbAGDCJLTw" name="especificar_caso_de_teste" guid="_I70HEOdTEeS8tbAGDCJLTw" presentationName="Especificar Caso de Teste" briefDescription="Essa tarefa consiste na criação dos casos de teste." superActivities="_2xhg4edSEeS8tbAGDCJLTw" additionallyPerformedBy="_I70HE-dTEeS8tbAGDCJLTw" mandatoryInput="_I70HFedTEeS8tbAGDCJLTw _I70HF-dTEeS8tbAGDCJLTw" output="_I70HGedTEeS8tbAGDCJLTw" performedPrimarilyBy="_I70HEedTEeS8tbAGDCJLTw">
             <methodElementProperty xmi:id="_I70HG-dTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
             <Task href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_-VvOwJ9bEeKlCuxxakZHpg"/>
@@ -347,7 +352,7 @@
           <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_UnrbkezVEeS-tszzIU7YEQ" guid="_UnrbkezVEeS-tszzIU7YEQ" pred="_Js_FUOdTEeS8tbAGDCJLTw"/>
         </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_7oNjAOdSEeS8tbAGDCJLTw" name="encerrar_sprint" guid="_7oNjAOdSEeS8tbAGDCJLTw">
-          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_7oNjAedSEeS8tbAGDCJLTw" name="encerrar_sprint" guid="_7oNjAedSEeS8tbAGDCJLTw" presentationName="Encerrar Sprint" superActivities="_kDxBQedSEeS8tbAGDCJLTw" linkToPredecessor="_X7eAcedXEeS8tbAGDCJLTw" breakdownElements="_LXFPoOdTEeS8tbAGDCJLTw _LXYKkOdTEeS8tbAGDCJLTw _LXYKkudTEeS8tbAGDCJLTw _LXYKlOdTEeS8tbAGDCJLTw _LXYKludTEeS8tbAGDCJLTw _vsgo8OzXEeS-tszzIU7YEQ _z9IwoezXEeS-tszzIU7YEQ"/>
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_7oNjAedSEeS8tbAGDCJLTw" name="encerrar_sprint" guid="_7oNjAedSEeS8tbAGDCJLTw" presentationName="Encerrar de Sprint" superActivities="_kDxBQedSEeS8tbAGDCJLTw" linkToPredecessor="_X7eAcedXEeS8tbAGDCJLTw" breakdownElements="_LXFPoOdTEeS8tbAGDCJLTw _LXYKkOdTEeS8tbAGDCJLTw _LXYKkudTEeS8tbAGDCJLTw _LXYKlOdTEeS8tbAGDCJLTw _LXYKludTEeS8tbAGDCJLTw _vsgo8OzXEeS-tszzIU7YEQ _z9IwoezXEeS-tszzIU7YEQ"/>
           <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_LXFPoOdTEeS8tbAGDCJLTw" name="realizar_reuniao_de_revisao_da_sprint" guid="_LXFPoOdTEeS8tbAGDCJLTw" presentationName="Realizar Reunião de Revisão da Sprint" briefDescription="Esta tarefa tem como objetivo realizar a reunião de revisão da Sprint com o intuito de inspecionar o incremento e adaptar o Backlog do Produto se necessário." superActivities="_7oNjAedSEeS8tbAGDCJLTw" mandatoryInput="_LXYKlOdTEeS8tbAGDCJLTw _LXYKludTEeS8tbAGDCJLTw" output="_LXYKludTEeS8tbAGDCJLTw" performedPrimarilyBy="_LXYKkOdTEeS8tbAGDCJLTw _LXYKkudTEeS8tbAGDCJLTw">
             <methodElementProperty xmi:id="_LXh7kOdTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
             <Task href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_fxdswJ9eEeKlCuxxakZHpg"/>
@@ -390,13 +395,13 @@
         <processElements xsi:type="org.eclipse.epf.uma:Iteration" xmi:id="_kDxBQedSEeS8tbAGDCJLTw" name="sprint" guid="_kDxBQedSEeS8tbAGDCJLTw" presentationName="Sprint" superActivities="_ZJDAIedSEeS8tbAGDCJLTw" isRepeatable="true" linkToPredecessor="_k3a2EezUEeS-tszzIU7YEQ" breakdownElements="_r5MFYedSEeS8tbAGDCJLTw _wnPI4edSEeS8tbAGDCJLTw _0RLrEedSEeS8tbAGDCJLTw _2xhg4edSEeS8tbAGDCJLTw _7oNjAedSEeS8tbAGDCJLTw"/>
         <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_k3a2EezUEeS-tszzIU7YEQ" guid="_k3a2EezUEeS-tszzIU7YEQ" pred="_fV3uwedSEeS8tbAGDCJLTw"/>
       </childPackages>
-      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_ZJDAIedSEeS8tbAGDCJLTw" name="desenvolvimento" guid="_ZJDAIedSEeS8tbAGDCJLTw" presentationName="Desenvolvimento" superActivities="__FdicedREeS8tbAGDCJLTw" linkToPredecessor="_GASCcezXEeS-tszzIU7YEQ" breakdownElements="_fV3uwedSEeS8tbAGDCJLTw _kDxBQedSEeS8tbAGDCJLTw">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_ZJDAIedSEeS8tbAGDCJLTw" name="desenvolvimento" guid="_ZJDAIedSEeS8tbAGDCJLTw" presentationName="Desenvolvimento" superActivities="__FdicedREeS8tbAGDCJLTw" linkToPredecessor="_XP0qwAkqEeWlid2DzvBgbw" breakdownElements="_fV3uwedSEeS8tbAGDCJLTw _kDxBQedSEeS8tbAGDCJLTw">
         <methodElementProperty xmi:id="_PC0UoO5xEeSQzM_psz_6cw" name="wbe_GlobalPresentedAfter" value="_Is4IoedSEeS8tbAGDCJLTw"/>
       </processElements>
-      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_GASCcezXEeS-tszzIU7YEQ" guid="_GASCcezXEeS-tszzIU7YEQ" pred="_Is4IoedSEeS8tbAGDCJLTw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_XP0qwAkqEeWlid2DzvBgbw" guid="_XP0qwAkqEeWlid2DzvBgbw" pred="_Is4IoedSEeS8tbAGDCJLTw"/>
     </childPackages>
-    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_NN188OdTEeS8tbAGDCJLTw" name="gerenciamento_do_projeto" guid="_NN188OdTEeS8tbAGDCJLTw">
-      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_NN188edTEeS8tbAGDCJLTw" name="gerenciamento_do_projeto" guid="_NN188edTEeS8tbAGDCJLTw" presentationName="Gerenciamento do Projeto" superActivities="__FdicedREeS8tbAGDCJLTw" linkToPredecessor="_GASCcOzXEeS-tszzIU7YEQ" breakdownElements="_STSMwOdTEeS8tbAGDCJLTw _STb9wOdTEeS8tbAGDCJLTw _STlHsOdTEeS8tbAGDCJLTw _SlUX8OdTEeS8tbAGDCJLTw _SlnS4OdTEeS8tbAGDCJLTw _SlnS4udTEeS8tbAGDCJLTw _S3yoAOdTEeS8tbAGDCJLTw _S4GKAOdTEeS8tbAGDCJLTw _TOl-cOdTEeS8tbAGDCJLTw _TO45YOdTEeS8tbAGDCJLTw">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_NN188OdTEeS8tbAGDCJLTw" name="realizar_gerenciamento_do_projeto" guid="_NN188OdTEeS8tbAGDCJLTw">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_NN188edTEeS8tbAGDCJLTw" name="realizar_gerenciamento_do_projeto" guid="_NN188edTEeS8tbAGDCJLTw" presentationName="Realizar Gerenciamento do Projeto" superActivities="__FdicedREeS8tbAGDCJLTw" linkToPredecessor="_XP0DsAkqEeWlid2DzvBgbw" breakdownElements="_STSMwOdTEeS8tbAGDCJLTw _STb9wOdTEeS8tbAGDCJLTw _STlHsOdTEeS8tbAGDCJLTw _SlUX8OdTEeS8tbAGDCJLTw _SlnS4OdTEeS8tbAGDCJLTw _SlnS4udTEeS8tbAGDCJLTw _S3yoAOdTEeS8tbAGDCJLTw _S4GKAOdTEeS8tbAGDCJLTw _TOl-cOdTEeS8tbAGDCJLTw _TO45YOdTEeS8tbAGDCJLTw">
         <methodElementProperty xmi:id="_PC0Uoe5xEeSQzM_psz_6cw" name="wbe_GlobalPresentedAfter" value="_ZJDAIedSEeS8tbAGDCJLTw"/>
       </processElements>
       <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_STSMwOdTEeS8tbAGDCJLTw" name="elaborar_plano_projeto" guid="_STSMwOdTEeS8tbAGDCJLTw" presentationName="Elaborar Plano de Projeto" briefDescription="Esta atividade é responsável pela elaboração do Plano de Projeto a ser utilizado durante a execução do projeto." superActivities="_NN188edTEeS8tbAGDCJLTw" output="_STlHsOdTEeS8tbAGDCJLTw" performedPrimarilyBy="_STb9wOdTEeS8tbAGDCJLTw">
@@ -457,10 +462,10 @@
       <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_pUkk0edYEeS8tbAGDCJLTw" guid="_pUkk0edYEeS8tbAGDCJLTw" pred="_STSMwOdTEeS8tbAGDCJLTw"/>
       <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_sZtw0edYEeS8tbAGDCJLTw" guid="_sZtw0edYEeS8tbAGDCJLTw" pred="_SlUX8OdTEeS8tbAGDCJLTw"/>
       <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_s6MnsedYEeS8tbAGDCJLTw" guid="_s6MnsedYEeS8tbAGDCJLTw" pred="_SlUX8OdTEeS8tbAGDCJLTw"/>
-      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_GASCcOzXEeS-tszzIU7YEQ" guid="_GASCcOzXEeS-tszzIU7YEQ" pred="_Is4IoedSEeS8tbAGDCJLTw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_XP0DsAkqEeWlid2DzvBgbw" guid="_XP0DsAkqEeWlid2DzvBgbw" pred="_Is4IoedSEeS8tbAGDCJLTw"/>
     </childPackages>
-    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_U_15oOdTEeS8tbAGDCJLTw" name="gerenciamento_de_configuracao" guid="_U_15oOdTEeS8tbAGDCJLTw">
-      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_U_15oedTEeS8tbAGDCJLTw" name="gerenciamento_de_configuracao" guid="_U_15oedTEeS8tbAGDCJLTw" presentationName="Gerenciamento de Configuração" superActivities="__FdicedREeS8tbAGDCJLTw" linkToPredecessor="_GAIRcezXEeS-tszzIU7YEQ" breakdownElements="_ZBoUEOdTEeS8tbAGDCJLTw _ZB7PAOdTEeS8tbAGDCJLTw _ZB7PAudTEeS8tbAGDCJLTw _ZB7PBOdTEeS8tbAGDCJLTw _ZB7PBudTEeS8tbAGDCJLTw _ZZ64QOdTEeS8tbAGDCJLTw">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_U_15oOdTEeS8tbAGDCJLTw" name="realizar_gerenciamento_de_configuracao" guid="_U_15oOdTEeS8tbAGDCJLTw">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_U_15oedTEeS8tbAGDCJLTw" name="realizar_gerenciamento_de_configuracao" guid="_U_15oedTEeS8tbAGDCJLTw" presentationName="Realizar Gerenciamento de Configuração" superActivities="__FdicedREeS8tbAGDCJLTw" linkToPredecessor="_XP1R0AkqEeWlid2DzvBgbw" breakdownElements="_ZBoUEOdTEeS8tbAGDCJLTw _ZB7PAOdTEeS8tbAGDCJLTw _ZB7PAudTEeS8tbAGDCJLTw _ZB7PBOdTEeS8tbAGDCJLTw _ZB7PBudTEeS8tbAGDCJLTw _ZZ64QOdTEeS8tbAGDCJLTw">
         <methodElementProperty xmi:id="_PcmtoO5xEeSQzM_psz_6cw" name="wbe_GlobalPresentedAfter" value="_NN188edTEeS8tbAGDCJLTw"/>
       </processElements>
       <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_ZBoUEOdTEeS8tbAGDCJLTw" name="criar_plano_de_gerenciamento_de_configuracao" guid="_ZBoUEOdTEeS8tbAGDCJLTw" presentationName="Criar Plano de Gerenciamento de Configuração" briefDescription="O Plano de Gerenciamento de Configuração descreve todas as atividades relacionadas ao Gerenciamento de Configuração a serem realizadas no decorrer do ciclo de vida do produto/projeto." superActivities="_U_15oedTEeS8tbAGDCJLTw" additionallyPerformedBy="_ZB7PAudTEeS8tbAGDCJLTw" mandatoryInput="_ZB7PBOdTEeS8tbAGDCJLTw" output="_ZB7PBudTEeS8tbAGDCJLTw" performedPrimarilyBy="_ZB7PAOdTEeS8tbAGDCJLTw">
@@ -499,10 +504,10 @@
         <selectedSteps href="uma://-PgJCaSvPrJP-PMadcStXgQ#_A8t3oJ_WEeKL2OX-ZFDXHA"/>
       </processElements>
       <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_6Tm40edYEeS8tbAGDCJLTw" guid="_6Tm40edYEeS8tbAGDCJLTw" pred="_ZBoUEOdTEeS8tbAGDCJLTw"/>
-      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_GAIRcezXEeS-tszzIU7YEQ" guid="_GAIRcezXEeS-tszzIU7YEQ" pred="_Is4IoedSEeS8tbAGDCJLTw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_XP1R0AkqEeWlid2DzvBgbw" guid="_XP1R0AkqEeWlid2DzvBgbw" pred="_Is4IoedSEeS8tbAGDCJLTw"/>
     </childPackages>
     <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_b1fi0OdTEeS8tbAGDCJLTw" name="encerrar_projeto" guid="_b1fi0OdTEeS8tbAGDCJLTw">
-      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_b1fi0edTEeS8tbAGDCJLTw" name="encerrar_projeto" guid="_b1fi0edTEeS8tbAGDCJLTw" presentationName="Encerrar Projeto" superActivities="__FdicedREeS8tbAGDCJLTw" linkToPredecessor="_I0nLQezXEeS-tszzIU7YEQ _I0nLQuzXEeS-tszzIU7YEQ _I0nLQ-zXEeS-tszzIU7YEQ _I0nLROzXEeS-tszzIU7YEQ" breakdownElements="_fk83IOdTEeS8tbAGDCJLTw _f2_CUOdTEeS8tbAGDCJLTw _f3R9QOdTEeS8tbAGDCJLTw _f3R9QudTEeS8tbAGDCJLTw _f3R9ROdTEeS8tbAGDCJLTw _f3R9SOdTEeS8tbAGDCJLTw">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_b1fi0edTEeS8tbAGDCJLTw" name="encerrar_projeto" guid="_b1fi0edTEeS8tbAGDCJLTw" presentationName="Encerrar Projeto" superActivities="__FdicedREeS8tbAGDCJLTw" linkToPredecessor="_I0nLQ-zXEeS-tszzIU7YEQ _I0nLROzXEeS-tszzIU7YEQ _PrhL0QkqEeWlid2DzvBgbw _VumIkQkqEeWlid2DzvBgbw" breakdownElements="_fk83IOdTEeS8tbAGDCJLTw _f2_CUOdTEeS8tbAGDCJLTw _f3R9QOdTEeS8tbAGDCJLTw _f3R9QudTEeS8tbAGDCJLTw _f3R9ROdTEeS8tbAGDCJLTw _f3R9SOdTEeS8tbAGDCJLTw">
         <methodElementProperty xmi:id="_PxTyUO5xEeSQzM_psz_6cw" name="wbe_GlobalPresentedAfter" value="_U_15oedTEeS8tbAGDCJLTw"/>
       </processElements>
       <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_fk83IOdTEeS8tbAGDCJLTw" name="equipe_de_desenvolvimento" guid="_fk83IOdTEeS8tbAGDCJLTw" presentationName="Equipe de desenvolvimento" briefDescription="A equipe de desenvolvimento corresponde a todos os envolvidos no desenvolvimento do produto." isPlanned="false" superActivities="_b1fi0edTEeS8tbAGDCJLTw">
@@ -514,6 +519,7 @@
         <methodElementProperty xmi:id="_f3k4MOdTEeS8tbAGDCJLTw" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
         <Task href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_BpUvsJ-6EeKL2OX-ZFDXHA"/>
         <selectedSteps href="uma://-psM-XJxaH10pBuWYK97vmA#_J49DkJ-6EeKL2OX-ZFDXHA"/>
+        <selectedSteps href="uma://-psM-XJxaH10pBuWYK97vmA#_B-DsUPPsEeSa6-Cy3Dcsaw"/>
       </processElements>
       <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_f3R9QOdTEeS8tbAGDCJLTw" name="lider_tecnico" guid="_f3R9QOdTEeS8tbAGDCJLTw" presentationName="Líder Técnico" briefDescription="O líder técnico é o responsável por gerenciar a equipe de desenvolvimento." isPlanned="false" superActivities="_b1fi0edTEeS8tbAGDCJLTw">
         <methodElementProperty xmi:id="_f3R9QedTEeS8tbAGDCJLTw" name="descriptor_createdByReference" value="true"/>
@@ -537,10 +543,10 @@
         <WorkProduct href="uma://_YyU1EJ4ZEeKP--IVqMl63w#_DSUOMJ7zEeKmqv_pnSPEzA"/>
       </processElements>
       <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_EIc3AedZEeS8tbAGDCJLTw" guid="_EIc3AedZEeS8tbAGDCJLTw"/>
-      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_I0nLQezXEeS-tszzIU7YEQ" guid="_I0nLQezXEeS-tszzIU7YEQ" pred="_N4bngedSEeS8tbAGDCJLTw"/>
-      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_I0nLQuzXEeS-tszzIU7YEQ" guid="_I0nLQuzXEeS-tszzIU7YEQ" pred="_U_15oedTEeS8tbAGDCJLTw"/>
       <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_I0nLQ-zXEeS-tszzIU7YEQ" guid="_I0nLQ-zXEeS-tszzIU7YEQ" pred="_NN188edTEeS8tbAGDCJLTw"/>
       <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_I0nLROzXEeS-tszzIU7YEQ" guid="_I0nLROzXEeS-tszzIU7YEQ" pred="_ZJDAIedSEeS8tbAGDCJLTw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_PrhL0QkqEeWlid2DzvBgbw" guid="_PrhL0QkqEeWlid2DzvBgbw" pred="_U_15oedTEeS8tbAGDCJLTw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_VumIkQkqEeWlid2DzvBgbw" guid="_VumIkQkqEeWlid2DzvBgbw" pred="_N4bngedSEeS8tbAGDCJLTw"/>
     </childPackages>
     <process xsi:type="org.eclipse.epf.uma:DeliveryProcess" xmi:id="__FdicedREeS8tbAGDCJLTw" name="processo_npi" guid="__FdicedREeS8tbAGDCJLTw" presentationName="Processo NPI" briefDescription="Processo de Desenvolvimento - Núcleo de Práticas em Informática (NPI)&#xD;&#xA;UFC Campus Quixadá" breakdownElements="_Is4IoedSEeS8tbAGDCJLTw _ZJDAIedSEeS8tbAGDCJLTw _NN188edTEeS8tbAGDCJLTw _U_15oedTEeS8tbAGDCJLTw _b1fi0edTEeS8tbAGDCJLTw _N4bngedSEeS8tbAGDCJLTw">
       <presentation xmi:id="-1VutHz3AmMVr18DQwVm4zw" href="uma://-1VutHz3AmMVr18DQwVm4zw#-1VutHz3AmMVr18DQwVm4zw"/>

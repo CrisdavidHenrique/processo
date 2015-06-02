@@ -168,7 +168,7 @@
             <presentation xmi:id="-2YHkk4ITrY4gUArixoYDRA" href="uma://-2YHkk4ITrY4gUArixoYDRA#-2YHkk4ITrY4gUArixoYDRA"/>
           </contentElements>
         </childPackages>
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_G6PCAJ7xEeKmqv_pnSPEzA" name="elicitacao_inicial_requisitos" guid="_G6PCAJ7xEeKmqv_pnSPEzA" presentationName="Elicitação Inicial de Requisitos">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_G6PCAJ7xEeKmqv_pnSPEzA" name="elicitar_requisitos_iniciais" guid="_G6PCAJ7xEeKmqv_pnSPEzA" presentationName="Elicitar Requisitos iniciais">
           <methodElementProperty xmi:id="_G6QQIJ7xEeKmqv_pnSPEzA" name="pkg_loadCheck" value="true"/>
           <methodElementProperty xmi:id="_Okc7sJ7xEeKmqv_pnSPEzA" name="me_edited" value="true"/>
           <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_RYHWIJ7xEeKmqv_pnSPEzA" name="equipe_de_desenvolvimento" guid="_RYHWIJ7xEeKmqv_pnSPEzA" presentationName="Equipe de desenvolvimento" briefDescription="A equipe de desenvolvimento corresponde a todos os envolvidos no desenvolvimento do produto.">
@@ -216,7 +216,7 @@
             <presentation xmi:id="-79hr92KUBJE9yDss7IfyIw" href="uma://-79hr92KUBJE9yDss7IfyIw#-79hr92KUBJE9yDss7IfyIw"/>
           </contentElements>
         </childPackages>
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_viZfQJ74EeKmqv_pnSPEzA" name="planejar_sprint" guid="_viZfQJ74EeKmqv_pnSPEzA" presentationName="Planejar Sprint">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_viZfQJ74EeKmqv_pnSPEzA" name="planejar_sprint" guid="_viZfQJ74EeKmqv_pnSPEzA" presentationName="Planejar de Sprint">
           <methodElementProperty xmi:id="_viZfQZ74EeKmqv_pnSPEzA" name="pkg_loadCheck" value="true"/>
           <methodElementProperty xmi:id="_z44XUJ74EeKmqv_pnSPEzA" name="me_edited" value="true"/>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_4R0bkJ76EeKmqv_pnSPEzA" name="realizar_reuniao_de_planejamento_da_sprint" guid="_4R0bkJ76EeKmqv_pnSPEzA" presentationName="Realizar Reunião de Planejamento da Sprint" briefDescription="Esta tarefa tem como objetivo realizar a Reunião de Planejamento da Sprint, onde deve ser decidido tudo o que será desenvolvido na Sprint atual." performedBy="_RYHWIJ7xEeKmqv_pnSPEzA _SAFVEJ7xEeKmqv_pnSPEzA" mandatoryInput="_DSUOMJ7zEeKmqv_pnSPEzA _DysOwO5yEeSQzM_psz_6cw" output="_DSUOMJ7zEeKmqv_pnSPEzA">
@@ -235,7 +235,7 @@
             <presentation xmi:id="-llhb_yIuXtUYFu5_M77gyw" href="uma://-llhb_yIuXtUYFu5_M77gyw#-llhb_yIuXtUYFu5_M77gyw"/>
           </contentElements>
         </childPackages>
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_NPX-IJ78EeKmqv_pnSPEzA" name="especificar_caso_de_uso" guid="_NPX-IJ78EeKmqv_pnSPEzA" presentationName=" Especificar caso de uso">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_NPX-IJ78EeKmqv_pnSPEzA" name="especificar_caso_de_uso" guid="_NPX-IJ78EeKmqv_pnSPEzA" presentationName="Especificar Casos de Uso">
           <methodElementProperty xmi:id="_NPX-IZ78EeKmqv_pnSPEzA" name="pkg_loadCheck" value="true"/>
           <methodElementProperty xmi:id="_Uo6-kJ78EeKmqv_pnSPEzA" name="me_edited" value="true"/>
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_2UmZkJ79EeKmqv_pnSPEzA" name="caso_de_uso_crud_generico" guid="_2UmZkJ79EeKmqv_pnSPEzA" presentationName="Caso de Uso CRUD Genérico" briefDescription="Este artefato tem como objetivo servir como base para a construção de casos de uso do tipo CRUD (criar, pesquisar, atualizar e excluir)." templates="_9cwRkJ8JEeKHC_1kKuVVig">
@@ -267,7 +267,7 @@
             <presentation xmi:id="-xDHYik-tPkCOGLqhbGqaTA" href="uma://-xDHYik-tPkCOGLqhbGqaTA#-xDHYik-tPkCOGLqhbGqaTA"/>
           </contentElements>
         </childPackages>
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_HKvjYJ8WEeKHC_1kKuVVig" name="implementacao" guid="_HKvjYJ8WEeKHC_1kKuVVig" presentationName="Implementação">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_HKvjYJ8WEeKHC_1kKuVVig" name="realizar_implementacao" guid="_HKvjYJ8WEeKHC_1kKuVVig" presentationName="Realizar Implementação">
           <methodElementProperty xmi:id="_HKzNwJ8WEeKHC_1kKuVVig" name="pkg_loadCheck" value="true"/>
           <methodElementProperty xmi:id="_KyKWAJ8WEeKHC_1kKuVVig" name="me_edited" value="true"/>
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_cz1NEJ9VEeKlCuxxakZHpg" name="documento_de_preparacao_do_ambiente" guid="_cz1NEJ9VEeKlCuxxakZHpg" presentationName="Documento de Preparação do Ambiente" briefDescription="Este artefato tem como objetivo instruir os integrantes do projeto sobre todo software que será utilizado durante o processo de desenvolvimeto do produto, bem como suas versões, etc." templates="_A9YfkKMDEeKxb_kPDqZn7A">
@@ -303,7 +303,7 @@
             <presentation xmi:id="-oTk-4pb6ivibixpGt-9Xjg" href="uma://-oTk-4pb6ivibixpGt-9Xjg#-oTk-4pb6ivibixpGt-9Xjg"/>
           </contentElements>
         </childPackages>
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_m0Gl4J9aEeKlCuxxakZHpg" name="testes" guid="_m0Gl4J9aEeKlCuxxakZHpg" presentationName="Testes">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_m0Gl4J9aEeKlCuxxakZHpg" name="realizar_testes" guid="_m0Gl4J9aEeKlCuxxakZHpg" presentationName="Realizar Testes">
           <methodElementProperty xmi:id="_m0Gl4Z9aEeKlCuxxakZHpg" name="pkg_loadCheck" value="true"/>
           <methodElementProperty xmi:id="_ohHhUJ9aEeKlCuxxakZHpg" name="me_edited" value="true"/>
           <methodElementProperty xmi:id="_yWh-sOHgEeSCFZZmwbxJwQ" name="pakage_supporting" value="false"/>
@@ -327,7 +327,7 @@
             <presentation xmi:id="-HJdj--Q3lvNGPvZIo3-5FQ" href="uma://-HJdj--Q3lvNGPvZIo3-5FQ#-HJdj--Q3lvNGPvZIo3-5FQ"/>
           </contentElements>
         </childPackages>
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_S_xi8J9eEeKlCuxxakZHpg" name="encerrar_sprint" guid="_S_xi8J9eEeKlCuxxakZHpg" presentationName="Encerrar Sprint">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_S_xi8J9eEeKlCuxxakZHpg" name="encerramento_sprint" guid="_S_xi8J9eEeKlCuxxakZHpg" presentationName="Encerramento da Sprint">
           <methodElementProperty xmi:id="_S_yKAJ9eEeKlCuxxakZHpg" name="pkg_loadCheck" value="true"/>
           <methodElementProperty xmi:id="_W8hsYJ9eEeKlCuxxakZHpg" name="me_edited" value="true"/>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_fxdswJ9eEeKlCuxxakZHpg" name="realizar_reuniao_de_revisao_da_sprint" guid="_fxdswJ9eEeKlCuxxakZHpg" presentationName="Realizar Reunião de Revisão da Sprint" briefDescription="Esta tarefa tem como objetivo realizar a reunião de revisão da Sprint com o intuito de inspecionar o incremento e adaptar o Backlog do Produto se necessário." performedBy="_RYHWIJ7xEeKmqv_pnSPEzA _SAFVEJ7xEeKmqv_pnSPEzA" mandatoryInput="_5TuDMJ9XEeKlCuxxakZHpg _DSUOMJ7zEeKmqv_pnSPEzA" output="_DSUOMJ7zEeKmqv_pnSPEzA">
@@ -339,7 +339,7 @@
             <presentation xmi:id="-4E8ID2-LXib3w25A5w20xg" href="uma://-4E8ID2-LXib3w25A5w20xg#-4E8ID2-LXib3w25A5w20xg"/>
           </contentElements>
         </childPackages>
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_aS8csJ-tEeKL2OX-ZFDXHA" name="gerenciamento_do_projeto" guid="_aS8csJ-tEeKL2OX-ZFDXHA" presentationName="Gerenciamento do Projeto">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_aS8csJ-tEeKL2OX-ZFDXHA" name="gerenciar_projeto" guid="_aS8csJ-tEeKL2OX-ZFDXHA" presentationName="Gerenciar Projeto">
           <methodElementProperty xmi:id="_aS-48J-tEeKL2OX-ZFDXHA" name="pkg_loadCheck" value="true"/>
           <methodElementProperty xmi:id="_eTvYoJ-tEeKL2OX-ZFDXHA" name="me_edited" value="true"/>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_y0TSoJ-tEeKL2OX-ZFDXHA" name="realizar_reuniao_de_status_do_npi" guid="_y0TSoJ-tEeKL2OX-ZFDXHA" presentationName="Realizar Reunião de Status do NPI" briefDescription="A reunião de status do NPI é uma reunião semanal com todos os integrantes dos projetos, que tem como intuito compartilhar as dificuldades e os conhecimentos individuais entre os participantes." performedBy="_RYHWIJ7xEeKmqv_pnSPEzA _SAFVEJ7xEeKmqv_pnSPEzA _RYHWIZ7xEeKmqv_pnSPEzA">
@@ -366,7 +366,7 @@
             <presentation xmi:id="-_J3OZ0Bwz3yWbAzZg55pzg" href="uma://-_J3OZ0Bwz3yWbAzZg55pzg#-_J3OZ0Bwz3yWbAzZg55pzg"/>
           </contentElements>
         </childPackages>
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_n_hPgJ-vEeKL2OX-ZFDXHA" name="gerenciamento_de_configuracao" guid="_n_hPgJ-vEeKL2OX-ZFDXHA" presentationName="Gerenciamento de Configuração">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_n_hPgJ-vEeKL2OX-ZFDXHA" name="realizar_gerenciamento_de_configuracao" guid="_n_hPgJ-vEeKL2OX-ZFDXHA" presentationName="Realizar Gerenciamento de Configuração">
           <methodElementProperty xmi:id="_n_hPgZ-vEeKL2OX-ZFDXHA" name="pkg_loadCheck" value="true"/>
           <methodElementProperty xmi:id="_savdoJ-vEeKL2OX-ZFDXHA" name="me_edited" value="true"/>
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="__U0iAJ-vEeKL2OX-ZFDXHA" name="plano_de_gerenciamento_de_configuracao" guid="__U0iAJ-vEeKL2OX-ZFDXHA" presentationName="Plano de Gerenciamento de Configuração" briefDescription="O Plano de Gerenciamento de Configuração descreve todas as atividades relacionadas ao Gerenciamento de Configuração a serem realizadas no decorrer do ciclo de vida do produto/projeto." templates="_TgtCIJ_UEeKL2OX-ZFDXHA">
@@ -400,7 +400,7 @@
             <presentation xmi:id="-psM-XJxaH10pBuWYK97vmA" href="uma://-psM-XJxaH10pBuWYK97vmA#-psM-XJxaH10pBuWYK97vmA"/>
           </contentElements>
         </childPackages>
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_nlRYQBEVEeOe46TMHTd_kQ" name="avaliacao_processo" guid="_nlRYQBEVEeOe46TMHTd_kQ" presentationName="Avaliação do Processo">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_nlRYQBEVEeOe46TMHTd_kQ" name="avaliar_processo" guid="_nlRYQBEVEeOe46TMHTd_kQ" presentationName="Avaliar Processo">
           <methodElementProperty xmi:id="_nlZ7IBEVEeOe46TMHTd_kQ" name="pkg_loadCheck" value="true"/>
           <methodElementProperty xmi:id="_tHQaIBEVEeOe46TMHTd_kQ" name="me_edited" value="true"/>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_ufeKQBEVEeOe46TMHTd_kQ" name="avaliar_processo" guid="_ufeKQBEVEeOe46TMHTd_kQ" presentationName="Avaliar Processo" briefDescription="Periodicamente auditorias serão feitas junto aos líderes de equipe para avaliar como está sendo seguido o processo." performedBy="_RYHWIJ7xEeKmqv_pnSPEzA" mandatoryInput="__js1YBEXEeOe46TMHTd_kQ" output="__js1YBEXEeOe46TMHTd_kQ">
