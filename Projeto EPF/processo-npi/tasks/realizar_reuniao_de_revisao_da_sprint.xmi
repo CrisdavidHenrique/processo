@@ -3,30 +3,29 @@
   <sections xmi:id="_oajCcJ9eEeKlCuxxakZHpg" name="1) Realizar Reunião de Revisão da Sprint  " guid="_oajCcJ9eEeKlCuxxakZHpg">
     <sectionDescription>&lt;p&#xD;
 style=&quot;TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; LETTER-SPACING: normal; COLOR: rgb(0,0,0); WORD-SPACING: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px&quot;>&#xD;
-    A Revisão da Sprint é executada no final da Sprint para inspecionar o incremento e adaptar o Backlog do Produto, se&#xD;
-    necessário. Durante a reunião de Revisão da Sprint a equipe de desenvolvimento e as partes interessadas colaboram sobre&#xD;
-    o que foi feito na Sprint.&amp;nbsp;Com base nisso e em qualquer mudança no Backlog do Produto durante a Sprint, os&#xD;
-    participantes colaboram sobre os próximos itens do Backlog do Produto&amp;nbsp;que precisam ser prontos em futuras Sprints.&#xD;
+    A Revisão da sprint é executada no final da sprint para inspecionar o incremento e adaptar o Backlog do Produto, se&#xD;
+    necessário. Durante a reunião de revisão da sprint, a equipe de desenvolvimento e as partes interessadas colaboram&#xD;
+    sobre o que foi feito na sprint.&amp;nbsp;Com base nisso e em qualquer mudança no Backlog do Produto durante a sprint, os&#xD;
+    participantes colaboram sobre os próximos itens do Backlog do Produto&amp;nbsp;que precisam ser prontos em futuras sprints.&#xD;
     Esta é uma reunião informal, e a apresentação do incremento destina-se a motivar e obter comentários e promover&amp;nbsp;a&#xD;
     colaboração.&#xD;
 &lt;/p>&#xD;
 &lt;p&#xD;
 style=&quot;TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; LETTER-SPACING: normal; COLOR: rgb(0,0,0); WORD-SPACING: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px&quot;>&#xD;
-    A Reunião de Revisão inclui os seguintes elementos:&lt;br />&#xD;
+    A reunião de revisão inclui os seguintes elementos:&lt;br />&#xD;
     - Líder Técnico identifica o que foi “Pronto” e o que não foi “Pronto”;&lt;br />&#xD;
-    - A Equipe de Desenvolvimento discute o que foi bem durante a Sprint, quais problemas ocorreram dentro da Sprint, e&#xD;
+    - A Equipe de Desenvolvimento discute o que foi bem durante a sprint, quais problemas ocorreram dentro da sprint, e&#xD;
     como estes problemas foram resolvidos;&lt;br />&#xD;
-    - A Equipe de Desenvolvimento demonstra o trabalho que está “Pronto” e responde as questões sobre o incremento;&lt;br />&#xD;
-    - O Líder Técnico discute o Backlog do Produto tal como está. Ele (ou ela) projeta as&lt;br />&#xD;
-    prováveis datas de conclusão baseado no progresso até a data;&lt;br />&#xD;
-    - O grupo todo colabora sobre o que fazer a seguir, e é assim que a Reunião de Revisão da&lt;br />&#xD;
-    Sprint fornece valiosas entradas para a Reunião de Planejamento da próxima Sprint.&lt;br />&#xD;
+    - A equipe de desenvolvimento demonstra o trabalho que está “Pronto” e responde as questões sobre o incremento;&lt;br />&#xD;
+    - O líder técnico discute o Backlog do Produto tal como está.&amp;nbsp;O mesmo é responsável por&amp;nbsp;projetar as prováveis&#xD;
+    datas de conclusão baseado no progresso até a data;&lt;br />&#xD;
+    - O grupo todo colabora sobre o que fazer a seguir, e é assim que a reunião de revisão da Sprint fornece valiosas&#xD;
+    entradas para a reunião de planejamento da próxima sprint.&lt;br />&#xD;
 &lt;/p>&#xD;
 &lt;p&#xD;
 style=&quot;TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; LETTER-SPACING: normal; COLOR: rgb(0,0,0); WORD-SPACING: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px&quot;>&#xD;
-    O resultado da Reunião de Revisão da Sprint é um Backlog do Produto revisado que define o&lt;br />&#xD;
-    provável Backlog do Produto para a próxima Sprint. O Backlog do Produto pode também ser&lt;br />&#xD;
-    ajustado completamente para atender novas oportunidades.&#xD;
+    O resultado da reunião de revisão da sprint é um Backlog do Produto revisado que define o provável Backlog do Produto&#xD;
+    para a próxima sprint. O Backlog do Produto pode também ser ajustado completamente para atender novas oportunidades.&#xD;
 &lt;/p></sectionDescription>
   </sections>
 </org.eclipse.epf.uma:TaskDescription>

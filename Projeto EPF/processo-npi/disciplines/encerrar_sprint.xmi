@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-CHvsYdOisfcgEuIuJx79AQ" name="revisao_da_sprint,_XaiO4J_eEeKXVfFSQZDMbA" guid="-CHvsYdOisfcgEuIuJx79AQ" changeDate="2015-04-14T09:39:20.864-0300">
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-CHvsYdOisfcgEuIuJx79AQ" name="encerrar_sprint,_XaiO4J_eEeKXVfFSQZDMbA" guid="-CHvsYdOisfcgEuIuJx79AQ" changeDate="2015-06-03T09:45:55.105-0300">
   <mainDescription>&lt;p>&#xD;
-    A finalidade da Disciplina é:&#xD;
+    A finalidade da disciplina Encerrar Sprint é:&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
     -&amp;nbsp;verificar o atendimento dos Requisitos estabelecidos para a Sprint,&amp;nbsp;através dos&amp;nbsp;Produtos de Trabalho&#xD;

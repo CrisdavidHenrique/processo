@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-3rkxfpjkciGnwdB2lKEMpQ" name=",_ufeKQBEVEeOe46TMHTd_kQ" guid="-3rkxfpjkciGnwdB2lKEMpQ">
   <sections xmi:id="_qECB4CH5EeOvJobPE63WLw" name="1) Comunicar às Equipes Sobre a Auditoria" guid="_qECB4CH5EeOvJobPE63WLw">
-    <sectionDescription>Comunicar à equipe o período da avaliação e escopo que será avaliado.</sectionDescription>
+    <sectionDescription>Comunicar à equipe o período da avaliação e o&amp;nbsp;escopo que será avaliado.</sectionDescription>
   </sections>
   <sections xmi:id="_zTMX8BEVEeOe46TMHTd_kQ" name="2) Aplicar Checklist de Qualidade do Processo" guid="_zTMX8BEVEeOe46TMHTd_kQ">
     <sectionDescription>&lt;p>&#xD;

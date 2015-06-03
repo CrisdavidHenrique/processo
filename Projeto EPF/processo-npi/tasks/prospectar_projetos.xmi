@@ -10,9 +10,9 @@
   <sections xmi:id="_mC6WIOHOEeSCFZZmwbxJwQ" name="2) Atualização das Informações dos Projetos Prospectados" guid="_mC6WIOHOEeSCFZZmwbxJwQ">
     <sectionDescription>&lt;p>&#xD;
     Neste passo, o&amp;nbsp;Gerente de Projetos&amp;nbsp;é responsável pela criação da tarefa referente à Reunião de Prospecção de&#xD;
-    Projetos realizada. Para uma melhor identificação deste processo, o Tipo da Tarefa deve ser do tipo PROPOSTA, e deve&#xD;
-    ser informado as seguintes informações no conteúdo da Tarefa: Nome do Projeto Candidato à Execução, Descrição do&#xD;
-    Projeto, Fornecedor e as&amp;nbsp;Pessoas presentes na Reunião realizada.&#xD;
+    Projetos realizada. Para uma melhor identificação deste processo, o tipo da tarefa deve ser do tipo PROPOSTA, e deve&#xD;
+    ser informado as seguintes informações no conteúdo da tarefa: nome do projeto candidato à execução, descrição do&#xD;
+    projeto, fornecedor e as&amp;nbsp;pessoas presentes na reunião realizada.&#xD;
 &lt;/p></sectionDescription>
   </sections>
 </org.eclipse.epf.uma:TaskDescription>

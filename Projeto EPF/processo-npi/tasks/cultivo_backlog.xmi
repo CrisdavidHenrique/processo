@@ -2,8 +2,8 @@
 <org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-JSReRrIQxztIeiULNe0kyw" name="cultivo_backlog,_LMfrUOHkEeSCzJdwA71j-A" guid="-JSReRrIQxztIeiULNe0kyw">
   <sections xmi:id="_Dt9nwOHlEeSCzJdwA71j-A" name="1) Revisão de Itens" guid="_Dt9nwOHlEeSCzJdwA71j-A">
     <sectionDescription>&lt;p>&#xD;
-    Este passo dedica-se a realizar uma revisão sobre os itens presentes no Backlog do Produto.&amp;nbsp;Assim, este passo&#xD;
-    atenta-se em atualizar o Backlog com base nas necessidades vigentes; com isso, adição, remoção, unificação e&#xD;
+    Este passo dedica-se a realizar uma revisão sobre os itens presentes no Backlog do Produto.&amp;nbsp;É responsável&#xD;
+    por&amp;nbsp;atualizar o Backlog com base nas necessidades vigentes; com isso, adição, remoção, unificação e&#xD;
     desmembramento&amp;nbsp;de itens do Backlog do Produto podem ser implementadas.&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
@@ -19,13 +19,13 @@
 &lt;/p>&#xD;
 &lt;p>&#xD;
     Este processo de estimativa não necessita corresponder a estimativa final para implementação do item; mas necessita&#xD;
-    corresponder de maneira geral às expectativas da equipe a este item. Com a estimativa definida, esta informação deve&#xD;
-    ser adicionada/atualizada no documento de Backlog do Produto.&#xD;
+    corresponder de maneira geral às expectativas da equipe ao item. Com a estimativa definida, esta informação deve ser&#xD;
+    adicionada/atualizada no documento de Backlog do Produto.&#xD;
 &lt;/p></sectionDescription>
   </sections>
   <sections xmi:id="_rr5L0OzaEeS-tszzIU7YEQ" name="3) Rever Prioridades dos itens" guid="_rr5L0OzaEeS-tszzIU7YEQ">
-    <sectionDescription>Rever prioridades dos itens: Neste passo é feito uma análise sobre as prioridades atribuídas aos itens do Backlog. Assim&#xD;
-é&amp;nbsp;possivel assegurar que as necessidades do cliente estão sempre sendo tratadas com a atenção necessária, e garantir&#xD;
-que as prioridades dos itens podem ser atualizadas.&lt;br /></sectionDescription>
+    <sectionDescription>Neste passo é feito uma análise sobre as prioridades atribuídas aos itens do Backlog. Assim, é&amp;nbsp;possivel assegurar que&#xD;
+as necessidades do cliente estão sempre sendo tratadas com a atenção necessária, e garantir que as prioridades dos itens&#xD;
+podem ser atualizadas.&lt;br /></sectionDescription>
   </sections>
 </org.eclipse.epf.uma:TaskDescription>

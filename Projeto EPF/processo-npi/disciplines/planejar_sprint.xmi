@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-O_epgNFf6BGYWPAfTgV4zQ" name="planejar_sprint,_oEBmIJ_dEeKXVfFSQZDMbA" guid="-O_epgNFf6BGYWPAfTgV4zQ" changeDate="2015-04-14T08:54:09.964-0300">
   <mainDescription>&lt;p>&#xD;
-    A finalidade da Disciplina Planejar Sprint é:&#xD;
+    A finalidade da disciplina Planejar Sprint é:&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
     - definir os requisitos que serão implementados na Sprint.&#xD;

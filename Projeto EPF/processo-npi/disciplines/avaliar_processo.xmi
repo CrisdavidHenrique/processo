@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-siV6lfMWXZ8qfMlexxk93Q" name="avaliar_processo,_s46_MB_nEeOJgc_LrCJv1g" guid="-siV6lfMWXZ8qfMlexxk93Q" changeDate="2015-06-03T08:45:37.771-0300">
+  <mainDescription>&lt;p>&#xD;
+    A finalidade da disciplina Avaliar do Processo é:&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    - verificar&amp;nbsp;a aderência de projetos e de seus respectivos produtos de trabalho ao processo definido;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    - identificar melhorias a serem implementadas ao processo.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

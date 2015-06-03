@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-06GfI5I7REvBUznqQoZakQ" name="sugerir_melhorias,_bmY84B_mEeOJgc_LrCJv1g" guid="-06GfI5I7REvBUznqQoZakQ">
   <sections xmi:id="_NslB8CHqEeOvJobPE63WLw" name="1) Sugerir Melhorias" guid="_NslB8CHqEeOvJobPE63WLw">
-    <sectionDescription>Abrir no&amp;nbsp;Redmine uma issue&amp;nbsp;de&amp;nbsp;sugestão de melhorias do processo; com isso a equipe de desenvolvimento&#xD;
+    <sectionDescription>Abrir no&amp;nbsp;Redmine uma issue&amp;nbsp;de&amp;nbsp;sugestão de melhorias do processo; com isso, a equipe de desenvolvimento&#xD;
 e&amp;nbsp;o&amp;nbsp;Gerente de Projetos&amp;nbsp;podem sugerir melhorias nessa issue.</sectionDescription>
   </sections>
   <sections xmi:id="_ZRLtkCHqEeOvJobPE63WLw" name="2) Avaliar Melhorias Sugeridas" guid="_ZRLtkCHqEeOvJobPE63WLw">

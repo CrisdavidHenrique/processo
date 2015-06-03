@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-V4-bRX0Os8t4N_7-qNaWNw" name="elicitar_requisitos_iniciais,_NM7aUOKaEeSbpvcRMx_OSQ" guid="-V4-bRX0Os8t4N_7-qNaWNw" changeDate="2015-06-03T09:24:29.981-0300">
+  <mainDescription>&lt;p>&#xD;
+    A finalidade da disciplina Elicitar Requisitos iniciais&amp;nbsp;é:&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    - realizar o processo de Levantamento de Requisitos de maneira precisa e eficiente;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    - agrupar os requisitos levantados, de forma que os envolvidos/interessados em tais possam acessá-los.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

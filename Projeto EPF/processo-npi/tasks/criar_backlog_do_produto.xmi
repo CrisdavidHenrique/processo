@@ -17,7 +17,7 @@ style=&quot;TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,25
 &lt;/p>&#xD;
 &lt;p&#xD;
 style=&quot;TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; LETTER-SPACING: normal; COLOR: rgb(0,0,0); WORD-SPACING: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px&quot;>&#xD;
-    Esse status descreve o estado do&amp;nbsp;item dentro do projeto, ou seja, se ele foi criado; se ele somente encontra-se&#xD;
+    Esse status descreve o estado do&amp;nbsp;item dentro do projeto, ou seja, se ele foi criado, se ele somente encontra-se&#xD;
     inserido nesta planilha;&amp;nbsp;se ele foi estimado, o que significa que &lt;span&#xD;
     style=&quot;WIDOWS: 1; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; DISPLAY: inline !important; FONT: 12px arial, sans-serif; WHITE-SPACE: normal; FLOAT: none; LETTER-SPACING: normal; COLOR: rgb(34,34,34); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
     o item já teve uma pré-estimativa realizada, mas não encontra-se em construção no momento;&lt;/span>&amp;nbsp;se ele foi&#xD;

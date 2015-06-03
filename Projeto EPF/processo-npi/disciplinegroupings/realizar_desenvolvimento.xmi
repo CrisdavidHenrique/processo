@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-AuSicJEuZcx7LMbR3GeRpw" name="realizar_desenvolvimento,_DRYg8N3pEeSGCJOE1I0hFA" guid="-AuSicJEuZcx7LMbR3GeRpw" changeDate="2015-06-03T09:28:59.466-0300">
+  <mainDescription>&lt;p>&#xD;
+    A finalidade da disciplina de Realizar Desenvolvimento é:&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    - agrupar as atividades referentes ao Desenvolvimento em uma mesma disciplina;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    - definir os escopos de atuação das respectivas disciplinas que a compõem.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

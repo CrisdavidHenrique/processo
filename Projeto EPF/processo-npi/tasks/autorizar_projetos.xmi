@@ -17,12 +17,12 @@ de Gestão de Projetos; seu conteúdo pode ser visualiazado no ambiente Redmine 
 &lt;/p>&#xD;
 &lt;p>&#xD;
     Neste passo, o comitê deve liberar o aval para execução do projeto candidato, quando o projeto candidato apresentar as&#xD;
-    características necessárias a sua execução, julgadas pelo próprio comitê.&#xD;
+    características necessárias a sua execução.&#xD;
 &lt;/p></sectionDescription>
   </sections>
   <sections xmi:id="_AQquYOHNEeSCFZZmwbxJwQ" name="4) Autorização de Execução de Projeto" guid="_AQquYOHNEeSCFZZmwbxJwQ">
-    <sectionDescription>Uma vez que um projeto candidato foi avaliado e atende aos requisitos definidos e foi liberado pelo Comitê do NPI,&#xD;
-o&amp;nbsp;Gerente de Projetos&amp;nbsp;poderá liberar a Ordem para execução do projeto. É necessário somente que a Situação da&#xD;
-Tarefa referente ao Projeto Prospectado no REDMINE seja atualizada para EM ANDAMENTO.</sectionDescription>
+    <sectionDescription>Uma vez que um projeto candidato foi avaliado, atende aos requisitos definidos e foi liberado pelo Comitê do NPI,&#xD;
+o&amp;nbsp;Gerente de Projetos&amp;nbsp;poderá liberar a Ordem para execução do projeto. É necessário somente que a situação da&#xD;
+tarefa referente ao projeto prospectado no Redmine seja atualizada para EM ANDAMENTO.</sectionDescription>
   </sections>
 </org.eclipse.epf.uma:TaskDescription>

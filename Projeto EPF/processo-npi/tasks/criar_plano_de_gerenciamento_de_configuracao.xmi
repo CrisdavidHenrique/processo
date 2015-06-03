@@ -3,20 +3,20 @@
   <sections xmi:id="__jGHMJ-yEeKL2OX-ZFDXHA" name="1) Identificar itens de configuração  " guid="__jGHMJ-yEeKL2OX-ZFDXHA">
     <sectionDescription>&lt;p>&#xD;
     A identificação de itens de configuração consiste da seleção, criação e especificação de:&lt;br />&#xD;
-    - Produtos que serão entregues ao cliente.&lt;br />&#xD;
-    - Produtos de trabalho internos selecionados.&lt;br />&#xD;
-    - Produtos adquiridos.&lt;br />&#xD;
-    - Ferramentas e outros bens de capital do ambiente de trabalho do projeto.&lt;br />&#xD;
+    - Produtos que serão entregues ao cliente;&lt;br />&#xD;
+    - Produtos de trabalho internos selecionados;&lt;br />&#xD;
+    - Produtos adquiridos;&lt;br />&#xD;
+    - Ferramentas e outros bens de capital do ambiente de trabalho do projeto;&lt;br />&#xD;
     - Outros itens que são utilizados na criação e descrição desses produtos de trabalho.&#xD;
 &lt;/p>&#xD;
 &lt;p>&#xD;
     Exemplos de produtos de trabalho que podem fazer parte de um item de configuração:&lt;br />&#xD;
-    - Descrição de processos&lt;br />&#xD;
-    - Requisitos&lt;br />&#xD;
-    - Planos e procedimentos de teste&lt;br />&#xD;
-    - Resultados de testes&lt;br />&#xD;
-    - Diagramas&lt;br />&#xD;
-    - Código-fonte&#xD;
+    - Descrição de processos;&lt;br />&#xD;
+    - Requisitos;&lt;br />&#xD;
+    - Planos e procedimentos de teste;&lt;br />&#xD;
+    - Resultados de testes;&lt;br />&#xD;
+    - Diagramas;&lt;br />&#xD;
+    - Código-fonte.&#xD;
 &lt;/p></sectionDescription>
   </sections>
   <sections xmi:id="_SMo1MJ-zEeKL2OX-ZFDXHA" name="2) Atribuir identificadores únicos para os itens de configuração  " guid="_SMo1MJ-zEeKL2OX-ZFDXHA">
@@ -38,28 +38,28 @@ Cada item de configuração deve possuir um responsável.&lt;/span></sectionDesc
   </sections>
   <sections xmi:id="_piBKwJ-0EeKL2OX-ZFDXHA" name="4)Criar Plano de Gerenciamento de Configuração  " guid="_piBKwJ-0EeKL2OX-ZFDXHA">
     <sectionDescription>&lt;p&#xD;
-style=&quot;TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; COLOR: rgb(0,0,0); WORD-SPACING: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px&quot;>&#xD;
+style=&quot;TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; LETTER-SPACING: normal; COLOR: rgb(0,0,0); WORD-SPACING: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px&quot;>&#xD;
     O Plano de Gerenciamento de Configuração (GC)&amp;nbsp;deve ser criado a partir das informações fornecidas&amp;nbsp;nos&#xD;
     passos&amp;nbsp;anteriores.&#xD;
 &lt;/p>&#xD;
 &lt;p&#xD;
-style=&quot;TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; COLOR: rgb(0,0,0); WORD-SPACING: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px&quot;>&#xD;
+style=&quot;TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; LETTER-SPACING: normal; COLOR: rgb(0,0,0); WORD-SPACING: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px&quot;>&#xD;
     O&amp;nbsp;Plano de GC&amp;nbsp;deverá conter:&#xD;
 &lt;/p>&#xD;
 &lt;p&#xD;
-style=&quot;TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; COLOR: rgb(0,0,0); WORD-SPACING: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px&quot;>&#xD;
-    - Uma pequena descrição falando sobre tudo o que tem no plano.&#xD;
+style=&quot;TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; LETTER-SPACING: normal; COLOR: rgb(0,0,0); WORD-SPACING: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    - Uma pequena descrição falando sobre tudo o que tem no plano;&#xD;
 &lt;/p>&#xD;
 &lt;p&#xD;
-style=&quot;TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; COLOR: rgb(0,0,0); WORD-SPACING: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px&quot;>&#xD;
-    - Os responsáveis pelas atividades de GC.&#xD;
+style=&quot;TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; LETTER-SPACING: normal; COLOR: rgb(0,0,0); WORD-SPACING: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    - Os responsáveis pelas atividades de GC;&#xD;
 &lt;/p>&#xD;
 &lt;p&#xD;
-style=&quot;TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; COLOR: rgb(0,0,0); WORD-SPACING: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px&quot;>&#xD;
-    - As ferramentas e ambientes que serão utilizados para desempenhar as funções de GC.&#xD;
+style=&quot;TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; LETTER-SPACING: normal; COLOR: rgb(0,0,0); WORD-SPACING: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    - As ferramentas e ambientes que serão utilizados para desempenhar as funções de GC;&#xD;
 &lt;/p>&#xD;
 &lt;p&#xD;
-style=&quot;TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; COLOR: rgb(0,0,0); WORD-SPACING: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px&quot;>&#xD;
+style=&quot;TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; FONT: 13px arial, helvetica, sans-serif, kanji2; WHITE-SPACE: normal; LETTER-SPACING: normal; COLOR: rgb(0,0,0); WORD-SPACING: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px&quot;>&#xD;
     - Todos os itens de configuração identificados&amp;nbsp;nos passos&amp;nbsp;anteriores.&#xD;
 &lt;/p></sectionDescription>
   </sections>
